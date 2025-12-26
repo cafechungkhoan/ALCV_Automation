@@ -276,20 +276,3 @@ View → Execution log
 MIT License - Free to use and modify  
 MIT License - Tự do sử dụng và chỉnh sửa
 
----
-
-## 🤝 Contributing / Đóng góp
-
-Pull requests are welcome!  
-Chào đón mọi đóng góp!
-
----
-
-## 📞 Support / Hỗ trợ
-
-- GitHub Issues: [Create an issue](../../issues)
-- Email: your-email@example.com
-
----
-
-Made with ❤️ for productivity
