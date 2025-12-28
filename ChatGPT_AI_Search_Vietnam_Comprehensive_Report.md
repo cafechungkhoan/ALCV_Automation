@@ -9,7 +9,7 @@
 
 ---
 
-## TÓM TẮT CẤP BẬC (EXECUTIVE SUMMARY)
+## EXECUTIVE SUMMARY
 
 ### Tình Hình Hiện Tại / Current Situation
 
@@ -121,14 +121,14 @@ VIETNAM AI ADOPTION PYRAMID (Tháp Nhận Nuôi AI Việt Nam)
               / 65% │     \
              /______│______\
             /       │       \
-           /  Learning & Study \
-          /    83% - Tham gia     \
-         /    học tập AI-related   \
-        /______________│____________\
-       /               │               \
-      /    AI Adoption Overall        \
+           / Learning & Study \
+          /   83% - Tham gia   \
+         /  học tập AI-related   \
+        /______________│___________\
+       /               │            \
+      /    AI Adoption Overall       \
      /       78% - Sử dụng ít nhất    \
-    /      1 nền tảng AI / tháng     \
+    /      1 nền tảng AI / tháng       \
    /__________│________________________\
   /                                     \
  /     Baseline Population (100%)        \
@@ -144,8 +144,8 @@ Sources:
 ```
 PLATFORM ADOPTION IN VIETNAM (Nhận Nuôi Nền Tảng Ở Việt Nam)
 
-┌─────────────────────────────────────────────┐
-│ PLATFORM COMPARISON                          │
+┌────────────────────────────────────────────┐
+│           PLATFORM COMPARISON              │
 ├────────────┬──────────┬────────────────────┤
 │ Platform   │ % Users  │ Primary Use Case   │
 ├────────────┼──────────┼────────────────────┤
@@ -180,19 +180,19 @@ Key Finding (Phát Hiện Chính):
 BUSINESS AI INTEGRATION IN VIETNAM (Tích Hợp AI Doanh Nghiệp VN)
 
 89% ┌────────────────────────────┐
-    │ AI in Marketing             │ Tích hợp AI vào Marketing
+    │ AI in Marketing            │ Tích hợp AI vào Marketing
     └────────────────────────────┘
 
 73% ┌────────────────────────────┐
-    │ AI in Operations            │ Tích hợp AI vào Vận Hành
+    │ AI in Operations           │ Tích hợp AI vào Vận Hành
     └────────────────────────────┘
 
 55% ┌────────────────────────────┐
-    │ Paid AI Subscriptions       │ Subscription AI Trả Phí
+    │ Paid AI Subscriptions      │ Subscription AI Trả Phí
     └────────────────────────────┘
 
 40% ┌────────────────────────────┐
-    │ AI in Customer Service      │ AI trong Dịch Vụ Khách Hàng
+    │ AI in Customer Service     │ AI trong Dịch Vụ Khách Hàng
     └────────────────────────────┘
 
 
@@ -234,7 +234,7 @@ $26 ┤                    ▲     │     │
 $25 ┤              ▲     │     │     │  ● 26B (Conservative)
 $24 ┤         ▲    │     │     │     │
 $23 ┤    ▲    │    │     │     │     │
-     └────┴────┴────┴─────┴─────┴─────┴
+     └───┴────┴────┴─────┴─────┴─────┴
       2022 2023 2024 2025E 2026E 2027E
 
 Platform Market Share (2025):
@@ -380,30 +380,30 @@ RESULT COMPARISON (So Sánh Kết Quả):
 COMPARISON TABLE (Bảng So Sánh)
 
 ┌──────────────────┬──────────────────┬─────────────────────┐
-│ Aspect           │ ChatGPT (Standard)│ SearchGPT           │
+│ Aspect           │ChatGPT (Standard)│ SearchGPT           │
 ├──────────────────┼──────────────────┼─────────────────────┤
-│ Training Data    │ Static            │ Real-time           │
-│ (Dữ liệu)       │ Cut-off: Apr 2024 │ Updated every hour  │
+│ Training Data    │ Static           │ Real-time           │
+│ (Dữ liệu)        │ Cut-off: Apr 2024│ Updated every hour  │
 │                  │                  │                     │
 │ Knowledge Date   │ Cũ 9 tháng       │ Mới nhất (hours)    │
-│ (Ngày cập nhật) │ (outdated)       │ (fresh)             │
+│ (Ngày cập nhật)  │ (outdated)       │ (fresh)             │
 │                  │                  │                     │
-│ Source Citation  │ Không             │ Có link URLs        │
-│ (Trích dẫn)     │ (No sources)     │ (Full URLs)         │
+│ Source Citation  │ Không            │ Có link URLs        │
+│ (Trích dẫn)      │ (No sources)     │ (Full URLs)         │
 │                  │                  │                     │
 │ User Interaction │ Stateless        │ Stateful (memory)   │
-│ (Tương tác)     │ (No memory)      │ (Remembers context) │
+│ (Tương tác)      │ (No memory)      │ (Remembers context) │
 │                  │                  │                     │
-│ Verification     │ Generation-first  │ Retrieve-then-verify│
-│ (Kiểm chứng)    │ (may hallucinate) │ (no hallucination)  │
+│ Verification     │ Generation-first │ Retrieve-then-verify│
+│ (Kiểm chứng)     │ (may hallucinate)│ (no hallucination)  │
 │                  │                  │                     │
 │ Web Crawlers     │ N/A              │ 3 types:            │
-│ (Crawler)       │                  │ - GPTBot            │
+│ (Crawler)        │                  │ - GPTBot            │
 │                  │                  │ - OAI-SearchBot     │
 │                  │                  │ - ChatGPT-User      │
 │                  │                  │                     │
-│ Use Case         │ General, Creative │ Current events,     │
-│ (Ứng dụng)      │ Content          │ Real-time data      │
+│ Use Case         │ General, Creative│ Current events,     │
+│ (Ứng dụng)       │ Content          │ Real-time data      │
 └──────────────────┴──────────────────┴─────────────────────┘
 
 Source: OpenAI SearchGPT Announcement (July 2024)
@@ -544,7 +544,7 @@ USER ASKS (Người dùng hỏi):
     └─────────────────────────────────────┘
     
     ┌─────────────────────────────────────┐
-    │ Cluster 3: Cost & Details (Giá)    │
+    │ Cluster 3: Cost & Details (Giá)     │
     ├─────────────────────────────────────┤
     │ ✓ Phí bảo hiểm bao nhiêu?          │
     │ ✓ Phí bảo hiểm năm 2026?           │
@@ -553,7 +553,7 @@ USER ASKS (Người dùng hỏi):
     └─────────────────────────────────────┘
     
     ┌─────────────────────────────────────┐
-    │ Cluster 4: Decision (Quyết Định)   │
+    │ Cluster 4: Decision (Quyết Định)    │
     ├─────────────────────────────────────┤
     │ ✓ Bảo hiểm trước hay sau 30?        │
     │ ✓ Nên mua bảo hiểm khi nào?        │
@@ -563,7 +563,7 @@ USER ASKS (Người dùng hỏi):
     └─────────────────────────────────────┘
     
     ┌─────────────────────────────────────┐
-    │ Cluster 5: Providers (Công Ty)     │
+    │ Cluster 5: Providers (Công Ty)      │
     ├─────────────────────────────────────┤
     │ ✓ Manulife, Prudential, FWD, ...   │
     │ ✓ Đánh giá từng công ty            │
@@ -703,58 +703,58 @@ Note: User may NOT click but already has answer
 │ ASPECT              │ TRADITIONAL SEO          │ AI SEARCH (AIO/AEO)        │
 ├─────────────────────┼──────────────────────────┼────────────────────────────┤
 │ Primary Goal        │ Rank top 10 on SERP      │ Appear in AI answers       │
-│ (Mục tiêu chính)    │ (Rank #1-10 trên Google)│ (Được trích dẫn AI)        │
+│ (Mục tiêu chính)    │ (Rank #1-10 trên Google) │ (Được trích dẫn AI)        │
 │                     │                          │                            │
 │ Keyword Focus       │ Short-tail               │ Long-tail + Questions      │
-│ (Từ khóa)          │ "insurance"              │ "Best insurance for 30yo?" │
+│ (Từ khóa)           │ "insurance"              │ "Best insurance for 30yo?" │
 │                     │                          │                            │
 │ Search Volume       │ High                     │ Lower but better intent    │
-│ (Lượng tìm)        │ 100k searches/month      │ 1k searches/month (hot)    │
+│ (Lượng tìm)         │ 100k searches/month      │ 1k searches/month (hot)    │
 │                     │                          │                            │
 │ Content Length      │ 2000+ words (Dense)      │ 500-800 words (Q&A)        │
-│ (Độ dài)           │ Focus on keyword         │ Focus on intent            │
+│ (Độ dài)            │ Focus on keyword         │ Focus on intent            │
 │ density             │                          │                            │
 │                     │                          │                            │
 │ Structure           │ H1, H2, H3 + Paragraphs  │ H2/H3 as questions         │
-│ (Cấu trúc)         │ Traditional blog         │ + Schema markup (Critical!)│
+│ (Cấu trúc)          │ Traditional blog         │ + Schema markup (Critical!)│
 │                     │ format                   │ + Tables, bullets, lists   │
 │                     │                          │                            │
 │ Backlinks           │ Essential (20-50 needed) │ Not required               │
-│ (Liên kết)         │ Cost: $5,000-10,000/mo  │ Cost: 0-2,000/mo (schema)  │
+│ (Liên kết)          │ Cost: $5,000-10,000/mo  │ Cost: 0-2,000/mo (schema)   │
 │                     │                          │                            │
 │ Time to Rank        │ 3-6 months               │ 1-3 months                 │
-│ (Thời gian)        │ Slow                     │ Fast                       │
+│ (Thời gian)         │ Slow                     │ Fast                       │
 │                     │                          │                            │
 │ Traffic Quality     │ Cold traffic (40% intent)│ Hot traffic (87% intent)   │
 │ (Chất lượng traffic)│ May not buy              │ Ready to decide            │
 │                     │                          │                            │
 │ Conversion Rate     │ 2-3%                     │ 4-5%                       │
-│ (Tỷ lệ chuyển)     │ (Calculation: CTR 3-5%  │ (Higher purchasing power)  │
-│                     │  × Landing page 50%)    │                            │
+│ (Tỷ lệ chuyển)      │ (Calculation: CTR 3-5%   │ (Higher purchasing power)  │
+│                     │  × Landing page 50%)     │                            │
 │                     │                          │                            │
 │ Measurement         │ Organic ranking, traffic │ AI citations, Share of     │
-│ (Đo lường)         │ Google Analytics         │ voice, Branded search lift │
-│                     │ Position tracking       │ Goodie.ai, Semrush        │
+│ (Đo lường)          │ Google Analytics         │ voice, Branded search lift │
+│                     │ Position tracking        │ Goodie.ai, Semrush         │
 │                     │                          │                            │
-│ Tool Cost           │ Ahrefs/Semrush: $100/mo │ Google Search Console: Free│
-│ (Chi phí công cụ)  │ Backlink services: $500+│ Goodie.ai: Free-$99/mo     │
+│ Tool Cost           │ Ahrefs/Semrush: $100/mo  │ Google Search Console: Free│
+│ (Chi phí công cụ)   │ Backlink services: $500+ │ Goodie.ai: Free-$99/mo     │
 │                     │                          │                            │
-│ SEO Updates Risk    │ High (Google algorithm) │ Lower (AI values freshness)│
-│ (Rủi ro update)    │ Can lose 50% traffic    │ Content evergreen          │
-│                     │ with 1 update           │                            │
+│ SEO Updates Risk    │ High (Google algorithm)  │ Lower (AI values freshness)│
+│ (Rủi ro update)     │ Can lose 50% traffic     │ Content evergreen          │
+│                     │ with 1 update            │                            │
 │                     │                          │                            │
 │ Mobile-First        │ Critical                 │ Critical + Voice search    │
-│ (Mobile)           │ 60% traffic from mobile  │ 80% traffic from mobile    │
+│ (Mobile)            │ 60% traffic from mobile  │ 80% traffic from mobile    │
 │                     │                          │ + Voice commands growing   │
 │                     │                          │                            │
-│ Zero-Click Impact   │ Loss of 20-40% traffic  │ Expected behavior          │
-│ (Zero-click)       │ (Bad - losing visitors) │ (Good - share of influence)│
+│ Zero-Click Impact   │ Loss of 20-40% traffic   │ Expected behavior          │
+│ (Zero-click)        │ (Bad - losing visitors)  │ (Good - share of influence)│
 │                     │                          │                            │
-│ User Behavior       │ Click SERP → Browse     │ Ask AI → Verify → Buy     │
-│ (Hành vi user)     │ website → Decide        │ (Direct path to decision) │
+│ User Behavior       │ Click SERP → Browse      │ Ask AI → Verify → Buy      │
+│ (Hành vi user)      │ website → Decide         │ (Direct path to decision)  │
 │                     │                          │                            │
-│ Market Share 2026   │ 40% searches            │ 60% searches (predicted)   │
-│ (Thị phần)         │                          │                            │
+│ Market Share 2026   │ 40% searches             │ 60% searches (predicted)   │
+│ (Thị phần)          │                          │                            │
 └─────────────────────┴──────────────────────────┴────────────────────────────┘
 
 Source: SEONGON Research (2025), Google Analytics, Adobe Data Study
@@ -1114,58 +1114,58 @@ Sources:
 ```
 RISK 1: Zero-Click Traffic Loss (Mất traffic zero-click)
 ┌──────────────────────────────────────────────────────┐
-│ Risk: Users get answer from AI → Don't click website  │
+│ Risk: Users get answer from AI → Don't click website │
 │ Impact: -20 to -40% organic traffic short-term       │
 ├──────────────────────────────────────────────────────┤
-│ Mitigation Strategy (Kế Hoạch Phòng Chống):         │
+│ Mitigation Strategy (Kế Hoạch Phòng Chống):          │
 │                                                      │
 │ 1. Inverted Pyramid Structure                        │
-│    └─ Put answer upfront in 1st paragraph           │
-│    └─ Add "Want more details?" links                │
+│    └─ Put answer upfront in 1st paragraph            │
+│    └─ Add "Want more details?" links                 │
 │                                                      │
-│ 2. Clear CTAs (Call-to-Action)                      │
-│    └─ "Free calculator" button                      │
-│    └─ "Compare detailed plans" link                 │
-│    └─ "Schedule consultation" CTA                   │
+│ 2. Clear CTAs (Call-to-Action)                       │
+│    └─ "Free calculator" button                       │
+│    └─ "Compare detailed plans" link                  │
+│    └─ "Schedule consultation" CTA                    │
 │                                                      │
-│ 3. Deeper Dive Opportunities                        │
-│    └─ AI summarizes → User clicks for details      │
-│    └─ "See all insurance options" (full comparison) │
-│    └─ Customer success stories + testimonials       │
+│ 3. Deeper Dive Opportunities                         │
+│    └─ AI summarizes → User clicks for details        │
+│    └─ "See all insurance options" (full comparison)  │
+│    └─ Customer success stories + testimonials        │
 │                                                      │
-│ Expected Outcome (Kết Quả Dự Kiến):                │
-│ Even with 40% zero-click, remaining 60% will have  │
-│ higher intent → 87% conversion vs 40% before        │
-│ Net result: Higher revenue with same traffic        │
+│ Expected Outcome (Kết Quả Dự Kiến):                  │
+│ Even with 40% zero-click, remaining 60% will have    │
+│ higher intent → 87% conversion vs 40% before         │
+│ Net result: Higher revenue with same traffic         │
 └──────────────────────────────────────────────────────┘
 
 RISK 2: Vietnamese Language NLP Issues (Vấn Đề NLP Tiếng Việt)
 ┌──────────────────────────────────────────────────────┐
 │ Risk: AI models don't understand Vietnamese tones    │
-│       (dấu huyền, hỏi, ngã, nặng, sắc)             │
+│       (dấu huyền, hỏi, ngã, nặng, sắc)               │
 │ Impact: Wrong recommendations, lower accuracy        │
 ├──────────────────────────────────────────────────────┤
-│ Mitigation:                                         │
+│ Mitigation:                                          │
 │                                                      │
-│ 1. Use Vietnamese-Optimized Models                  │
-│    ✓ PhoGPT (VinAI)                                │
-│    ✓ VIGPT (VinBigData)                            │
-│    ✓ AI Hay (local Vietnamese)                     │
-│    └─ Better than ChatGPT for Vietnamese context   │
-│                                                      │
+│ 1. Use Vietnamese-Optimized Models                   │
+│    ✓ PhoGPT (VinAI)                                 │
+│    ✓ VIGPT (VinBigData)                             │
+│    ✓ AI Hay (local Vietnamese)                      │
+│    └─ Better than ChatGPT for Vietnamese context    │
+│                                                     │
 │ 2. Technical Implementation                         │
-│    ✓ UTF-8 encoding (support diacritics)           │
-│    ✓ Vietnamese URLs: /bao-hiem-nhan-tho (no code) │
-│    ✓ Schema in Vietnamese (not English)            │
-│                                                      │
+│    ✓ UTF-8 encoding (support diacritics)            │
+│    ✓ Vietnamese URLs: /bao-hiem-nhan-tho (no code)  │
+│    ✓ Schema in Vietnamese (not English)             │
+│                                                     │
 │ 3. Content Quality Assurance                        │
-│    ✓ Native speaker review (not auto-translate)    │
-│    ✓ A/B test Vietnamese vs English content        │
-│    ✓ Test with all 5 local AI models              │
-│                                                      │
-│ Expected Outcome (Kết Quả):                        │
+│    ✓ Native speaker review (not auto-translate)     │
+│    ✓ A/B test Vietnamese vs English content         │
+│    ✓ Test with all 5 local AI models                │
+│                                                     │
+│ Expected Outcome (Kết Quả):                         │
 │ 95%+ accuracy for Vietnamese queries                │
-│ No misunderstandings from tonal language issues    │
+│ No misunderstandings from tonal language issues     │
 └──────────────────────────────────────────────────────┘
 
 RISK 3: Query Fan-Out Coverage Gap (Khe hở phủ sóng)
@@ -1795,19 +1795,19 @@ TOTAL 6-MONTH RETURN:
 
 ```
 ╔════════════════════════════════════════════════════════════╗
-║ 90-DAY SUCCESS SCORECARD (Bảng Điểm Thành Công 90 Ngày)  ║
+║ 90-DAY SUCCESS SCORECARD (Bảng Điểm Thành Công 90 Ngày)    ║
 ╠════════════════════════════════════════════════════════════╣
 ║ Metric                    │ Target      │ Actual  │ Status ║
 ╠═══════════════════════════╪═════════════╪═════════╪════════╣
 ║ AI Citations/Month        │ 20+         │ ___     │        ║
-║ Branded Search Lift        │ +20%        │ ___     │        ║
-║ Conversion Rate Lift       │ +3-5%       │ ___     │        ║
-║ Organic Traffic Growth     │ +15%        │ ___     │        ║
+║ Branded Search Lift       │ +20%        │ ___     │        ║
+║ Conversion Rate Lift      │ +3-5%       │ ___     │        ║
+║ Organic Traffic Growth    │ +15%        │ ___     │        ║
 ║ AOV Increase              │ +10%        │ ___     │        ║
-║ Quiz Participation Rate    │ 15%+        │ ___     │        ║
-║ Zero-Party Data Quality    │ 85%+        │ ___     │        ║
-║ Schema Validation          │ 100%        │ ___     │        ║
-║ Revenue from AI Traffic    │ $20k+       │ ___     │        ║
+║ Quiz Participation Rate   │ 15%+        │ ___     │        ║
+║ Zero-Party Data Quality   │ 85%+        │ ___     │        ║
+║ Schema Validation         │ 100%        │ ___     │        ║
+║ Revenue from AI Traffic   │ $20k+       │ ___     │        ║
 ║ Overall ROI               │ 2:1+        │ ___     │        ║
 ╚════════════════════════════════════════════════════════════╝
 
