@@ -1,6 +1,6 @@
-# BÁO CÁO TOÀN DIỆN - COMPREHENSIVE REPORT
-# Tác Động của ChatGPT, AI Search & AI Mode đến Thị Trường Marketing Việt Nam
-# Impact of ChatGPT, AI Search & AI Mode on Vietnam's Marketing Market
+# COMPREHENSIVE REPORT
+# Impact of ChatGPT, AI Search on Vietnam's Marketing Market
+## Tác Động của ChatGPT, AI Search & AI Mode đến Thị Trường Marketing Việt Nam
 
 **Ngày báo cáo / Report Date:** 28/12/2025  
 **Dành cho / For:** Lãnh đạo, Nhà tiếp thị, Những người quan tâm đến chiến lược AI  
