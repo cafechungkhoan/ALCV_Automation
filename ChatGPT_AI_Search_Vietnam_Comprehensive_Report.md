@@ -255,8 +255,7 @@ Sources:
 
 ---
 
-## PHẦN II: CƠ CHẾ KỸ THUẬT GIẢI THÍCH ĐƠNGIẢN
-## PART II: TECHNICAL MECHANISM - SIMPLIFIED EXPLANATION
+## PART II: TECHNICAL MECHANISM - CƠ CHẾ KỸ THUẬT
 
 ### 1. Transformer Architecture & Self-Attention Mechanism
 
@@ -308,9 +307,9 @@ Step 3: SELF-ATTENTION (Cơ Chế Chú Ý)
 For each token, calculate: "How much should I pay attention to each other token?"
 
 Formula:
-                QK^T
+                      QK^T
 Attention = softmax(───────) V
-                √d_k
+                      √d_k
 
 Where:
 - Q (Query) = "Tôi muốn tìm cái gì?" (For "30")
