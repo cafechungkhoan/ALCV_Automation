@@ -126,10 +126,10 @@ ChatGPT tải xuống #1 toàn cầu (2025) / ChatGPT #1 app download globally (
 ## PHẦN I: THỐNG KÊ & DỮ LIỆU THỊ TRƯỜNG AI VIỆT NAM 2025
 ## PART I: VIETNAM AI MARKET STATISTICS & DATA 2025
 
-### 1. Độ Nhận Nuôi AI / AI Adoption Rates
+### 1. AI Adoption Rates
 
 ```
-VIETNAM AI ADOPTION PYRAMID (Tháp Nhận Nuôi AI Việt Nam)
+VIETNAM AI ADOPTION PYRAMID
 
                     ▲
                    /│\
@@ -138,20 +138,20 @@ VIETNAM AI ADOPTION PYRAMID (Tháp Nhận Nuôi AI Việt Nam)
                 /   │   \ 65% - Sử dụng AI
                /    │    \ hàng ngày cho công việc
               / 65% │     \
-             /______│______\
-            /       │       \
-           /  Learning & Study \
-          /    83% - Tham gia     \
-         /    học tập AI-related   \
-        /______________│____________\
-       /               │               \
-      /    AI Adoption Overall        \
-     /       78% - Sử dụng ít nhất    \
-    /      1 nền tảng AI / tháng     \
-   /__________│________________________\
+             /_____________\
+            /               \
+           /  Learning & Study\
+          /    83% - Tham gia   \
+         /    học tập AI-related \
+        /_________________________\
+       /                           \
+      /    AI Adoption Overall      \
+     /       78% - Sử dụng ít nhất   \
+    /      1 nền tảng AI / tháng      \
+   /___________________________________\
   /                                     \
  /     Baseline Population (100%)        \
-/_______________________________________\
+/_________________________________________\
 
 Sources:
 - Decision Lab Vietnam Consumer Report (2025): https://decisionlab.co/blog/vietnam-consumer-ai-market-2025
