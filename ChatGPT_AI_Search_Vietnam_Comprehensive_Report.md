@@ -1,6 +1,6 @@
-# COMPREHENSIVE REPORT
-# Impact of ChatGPT, AI Search on Vietnam's Marketing Market
-## Tác Động của ChatGPT, AI Search & AI Mode đến Thị Trường Marketing Việt Nam
+# BÁO CÁO TOÀN DIỆN - COMPREHENSIVE REPORT
+# Tác Động của ChatGPT, AI Search & AI Mode đến Thị Trường Marketing Việt Nam
+# Impact of ChatGPT, AI Search & AI Mode on Vietnam's Marketing Market
 
 **Ngày báo cáo / Report Date:** 28/12/2025  
 **Dành cho / For:** Lãnh đạo, Nhà tiếp thị, Những người quan tâm đến chiến lược AI  
@@ -9,7 +9,7 @@
 
 ---
 
-## EXECUTIVE SUMMARY
+## TÓM TẮT CẤP BẬC (EXECUTIVE SUMMARY)
 
 ### Tình Hình Hiện Tại / Current Situation
 
@@ -102,6 +102,59 @@ ACTION TIMELINE (Lộ Trình Hành Động)
 └─────────────┘
 ```
 
+### 🆕 CẬP NHẬT THỐNG KÊ 2025 / UPDATED 2025 STATISTICS
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    VIETNAM AI ECOSYSTEM SNAPSHOT - Q4 2025                    ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║  📱 AI PLATFORM MARKET SHARE (Vietnam, Nov 2025)                             ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  
+║  │ ChatGPT        ████████████████████████████████████████  86.74%        │  
+║  │ Gemini         ████████                                   8.23%        │  
+║  │ Copilot        ███                                        2.95%        │
+║  │ Others         ██                                         2.08%        │ 
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║  Source: StatCounter (Nov 2025)                                              ║  
+║                                                                              ║
+║  🏢 BUSINESS AI ADOPTION                                                     ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ • 170,000+ doanh nghiệp đã tích hợp AI (Q3 2025)                       │  ║
+║  │ • 5 doanh nghiệp mới áp dụng AI mỗi giờ trong năm 2024                 │  ║
+║  │ • +39% tăng trưởng YoY (so với 2024)                                   │  ║
+║  │ • 61% báo cáo tăng doanh thu trung bình 16%                            │  ║
+║  │ • 58% dự kiến tiết kiệm chi phí trung bình 20%                         │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║  Source: VietnamPlus, VietnamNews (Sep 2025)                                 ║
+║                                                                              ║
+║  💰 AI MARKET SIZE PROJECTION                                                ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ 2025: $932 Million   ──────▶  2031: $3.78 Billion (+20% CAGR)         │  ║
+║  │                                                                        │  ║
+║  │ Funding Growth: $10M (2023) ──▶ $80M (2024) = 8x tăng trưởng          │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║  Source: Kaopiz Research (2025)                                              ║
+║                                                                              ║
+║  🔍 SEARCH BEHAVIOR EVOLUTION                                                ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ • 68% online activities bắt đầu bằng search (2025)                     │  ║
+║  │ • 80% search queries từ mobile                                         │  ║
+║  │ • +25% Vietnamese language queries YoY                                 │  ║
+║  │ • +40% voice search Vietnamese (2024)                                  │  ║
+║  │ • 60% SEO agencies dùng AI-powered tools (2025)                        │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║  Source: AppLabX SEO Statistics Vietnam (2025)                               ║
+║                                                                              ║
+║  📈 AI TIME SPENT                                                            ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ H1 2024: ~35M hours  ──▶  H1 2025: 283M hours = 8x tăng trưởng        │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║  Source: Vietnam.vn (2025)                                                   ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
 ---
 
 ## PHẦN I: THỐNG KÊ & DỮ LIỆU THỊ TRƯỜNG AI VIỆT NAM 2025
@@ -121,14 +174,14 @@ VIETNAM AI ADOPTION PYRAMID (Tháp Nhận Nuôi AI Việt Nam)
               / 65% │     \
              /______│______\
             /       │       \
-           / Learning & Study \
-          /   83% - Tham gia   \
-         /  học tập AI-related   \
-        /______________│___________\
-       /               │            \
-      /    AI Adoption Overall       \
+           /  Learning & Study \
+          /    83% - Tham gia     \
+         /    học tập AI-related   \
+        /______________│____________\
+       /               │               \
+      /    AI Adoption Overall        \
      /       78% - Sử dụng ít nhất    \
-    /      1 nền tảng AI / tháng       \
+    /      1 nền tảng AI / tháng     \
    /__________│________________________\
   /                                     \
  /     Baseline Population (100%)        \
@@ -144,8 +197,8 @@ Sources:
 ```
 PLATFORM ADOPTION IN VIETNAM (Nhận Nuôi Nền Tảng Ở Việt Nam)
 
-┌────────────────────────────────────────────┐
-│           PLATFORM COMPARISON              │
+┌─────────────────────────────────────────────┐
+│ PLATFORM COMPARISON                          │
 ├────────────┬──────────┬────────────────────┤
 │ Platform   │ % Users  │ Primary Use Case   │
 ├────────────┼──────────┼────────────────────┤
@@ -180,19 +233,19 @@ Key Finding (Phát Hiện Chính):
 BUSINESS AI INTEGRATION IN VIETNAM (Tích Hợp AI Doanh Nghiệp VN)
 
 89% ┌────────────────────────────┐
-    │ AI in Marketing            │ Tích hợp AI vào Marketing
+    │ AI in Marketing             │ Tích hợp AI vào Marketing
     └────────────────────────────┘
 
 73% ┌────────────────────────────┐
-    │ AI in Operations           │ Tích hợp AI vào Vận Hành
+    │ AI in Operations            │ Tích hợp AI vào Vận Hành
     └────────────────────────────┘
 
 55% ┌────────────────────────────┐
-    │ Paid AI Subscriptions      │ Subscription AI Trả Phí
+    │ Paid AI Subscriptions       │ Subscription AI Trả Phí
     └────────────────────────────┘
 
 40% ┌────────────────────────────┐
-    │ AI in Customer Service     │ AI trong Dịch Vụ Khách Hàng
+    │ AI in Customer Service      │ AI trong Dịch Vụ Khách Hàng
     └────────────────────────────┘
 
 
@@ -234,8 +287,8 @@ $26 ┤                    ▲     │     │
 $25 ┤              ▲     │     │     │  ● 26B (Conservative)
 $24 ┤         ▲    │     │     │     │
 $23 ┤    ▲    │    │     │     │     │
-     └───┴────┴────┴─────┴─────┴─────┴
-      2022 2023 2024 2025E 2026E 2027E
+    └────┴────┴────┴─────┴─────┴─────┴
+     2022 2023 2024 2025E 2026E 2027E
 
 Platform Market Share (2025):
 ┌─────────────┬──────────┐
@@ -255,7 +308,8 @@ Sources:
 
 ---
 
-## PART II: TECHNICAL MECHANISM - CƠ CHẾ KỸ THUẬT
+## PHẦN II: CƠ CHẾ KỸ THUẬT GIẢI THÍCH ĐƠNGIẢN
+## PART II: TECHNICAL MECHANISM - SIMPLIFIED EXPLANATION
 
 ### 1. Transformer Architecture & Self-Attention Mechanism
 
@@ -379,30 +433,30 @@ RESULT COMPARISON (So Sánh Kết Quả):
 COMPARISON TABLE (Bảng So Sánh)
 
 ┌──────────────────┬──────────────────┬─────────────────────┐
-│ Aspect           │ChatGPT (Standard)│ SearchGPT           │
+│ Aspect           │ ChatGPT (Standard)│ SearchGPT           │
 ├──────────────────┼──────────────────┼─────────────────────┤
-│ Training Data    │ Static           │ Real-time           │
-│ (Dữ liệu)        │ Cut-off: Apr 2024│ Updated every hour  │
+│ Training Data    │ Static            │ Real-time           │
+│ (Dữ liệu)       │ Cut-off: Apr 2024 │ Updated every hour  │
 │                  │                  │                     │
 │ Knowledge Date   │ Cũ 9 tháng       │ Mới nhất (hours)    │
-│ (Ngày cập nhật)  │ (outdated)       │ (fresh)             │
+│ (Ngày cập nhật) │ (outdated)       │ (fresh)             │
 │                  │                  │                     │
-│ Source Citation  │ Không            │ Có link URLs        │
-│ (Trích dẫn)      │ (No sources)     │ (Full URLs)         │
+│ Source Citation  │ Không             │ Có link URLs        │
+│ (Trích dẫn)     │ (No sources)     │ (Full URLs)         │
 │                  │                  │                     │
 │ User Interaction │ Stateless        │ Stateful (memory)   │
-│ (Tương tác)      │ (No memory)      │ (Remembers context) │
+│ (Tương tác)     │ (No memory)      │ (Remembers context) │
 │                  │                  │                     │
-│ Verification     │ Generation-first │ Retrieve-then-verify│
-│ (Kiểm chứng)     │ (may hallucinate)│ (no hallucination)  │
+│ Verification     │ Generation-first  │ Retrieve-then-verify│
+│ (Kiểm chứng)    │ (may hallucinate) │ (no hallucination)  │
 │                  │                  │                     │
 │ Web Crawlers     │ N/A              │ 3 types:            │
-│ (Crawler)        │                  │ - GPTBot            │
+│ (Crawler)       │                  │ - GPTBot            │
 │                  │                  │ - OAI-SearchBot     │
 │                  │                  │ - ChatGPT-User      │
 │                  │                  │                     │
-│ Use Case         │ General, Creative│ Current events,     │
-│ (Ứng dụng)       │ Content          │ Real-time data      │
+│ Use Case         │ General, Creative │ Current events,     │
+│ (Ứng dụng)      │ Content          │ Real-time data      │
 └──────────────────┴──────────────────┴─────────────────────┘
 
 Source: OpenAI SearchGPT Announcement (July 2024)
@@ -543,7 +597,7 @@ USER ASKS (Người dùng hỏi):
     └─────────────────────────────────────┘
     
     ┌─────────────────────────────────────┐
-    │ Cluster 3: Cost & Details (Giá)     │
+    │ Cluster 3: Cost & Details (Giá)    │
     ├─────────────────────────────────────┤
     │ ✓ Phí bảo hiểm bao nhiêu?          │
     │ ✓ Phí bảo hiểm năm 2026?           │
@@ -552,7 +606,7 @@ USER ASKS (Người dùng hỏi):
     └─────────────────────────────────────┘
     
     ┌─────────────────────────────────────┐
-    │ Cluster 4: Decision (Quyết Định)    │
+    │ Cluster 4: Decision (Quyết Định)   │
     ├─────────────────────────────────────┤
     │ ✓ Bảo hiểm trước hay sau 30?        │
     │ ✓ Nên mua bảo hiểm khi nào?        │
@@ -562,7 +616,7 @@ USER ASKS (Người dùng hỏi):
     └─────────────────────────────────────┘
     
     ┌─────────────────────────────────────┐
-    │ Cluster 5: Providers (Công Ty)      │
+    │ Cluster 5: Providers (Công Ty)     │
     ├─────────────────────────────────────┤
     │ ✓ Manulife, Prudential, FWD, ...   │
     │ ✓ Đánh giá từng công ty            │
@@ -590,6 +644,252 @@ NEW (AI Search):
 **Source:**
 - SEONGON AI Mode Article: https://seongon.com/blog/ai/ai-mode-va-ai-overviews-hoat-dong-nhu-the-nao.html
 - Brands Vietnam: https://www.brandsvietnam.com/congdoo/topic/aeo-la-gi-cach-toi-uu-hoa-cong-cu-tra-loi-trong-thoi-dai-ai-search
+
+---
+
+### 🆕 5. AIO TECHNICAL ARCHITECTURE - MERMAID DIAGRAMS
+### CẤU TRÚC KỸ THUẬT AIO - SƠ ĐỒ MERMAID
+
+#### 5.1 User Query Flow - AI Search Pipeline
+
+```mermaid
+flowchart TB
+    subgraph UserInput["👤 USER INPUT"]
+        Q1["Câu hỏi: 'Bảo hiểm nào tốt cho người 30 tuổi?'"]
+    end
+    
+    subgraph AIProcessing["🤖 AI PROCESSING"]
+        P1["1️⃣ Query Understanding<br/>Phân tích intent + context"]
+        P2["2️⃣ Query Expansion<br/>Tạo 50+ related queries"]
+        P3["3️⃣ Web Retrieval<br/>Search & crawl sources"]
+        P4["4️⃣ Content Ranking<br/>Score by relevance + trust"]
+        P5["5️⃣ Answer Generation<br/>Synthesize final response"]
+    end
+    
+    subgraph Sources["📄 CONTENT SOURCES"]
+        S1["Website A<br/>❌ No Schema<br/>Score: 2/10"]
+        S2["Website B<br/>✅ FAQ Schema<br/>Score: 8/10"]
+        S3["Website C<br/>✅ Q&A Format<br/>Score: 9/10"]
+    end
+    
+    subgraph Output["📊 AI OUTPUT"]
+        O1["Generated Answer<br/>với citations từ<br/>Website B & C"]
+    end
+    
+    Q1 --> P1
+    P1 --> P2
+    P2 --> P3
+    P3 --> S1 & S2 & S3
+    S1 & S2 & S3 --> P4
+    P4 --> P5
+    P5 --> O1
+    
+    style S1 fill:#ef4444,color:#fff
+    style S2 fill:#22c55e,color:#fff
+    style S3 fill:#22c55e,color:#fff
+```
+
+#### 5.2 RAG Pipeline Architecture
+
+```mermaid
+flowchart LR
+    subgraph Input["📥 INPUT"]
+        I1["User Query"]
+    end
+    
+    subgraph Retrieval["🔍 RETRIEVAL"]
+        R1["Vector DB Search"]
+        R2["Web Search"]
+        R3["Knowledge Base"]
+    end
+    
+    subgraph Processing["⚙️ PROCESSING"]
+        P1["Document Ranking"]
+        P2["Context Window<br/>Top 5-10 sources"]
+        P3["Fact Verification"]
+    end
+    
+    subgraph Generation["✨ GENERATION"]
+        G1["LLM Synthesis"]
+        G2["Citation Injection"]
+        G3["Response Formatting"]
+    end
+    
+    subgraph Output["📤 OUTPUT"]
+        O1["Final Answer<br/>+ Source Citations"]
+    end
+    
+    I1 --> R1 & R2 & R3
+    R1 & R2 & R3 --> P1
+    P1 --> P2 --> P3 --> G1 --> G2 --> G3 --> O1
+```
+
+#### 5.3 Content Evaluation - How AI Scores Content
+
+```mermaid
+flowchart TB
+    subgraph Content["📄 YOUR CONTENT"]
+        C1["Landing Page"]
+    end
+    
+    subgraph Criteria["📋 EVALUATION CRITERIA"]
+        E1["Structure<br/>Q&A format?"]
+        E2["Schema Markup<br/>FAQPage? Product?"]
+        E3["Authority<br/>E-E-A-T signals"]
+        E4["Freshness<br/>Updated < 6 months?"]
+        E5["Completeness<br/>Covers intent space?"]
+    end
+    
+    subgraph Scoring["📊 SCORING"]
+        SC1["Score 0-3: LOW<br/>❌ NOT CITED"]
+        SC2["Score 4-6: MEDIUM<br/>⚠️ MAYBE CITED"]
+        SC3["Score 7-10: HIGH<br/>✅ LIKELY CITED"]
+    end
+    
+    C1 --> E1 & E2 & E3 & E4 & E5
+    E1 & E2 & E3 & E4 & E5 --> SC1 & SC2 & SC3
+    
+    style SC1 fill:#ef4444,color:#fff
+    style SC2 fill:#eab308,color:#000
+    style SC3 fill:#22c55e,color:#fff
+```
+
+#### 5.4 Schema Markup Flow - How AI Reads Data
+
+```mermaid
+flowchart TB
+    subgraph HTML["🌐 HTML PAGE"]
+        H1["JSON-LD Schema"]
+    end
+    
+    subgraph AIParser["🤖 AI PARSER"]
+        A1["Parse JSON-LD"]
+        A2["Extract Q&A pairs"]
+        A3["Map to Knowledge Graph"]
+    end
+    
+    subgraph Understanding["💡 AI UNDERSTANDING"]
+        U1["Question extracted"]
+        U2["Answer extracted"]
+        U3["Entity: Product"]
+        U4["Source: Your website"]
+    end
+    
+    subgraph Output["📤 CITATION"]
+        O1["'Theo YourSite.com...'"]
+    end
+    
+    H1 --> A1 --> A2 --> A3 --> U1 & U2 & U3 & U4 --> O1
+```
+
+#### 5.5 AI Citation Decision Tree
+
+```mermaid
+flowchart TB
+    START["🔍 AI Evaluates"] --> Q1{"Has Schema?"}
+    
+    Q1 -->|Yes| Q2{"Q&A Format?"}
+    Q1 -->|No| LOW1["❌ 10% cite chance"]
+    
+    Q2 -->|Yes| Q3{"Answers Intent?"}
+    Q2 -->|No| LOW2["⚠️ 25% cite chance"]
+    
+    Q3 -->|Yes| Q4{"E-E-A-T?"}
+    Q3 -->|No| MED1["⚠️ 40% cite chance"]
+    
+    Q4 -->|Yes| Q5{"Fresh Content?"}
+    Q4 -->|No| MED2["⚠️ 50% cite chance"]
+    
+    Q5 -->|Yes| HIGH["✅ 80%+ cite chance"]
+    Q5 -->|No| MED3["⚠️ 65% cite chance"]
+    
+    style LOW1 fill:#ef4444,color:#fff
+    style LOW2 fill:#f97316,color:#fff
+    style MED1 fill:#eab308,color:#000
+    style MED2 fill:#eab308,color:#000
+    style MED3 fill:#84cc16,color:#000
+    style HIGH fill:#22c55e,color:#fff
+```
+
+#### 5.6 AIO Optimization Process
+
+```mermaid
+flowchart LR
+    subgraph Before["❌ BEFORE"]
+        B1["Keyword stuffing"]
+        B2["Dense paragraphs"]
+        B3["No Schema"]
+    end
+    
+    subgraph Process["⚙️ AIO PROCESS"]
+        P1["Add Q&A headers"]
+        P2["Create tables"]
+        P3["Implement Schema"]
+        P4["Add citations"]
+    end
+    
+    subgraph After["✅ AFTER"]
+        A1["Direct answers"]
+        A2["Structured format"]
+        A3["Schema markup"]
+    end
+    
+    subgraph Results["📈 RESULTS"]
+        R1["AI Citations: 80%+"]
+        R2["Branded Search: +40%"]
+        R3["Conversion: +25%"]
+    end
+    
+    Before --> Process --> After --> Results
+```
+
+#### 5.7 Complete AIO System Architecture
+
+```mermaid
+flowchart TB
+    subgraph Layer1["🎯 CONTENT LAYER"]
+        C1["Topic Clusters"]
+        C2["Q&A Content"]
+        C3["Comparison Tables"]
+    end
+    
+    subgraph Layer2["🔧 TECHNICAL LAYER"]
+        T1["FAQPage Schema"]
+        T2["Product Schema"]
+        T3["HowTo Schema"]
+    end
+    
+    subgraph Layer3["🚀 DISTRIBUTION LAYER"]
+        D1["On-page SEO"]
+        D2["PR & Media"]
+        D3["Social Signals"]
+    end
+    
+    subgraph Layer4["📊 MEASUREMENT LAYER"]
+        M1["AI Citation Tracking"]
+        M2["Branded Search Lift"]
+        M3["ROI Analysis"]
+    end
+    
+    Layer1 --> Layer2 --> Layer3 --> Layer4
+    
+    style Layer1 fill:#3b82f6,color:#fff
+    style Layer2 fill:#8b5cf6,color:#fff
+    style Layer3 fill:#ec4899,color:#fff
+    style Layer4 fill:#10b981,color:#fff
+```
+
+#### Summary: AI Optimization Impact
+
+```mermaid
+pie showData
+    title Content Optimization Impact on AI Citations
+    "Schema Markup" : 30
+    "Q&A Structure" : 25
+    "E-E-A-T Signals" : 20
+    "Semantic Completeness" : 15
+    "Freshness" : 10
+```
 
 ---
 
@@ -702,58 +1002,58 @@ Note: User may NOT click but already has answer
 │ ASPECT              │ TRADITIONAL SEO          │ AI SEARCH (AIO/AEO)        │
 ├─────────────────────┼──────────────────────────┼────────────────────────────┤
 │ Primary Goal        │ Rank top 10 on SERP      │ Appear in AI answers       │
-│ (Mục tiêu chính)    │ (Rank #1-10 trên Google) │ (Được trích dẫn AI)        │
+│ (Mục tiêu chính)    │ (Rank #1-10 trên Google)│ (Được trích dẫn AI)        │
 │                     │                          │                            │
 │ Keyword Focus       │ Short-tail               │ Long-tail + Questions      │
-│ (Từ khóa)           │ "insurance"              │ "Best insurance for 30yo?" │
+│ (Từ khóa)          │ "insurance"              │ "Best insurance for 30yo?" │
 │                     │                          │                            │
 │ Search Volume       │ High                     │ Lower but better intent    │
-│ (Lượng tìm)         │ 100k searches/month      │ 1k searches/month (hot)    │
+│ (Lượng tìm)        │ 100k searches/month      │ 1k searches/month (hot)    │
 │                     │                          │                            │
 │ Content Length      │ 2000+ words (Dense)      │ 500-800 words (Q&A)        │
-│ (Độ dài)            │ Focus on keyword         │ Focus on intent            │
+│ (Độ dài)           │ Focus on keyword         │ Focus on intent            │
 │ density             │                          │                            │
 │                     │                          │                            │
 │ Structure           │ H1, H2, H3 + Paragraphs  │ H2/H3 as questions         │
-│ (Cấu trúc)          │ Traditional blog         │ + Schema markup (Critical!)│
+│ (Cấu trúc)         │ Traditional blog         │ + Schema markup (Critical!)│
 │                     │ format                   │ + Tables, bullets, lists   │
 │                     │                          │                            │
 │ Backlinks           │ Essential (20-50 needed) │ Not required               │
-│ (Liên kết)          │ Cost: $5,000-10,000/mo  │ Cost: 0-2,000/mo (schema)   │
+│ (Liên kết)         │ Cost: $5,000-10,000/mo  │ Cost: 0-2,000/mo (schema)  │
 │                     │                          │                            │
 │ Time to Rank        │ 3-6 months               │ 1-3 months                 │
-│ (Thời gian)         │ Slow                     │ Fast                       │
+│ (Thời gian)        │ Slow                     │ Fast                       │
 │                     │                          │                            │
 │ Traffic Quality     │ Cold traffic (40% intent)│ Hot traffic (87% intent)   │
 │ (Chất lượng traffic)│ May not buy              │ Ready to decide            │
 │                     │                          │                            │
 │ Conversion Rate     │ 2-3%                     │ 4-5%                       │
-│ (Tỷ lệ chuyển)      │ (Calculation: CTR 3-5%   │ (Higher purchasing power)  │
-│                     │  × Landing page 50%)     │                            │
+│ (Tỷ lệ chuyển)     │ (Calculation: CTR 3-5%  │ (Higher purchasing power)  │
+│                     │  × Landing page 50%)    │                            │
 │                     │                          │                            │
 │ Measurement         │ Organic ranking, traffic │ AI citations, Share of     │
-│ (Đo lường)          │ Google Analytics         │ voice, Branded search lift │
-│                     │ Position tracking        │ Goodie.ai, Semrush         │
+│ (Đo lường)         │ Google Analytics         │ voice, Branded search lift │
+│                     │ Position tracking       │ Goodie.ai, Semrush        │
 │                     │                          │                            │
-│ Tool Cost           │ Ahrefs/Semrush: $100/mo  │ Google Search Console: Free│
-│ (Chi phí công cụ)   │ Backlink services: $500+ │ Goodie.ai: Free-$99/mo     │
+│ Tool Cost           │ Ahrefs/Semrush: $100/mo │ Google Search Console: Free│
+│ (Chi phí công cụ)  │ Backlink services: $500+│ Goodie.ai: Free-$99/mo     │
 │                     │                          │                            │
-│ SEO Updates Risk    │ High (Google algorithm)  │ Lower (AI values freshness)│
-│ (Rủi ro update)     │ Can lose 50% traffic     │ Content evergreen          │
-│                     │ with 1 update            │                            │
+│ SEO Updates Risk    │ High (Google algorithm) │ Lower (AI values freshness)│
+│ (Rủi ro update)    │ Can lose 50% traffic    │ Content evergreen          │
+│                     │ with 1 update           │                            │
 │                     │                          │                            │
 │ Mobile-First        │ Critical                 │ Critical + Voice search    │
-│ (Mobile)            │ 60% traffic from mobile  │ 80% traffic from mobile    │
+│ (Mobile)           │ 60% traffic from mobile  │ 80% traffic from mobile    │
 │                     │                          │ + Voice commands growing   │
 │                     │                          │                            │
-│ Zero-Click Impact   │ Loss of 20-40% traffic   │ Expected behavior          │
-│ (Zero-click)        │ (Bad - losing visitors)  │ (Good - share of influence)│
+│ Zero-Click Impact   │ Loss of 20-40% traffic  │ Expected behavior          │
+│ (Zero-click)       │ (Bad - losing visitors) │ (Good - share of influence)│
 │                     │                          │                            │
-│ User Behavior       │ Click SERP → Browse      │ Ask AI → Verify → Buy      │
-│ (Hành vi user)      │ website → Decide         │ (Direct path to decision)  │
+│ User Behavior       │ Click SERP → Browse     │ Ask AI → Verify → Buy     │
+│ (Hành vi user)     │ website → Decide        │ (Direct path to decision) │
 │                     │                          │                            │
-│ Market Share 2026   │ 40% searches             │ 60% searches (predicted)   │
-│ (Thị phần)          │                          │                            │
+│ Market Share 2026   │ 40% searches            │ 60% searches (predicted)   │
+│ (Thị phần)         │                          │                            │
 └─────────────────────┴──────────────────────────┴────────────────────────────┘
 
 Source: SEONGON Research (2025), Google Analytics, Adobe Data Study
@@ -1048,6 +1348,347 @@ RESULT:
 
 ---
 
+## 🆕 PHẦN III.B: GEO FRAMEWORK - GENERATIVE ENGINE OPTIMIZATION
+## PART III.B: GEO FRAMEWORK - GENERATIVE ENGINE OPTIMIZATION
+
+### Giới Thiệu GEO / What is GEO?
+
+**GEO (Generative Engine Optimization)** là kỷ nguyên mới của SEO, tập trung vào việc tối ưu hóa nội dung để được **AI trích dẫn** trong các câu trả lời của ChatGPT, Gemini, Perplexity, và Google AI Overviews.
+
+```mermaid
+flowchart TB
+    subgraph Era1["🕐 Era 1: Traditional SEO (2000-2020)"]
+        S1[Keywords]
+        S2[Backlinks]
+        S3[SERP Rankings]
+    end
+    
+    subgraph Era2["🕑 Era 2: AEO - Answer Engine Optimization (2018-2024)"]
+        A1[Featured Snippets]
+        A2[Voice Search]
+        A3[PAA - People Also Ask]
+    end
+    
+    subgraph Era3["🕒 Era 3: GEO - Generative Engine Optimization (2024+)"]
+        G1[AI Citations]
+        G2[Semantic Authority]
+        G3[E-E-A-T Signals]
+    end
+    
+    Era1 --> Era2
+    Era2 --> Era3
+    
+    style Era3 fill:#10b981,color:#fff
+```
+
+### So Sánh SEO vs AEO vs GEO / Comparison
+
+```
+╔════════════════════╦════════════════════════╦════════════════════════╦════════════════════════╗
+║ Aspect             ║ Traditional SEO        ║ AEO                    ║ GEO                    ║
+╠════════════════════╬════════════════════════╬════════════════════════╬════════════════════════╣
+║ Goal               ║ Rank on Google SERP    ║ Featured Snippets      ║ AI Citations           ║
+║ (Mục tiêu)         ║ (Xếp hạng SERP)        ║ (Đoạn trích nổi bật)  ║ (Được AI trích dẫn)   ║
+╠════════════════════╬════════════════════════╬════════════════════════╬════════════════════════╣
+║ Content Focus      ║ Keyword density        ║ Direct answers         ║ Semantic completeness  ║
+║ (Trọng tâm)        ║ (Mật độ từ khóa)       ║ (Câu trả lời trực tiếp)║ (Đầy đủ ngữ nghĩa)    ║
+╠════════════════════╬════════════════════════╬════════════════════════╬════════════════════════╣
+║ Structure          ║ H1, H2, paragraphs     ║ Q&A, lists, tables     ║ Schema + Entities +    ║
+║ (Cấu trúc)         ║                        ║                        ║ Contextual depth       ║
+╠════════════════════╬════════════════════════╬════════════════════════╬════════════════════════╣
+║ Authority Signal   ║ Backlinks              ║ Backlinks + Citations  ║ Brand mentions +       ║
+║ (Tín hiệu uy tín)  ║ (Links)                ║                        ║ Co-citations + E-E-A-T ║
+╠════════════════════╬════════════════════════╬════════════════════════╬════════════════════════╣
+║ Measurement        ║ Rankings, Traffic      ║ Featured snippet wins  ║ AI visibility score,   ║
+║ (Đo lường)         ║                        ║                        ║ Share of AI citations  ║
+╠════════════════════╬════════════════════════╬════════════════════════╬════════════════════════╣
+║ ROI Timeline       ║ 3-6 months             ║ 1-3 months             ║ 1-2 months             ║
+║ (Thời gian ROI)    ║                        ║                        ║                        ║
+╚════════════════════╩════════════════════════╩════════════════════════╩════════════════════════╝
+```
+
+---
+
+### 7 Bước Triển Khai GEO / 7-Step GEO Implementation
+
+```mermaid
+flowchart LR
+    subgraph Phase1["📋 Phase 1: Research"]
+        R1[1. GEO Keyword Research]
+        R2[2. AI Response Analysis]
+    end
+    
+    subgraph Phase2["✍️ Phase 2: Content"]
+        C1[3. Semantic Content Creation]
+        C2[4. Structure Optimization]
+    end
+    
+    subgraph Phase3["🔧 Phase 3: Technical"]
+        T1[5. Schema Markup]
+        T2[6. Technical Accessibility]
+    end
+    
+    subgraph Phase4["📊 Phase 4: Authority"]
+        A1[7. Brand Authority Building]
+    end
+    
+    R1 --> R2 --> C1 --> C2 --> T1 --> T2 --> A1
+```
+
+#### Bước 1: GEO Keyword Research (Nghiên cứu từ khóa GEO)
+
+```
+Khác biệt với SEO keyword research:
+- Không chỉ tìm high-volume keywords
+- Tìm conversational phrases và long-tail queries
+- Focus vào "intent clusters" thay vì single keywords
+
+Tools:
+✓ AlsoAsked.com - Tìm câu hỏi liên quan
+✓ ChatGPT/Gemini - Hỏi trực tiếp xem AI trả lời gì
+✓ Semrush AI Overview tracker - Xem keywords có AI Overview
+
+Example:
+Thay vì: "bảo hiểm" (1 keyword)
+Tìm cluster:
+├── "Bảo hiểm gì tốt cho người 30 tuổi?"
+├── "So sánh bảo hiểm Manulife vs Prudential"
+├── "Phí bảo hiểm hàng tháng bao nhiêu?"
+└── 47 câu hỏi khác...
+```
+
+#### Bước 2: AI Response Analysis (Phân tích câu trả lời AI)
+
+```
+Quy trình:
+1. Hỏi ChatGPT/Gemini 10 câu về ngành của bạn
+2. Ghi chép: Ai được cite? Format nào?
+3. Phân tích: Tại sao competitor được cite?
+
+Checklist phân tích:
+☐ Competitor A có Schema markup?
+☐ Content structure của họ như thế nào?
+☐ Họ có direct answers không?
+☐ Sources họ cite là gì?
+☐ Tone của content là gì?
+```
+
+#### Bước 3-4: Semantic Content Creation + Structure
+
+```
+GEO CONTENT TEMPLATE:
+
+1. LEAD ANSWER (50 từ đầu tiên)
+   └─ Trả lời ngay câu hỏi chính
+   └─ AI cite đoạn này đầu tiên
+
+2. SUPPORTING DETAILS
+   └─ Q&A format (mỗi H2 là 1 câu hỏi)
+   └─ Bullet points, numbered lists
+   └─ Tables for comparison
+
+3. CITATIONS & CREDIBILITY
+   └─ Quote experts
+   └─ Link to authoritative sources
+   └─ Show E-E-A-T signals
+
+4. SEMANTIC COMPLETENESS
+   └─ Cover 50+ query variations
+   └─ Internal links to related content
+   └─ People Also Ask coverage
+```
+
+#### Bước 5-6: Schema + Technical Accessibility
+
+```
+REQUIRED SCHEMA TYPES FOR GEO:
+
+1. FAQPage Schema (Q&A sections)
+   → AI parse câu hỏi và câu trả lời
+
+2. HowTo Schema (Guides, tutorials)
+   → AI extract step-by-step instructions
+
+3. Product Schema (E-commerce)
+   → AI cite pricing, reviews, ratings
+
+4. Article Schema (Blog posts)
+   → AI understand author, date, topic
+
+5. Organization Schema (About pages)
+   → AI verify brand credibility
+
+Technical Checklist:
+☐ robots.txt cho phép AI crawlers (GPTBot, OAI-SearchBot)
+☐ JavaScript không block main content
+☐ Page speed < 3 seconds
+☐ Mobile-first responsive
+☐ No broken pages (404 errors)
+```
+
+#### Bước 7: Brand Authority Building
+
+```
+GEO AUTHORITY SIGNALS:
+
+1. BRAND MENTIONS (Không cần links!)
+   └─ Được nhắc đến trên Wikipedia
+   └─ Xuất hiện trong industry publications
+   └─ Social proof: LinkedIn, Twitter mentions
+
+2. CO-CITATIONS
+   └─ Được cite cùng với competitors
+   └─ "Manulife, Prudential, FWD" - appear together
+
+3. HIGH-TRUST PLACEMENTS
+   └─ Industry directories
+   └─ Government websites (gov.vn)
+   └─ Educational institutions (.edu.vn)
+
+4. E-E-A-T SIGNALS
+   └─ Experience: Case studies, testimonials
+   └─ Expertise: Author bios, credentials
+   └─ Authoritativeness: Awards, certifications
+   └─ Trustworthiness: Privacy policy, SSL, reviews
+```
+
+---
+
+### 🏆 CASE STUDIES VIETNAM / VÍ DỤ THỰC TẾ VIỆT NAM
+
+```mermaid
+pie showData
+    title Vietnam AI Marketing Success Cases - Revenue Impact
+    "Nestlé (+23% brand)" : 23
+    "Shopee (+49% ROI)" : 49
+    "Printerval (+7% sales)" : 7
+    "SMEs (+15-25% revenue)" : 20
+```
+
+#### Case Study 1: Nestlé Vietnam - Google AI Personalization
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ COMPANY: Nestlé Vietnam                                                       ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║ STRATEGY: Sử dụng Google AI tạo 50,000 personalized Tet greetings            ║
+║                                                                              ║
+║ IMPLEMENTATION:                                                               ║
+║ • AI phân tích customer preferences                                          ║
+║ • Tạo thiệp Tết cá nhân hóa theo từng segment                               ║
+║ • Dynamic content dựa trên behavioral data                                   ║
+║                                                                              ║
+║ RESULTS:                                                                      ║
+║ ├─ +23% Brand Favorability                                                    ║
+║ ├─ 50,000 unique personalized messages                                        ║
+║ └─ High engagement during Tet campaign                                        ║
+║                                                                              ║
+║ Source: RMIT Vietnam Marketing Report (2025)                                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+#### Case Study 2: Shopee Vietnam - AI-Powered Marketing
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ COMPANY: Shopee Vietnam                                                       ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║ STRATEGY: AI-powered marketing solution vs traditional campaigns             ║
+║                                                                              ║
+║ IMPLEMENTATION:                                                               ║
+║ • AI bid optimization                                                         ║
+║ • Dynamic audience targeting                                                  ║
+║ • Automated creative optimization                                             ║
+║                                                                              ║
+║ RESULTS:                                                                      ║
+║ ├─ -23% Cost-Per-Order (giảm chi phí mỗi đơn hàng)                           ║
+║ ├─ +49% ROI (tăng lợi nhuận đầu tư)                                          ║
+║ └─ Significant efficiency improvement                                         ║
+║                                                                              ║
+║ Source: VietnamNews (2025)                                                    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+#### Case Study 3: Printerval - AI Campaign Success
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ COMPANY: Printerval (Vietnamese E-commerce)                                   ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║ STRATEGY: AI-powered campaign với focus on brand awareness                   ║
+║                                                                              ║
+║ RESULTS:                                                                      ║
+║ ├─ 3x Brand Searches (tăng 3 lần tìm kiếm thương hiệu)                       ║
+║ ├─ +7% Immediate Sales (tăng doanh số trực tiếp)                             ║
+║ ├─ +23% Brand Awareness spike                                                 ║
+║ └─ Improved customer recognition                                              ║
+║                                                                              ║
+║ Source: VietnamNews (2025)                                                    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+#### Case Study 4: Tiki - ChatGPT Virtual Shopping Assistant
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ COMPANY: Tiki (Vietnamese E-commerce Platform)                                ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║ STRATEGY: Tích hợp ChatGPT làm virtual shopping assistant                    ║
+║                                                                              ║
+║ IMPLEMENTATION:                                                               ║
+║ • Users có thể hỏi bằng ngôn ngữ tự nhiên                                    ║
+║ • AI recommends products based on conversation                                ║
+║ • Natural language product search                                             ║
+║                                                                              ║
+║ RESULTS:                                                                      ║
+║ ├─ Enhanced User Experience                                                   ║
+║ ├─ Reduced search friction                                                    ║
+║ └─ Increased product discovery                                                ║
+║                                                                              ║
+║ Source: BlueSeed Group (2025)                                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+#### Case Study 5: Samdy.vn - Pure SEO Success
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ COMPANY: Samdy.vn (Independent Developer Project)                             ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║ STRATEGY: Code-driven SEO, price comparison aggregator                       ║
+║                                                                              ║
+║ IMPLEMENTATION:                                                               ║
+║ • Aggregated data from Shopee, Tiki, Lazada                                   ║
+║ • Pure technical SEO (no marketing budget)                                    ║
+║ • Schema markup + structured data                                             ║
+║                                                                              ║
+║ RESULTS:                                                                      ║
+║ ├─ Top 100 E-commerce Websites Vietnam (trong 6-8 tháng)                      ║
+║ ├─ $0 marketing spend                                                         ║
+║ └─ Organic traffic growth only                                                ║
+║                                                                              ║
+║ Source: Medium Case Study (2025)                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+#### Summary: Vietnamese SMEs AI Personalization Impact
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ SEGMENT: Vietnamese Retail SMEs with AI Personalization                       ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║ AGGREGATE RESULTS:                                                            ║
+║ ├─ +52% Engagement (tăng tương tác)                                           ║
+║ ├─ +15-25% Revenue Growth (tăng doanh thu)                                    ║
+║ ├─ 93% doanh nghiệp dùng ít nhất 1 AI tool cho customer communication        ║
+║ └─ High readiness for AI innovation                                           ║
+║                                                                              ║
+║ Sources: Kachersoft, HanoiTimes (2025)                                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
 ## PHẦN IV: CẤU TRÚC NHẬT - ISSUE/HYPOTHESIS/COUNTERPLAN
 ## PART IV: JAPANESE MANAGEMENT STRUCTURE - ISSUE/HYPOTHESIS/COUNTERPLAN
 
@@ -1113,58 +1754,58 @@ Sources:
 ```
 RISK 1: Zero-Click Traffic Loss (Mất traffic zero-click)
 ┌──────────────────────────────────────────────────────┐
-│ Risk: Users get answer from AI → Don't click website │
+│ Risk: Users get answer from AI → Don't click website  │
 │ Impact: -20 to -40% organic traffic short-term       │
 ├──────────────────────────────────────────────────────┤
-│ Mitigation Strategy (Kế Hoạch Phòng Chống):          │
+│ Mitigation Strategy (Kế Hoạch Phòng Chống):         │
 │                                                      │
 │ 1. Inverted Pyramid Structure                        │
-│    └─ Put answer upfront in 1st paragraph            │
-│    └─ Add "Want more details?" links                 │
+│    └─ Put answer upfront in 1st paragraph           │
+│    └─ Add "Want more details?" links                │
 │                                                      │
-│ 2. Clear CTAs (Call-to-Action)                       │
-│    └─ "Free calculator" button                       │
-│    └─ "Compare detailed plans" link                  │
-│    └─ "Schedule consultation" CTA                    │
+│ 2. Clear CTAs (Call-to-Action)                      │
+│    └─ "Free calculator" button                      │
+│    └─ "Compare detailed plans" link                 │
+│    └─ "Schedule consultation" CTA                   │
 │                                                      │
-│ 3. Deeper Dive Opportunities                         │
-│    └─ AI summarizes → User clicks for details        │
-│    └─ "See all insurance options" (full comparison)  │
-│    └─ Customer success stories + testimonials        │
+│ 3. Deeper Dive Opportunities                        │
+│    └─ AI summarizes → User clicks for details      │
+│    └─ "See all insurance options" (full comparison) │
+│    └─ Customer success stories + testimonials       │
 │                                                      │
-│ Expected Outcome (Kết Quả Dự Kiến):                  │
-│ Even with 40% zero-click, remaining 60% will have    │
-│ higher intent → 87% conversion vs 40% before         │
-│ Net result: Higher revenue with same traffic         │
+│ Expected Outcome (Kết Quả Dự Kiến):                │
+│ Even with 40% zero-click, remaining 60% will have  │
+│ higher intent → 87% conversion vs 40% before        │
+│ Net result: Higher revenue with same traffic        │
 └──────────────────────────────────────────────────────┘
 
 RISK 2: Vietnamese Language NLP Issues (Vấn Đề NLP Tiếng Việt)
 ┌──────────────────────────────────────────────────────┐
 │ Risk: AI models don't understand Vietnamese tones    │
-│       (dấu huyền, hỏi, ngã, nặng, sắc)               │
+│       (dấu huyền, hỏi, ngã, nặng, sắc)             │
 │ Impact: Wrong recommendations, lower accuracy        │
 ├──────────────────────────────────────────────────────┤
-│ Mitigation:                                          │
+│ Mitigation:                                         │
 │                                                      │
-│ 1. Use Vietnamese-Optimized Models                   │
-│    ✓ PhoGPT (VinAI)                                 │
-│    ✓ VIGPT (VinBigData)                             │
-│    ✓ AI Hay (local Vietnamese)                      │
-│    └─ Better than ChatGPT for Vietnamese context    │
-│                                                     │
+│ 1. Use Vietnamese-Optimized Models                  │
+│    ✓ PhoGPT (VinAI)                                │
+│    ✓ VIGPT (VinBigData)                            │
+│    ✓ AI Hay (local Vietnamese)                     │
+│    └─ Better than ChatGPT for Vietnamese context   │
+│                                                      │
 │ 2. Technical Implementation                         │
-│    ✓ UTF-8 encoding (support diacritics)            │
-│    ✓ Vietnamese URLs: /bao-hiem-nhan-tho (no code)  │
-│    ✓ Schema in Vietnamese (not English)             │
-│                                                     │
+│    ✓ UTF-8 encoding (support diacritics)           │
+│    ✓ Vietnamese URLs: /bao-hiem-nhan-tho (no code) │
+│    ✓ Schema in Vietnamese (not English)            │
+│                                                      │
 │ 3. Content Quality Assurance                        │
-│    ✓ Native speaker review (not auto-translate)     │
-│    ✓ A/B test Vietnamese vs English content         │
-│    ✓ Test with all 5 local AI models                │
-│                                                     │
-│ Expected Outcome (Kết Quả):                         │
+│    ✓ Native speaker review (not auto-translate)    │
+│    ✓ A/B test Vietnamese vs English content        │
+│    ✓ Test with all 5 local AI models              │
+│                                                      │
+│ Expected Outcome (Kết Quả):                        │
 │ 95%+ accuracy for Vietnamese queries                │
-│ No misunderstandings from tonal language issues     │
+│ No misunderstandings from tonal language issues    │
 └──────────────────────────────────────────────────────┘
 
 RISK 3: Query Fan-Out Coverage Gap (Khe hở phủ sóng)
@@ -1515,274 +2156,399 @@ OVERALL ZERO-PARTY DATA STRATEGY:
 
 ---
 
-## PHẦN V: CHIẾN LƯỢC THỰC HÀNH - ROADMAP 90 NGÀY
-## PART V: PRACTICAL IMPLEMENTATION - 90-DAY ROADMAP
+## PHẦN V: CHIẾN LƯỢC THỰC HÀNH - MASTERPLAN THỰC TẾ 12-18 THÁNG
+## PART V: PRACTICAL IMPLEMENTATION - REALISTIC 12-18 MONTH MASTERPLAN
 
-### Visual Timeline (Biểu Đồ Lộ Trình)
+> **📌 LƯU Ý:** Timeline 90 ngày là phi thực tế cho đa số SMEs Việt Nam. Dưới đây là masterplan 12-18 tháng thực tế, tính đến các yếu tố:
+> - Team constraints (2-4 người)
+> - Budget phân bổ theo quý
+> - Learning curve và adjustment time
+> - Seasonal business cycles
+
+### Visual Timeline - 18 Tháng / 18-Month Visual Timeline
+
+```mermaid
+gantt
+    title AI Marketing Implementation Masterplan - 18 Tháng
+    dateFormat  YYYY-MM
+    section Phase 1: Foundation
+    Research & Audit           :a1, 2025-01, 1M
+    Strategy Development       :a2, after a1, 1M
+    Team & Tool Setup          :a3, after a2, 1M
+    section Phase 2: Execution
+    Content Wave 1 (20 pages)  :b1, after a3, 2M
+    Distribution & Data Setup  :b2, after b1, 2M
+    Content Wave 2 (30 pages)  :b3, after b2, 2M
+    section Phase 3: Optimization
+    Performance Analysis       :c1, after b3, 1M
+    Content Optimization       :c2, after c1, 1M
+    Personalization Rollout    :c3, after c2, 1M
+    section Phase 4: Scale
+    Advanced Features          :d1, after c3, 2M
+    Market Expansion           :d2, after d1, 2M
+    Continuous Improvement     :d3, after d2, 2M
+```
+
+### Chi Tiết 4 Phases / Detailed 4 Phases
 
 ```
-MONTH 1: FOUNDATION (Nền Tảng)
-┌──────────────────────────────────────────────────────────┐
-│ WEEK 1: AUDIT & RESEARCH (Kiểm Tra & Nghiên Cứu)        │
-├──────────────────────────────────────────────────────────┤
-│ Mon-Tue: ChatGPT/Gemini AI visibility audit             │
-│  ✓ Ask 5 questions about your industry                  │
-│  ✓ Note: Is your website cited?                         │
-│  ✓ Screenshot: Current state                            │
-│                                                          │
-│ Wed-Thu: Query research with AlsoAsked.com              │
-│  ✓ Extract 50+ query variations for top 5 topics        │
-│  ✓ Create query map in spreadsheet                      │
-│  ✓ Priority ranking (volume + intent)                   │
-│                                                          │
-│ Fri: Report to leadership                               │
-│  ✓ Current AI visibility: 0 citations                   │
-│  ✓ Opportunity: 50+ high-intent keywords               │
-│  ✓ Recommendation: 20-page AIO content            │
-│  ✓ Expected ROI: 3-5x in 6 months                       │
-│                                                          │
-│ Deliverable: Executive Briefing Doc                     │
-│ Owner: Marketing Lead                                   │
-│ Time: 16 hours total                                    │
-└──────────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    PHASE 1: FOUNDATION (Tháng 1-3)                            ║
+║                    Xây dựng nền tảng - 90 ngày đầu                           ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║  THÁNG 1: RESEARCH & AUDIT                                                   ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ Week 1-2: AI Visibility Audit                                          │  ║
+║  │   ☐ Hỏi ChatGPT/Gemini 10 câu về ngành của bạn                        │  ║
+║  │   ☐ Ghi chép: Website nào được cite?                                   │  ║
+║  │   ☐ Screenshot current state as baseline                               │  ║
+║  │                                                                        │  ║
+║  │ Week 3-4: Competitive Analysis                                         │  ║
+║  │   ☐ Identify 5 competitors được AI cite                               │  ║
+║  │   ☐ Audit: Schema, Structure, Content quality                         │  ║
+║  │   ☐ Create competitive positioning matrix                              │  ║
+║  │                                                                        │  ║
+║  │ Deliverable: Current State Report + Competitive Analysis               │  ║
+║  │ Owner: Marketing Lead | Time: 40 hours | Budget: ~10-20M VND          │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║                                                                              ║
+║  THÁNG 2: STRATEGY DEVELOPMENT                                               ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ Week 5-6: Semantic Cluster Mapping                                     │  ║
+║  │   ☐ Map 50+ query variations cho 5 main topics                        │  ║
+║  │   ☐ Create topic cluster structure                                     │  ║
+║  │   ☐ Prioritize by impact + effort                                      │  ║
+║  │                                                                        │  ║
+║  │ Week 7-8: Content Framework Design                                     │  ║
+║  │   ☐ Create AIO page template                                           │  ║
+║  │   ☐ Define content guidelines (tone, length, CTAs)                     │  ║
+║  │   ☐ Schema implementation plan                                         │  ║
+║  │                                                                        │  ║
+║  │ Deliverable: AIO Strategy Document (30-50 pages)                       │  ║
+║  │ Owner: Content Strategist | Time: 60 hours | Budget: ~15-30M VND      │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║                                                                              ║
+║  THÁNG 3: TEAM & TOOL SETUP                                                  ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ Week 9-10: Team Training                                               │  ║
+║  │   ☐ GEO/AIO training cho content team                                 │  ║
+║  │   ☐ Schema markup workshop cho developers                              │  ║
+║  │   ☐ Analytics setup training                                           │  ║
+║  │                                                                        │  ║
+║  │ Week 11-12: Tool Selection & Setup                                     │  ║
+║  │   ☐ Chọn và setup: GA4, Goodie.ai, Semrush                            │  ║
+║  │   ☐ UTM parameter system                                               │  ║
+║  │   ☐ AI citation tracking dashboard                                     │  ║
+║  │                                                                        │  ║
+║  │ Deliverable: Operational Readiness + Team Certified                    │  ║
+║  │ Owner: Marketing Director | Time: 40 hours | Budget: ~10-20M VND      │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║                                                                              ║
+║  PHASE 1 TOTALS:                                                             ║
+║  ├─ Duration: 3 tháng                                                        ║
+║  ├─ Team Size: 2-3 người                                                     ║
+║  ├─ Budget: 35-70M VND (~$1,500-3,000)                                       ║
+║  └─ Key Deliverables: Strategy Doc, Team Ready, Tools Setup                  ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
 
-┌──────────────────────────────────────────────────────────┐
-│ WEEK 2: COMPETITIVE ANALYSIS (Phân Tích Đối Thủ)        │
-├──────────────────────────────────────────────────────────┤
-│ Mon: Identify top 5 competitors (in Google + ChatGPT)    │
-│  ✓ Who ranks #1-5 on Google?                           │
-│  ✓ Who is cited by ChatGPT?                            │
-│  ✓ Who has Schema markup?                              │
-│                                                          │
-│ Tue-Wed: Audit competitor websites                      │
-│  ✓ Structure analysis (Q&A format? tables?)            │
-│  ✓ Schema audit (FAQ, Product, HowTo?)                 │
-│  ✓ Content strategy (how many pages, topics)           │
-│                                                          │
-│ Thu: Ahrefs/Semrush competitive analysis                │
-│  ✓ Backlink profile comparison                         │
-│  ✓ Keyword overlap analysis                            │
-│  ✓ Traffic source breakdown                            │
-│                                                          │
-│ Fri: Competitive positioning matrix                     │
-│  ✓ We vs Competitors: Content quality, Structure,      │
-│    Schema, Authority, Traffic                          │
-│                                                          │
-│ Deliverable: Competitive Analysis Report                │
-│ Owner: SEO/Content Strategist                           │
-│ Time: 16 hours total                                    │
-└──────────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    PHASE 2: EXECUTION (Tháng 4-9)                             ║
+║                    Triển khai nội dung - 6 tháng                             ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║  THÁNG 4-5: CONTENT WAVE 1 (20 PAGES)                                        ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ Tháng 4:                                                               │  ║
+║  │   ☐ Viết 10 pages đầu tiên (5 pages/tuần)                             │  ║
+║  │   ☐ Implement Schema cho mỗi page                                      │  ║
+║  │   ☐ Internal linking setup                                             │  ║
+║  │                                                                        │  ║
+║  │ Tháng 5:                                                               │  ║
+║  │   ☐ Viết 10 pages tiếp theo                                            │  ║
+║  │   ☐ Schema validation (Google Testing Tool)                            │  ║
+║  │   ☐ QA và publish lên production                                       │  ║
+║  │                                                                        │  ║
+║  │ Deliverable: 20 AIO-optimized pages LIVE                               │  ║
+║  │ Owner: Content Team | Time: 160 hours | Budget: 50-100M VND           │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║                                                                              ║
+║  THÁNG 6-7: DISTRIBUTION & DATA SETUP                                        ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ Tháng 6:                                                               │  ║
+║  │   ☐ PR & Media Outreach (10+ media pitches)                           │  ║
+║  │   ☐ Social distribution (LinkedIn, Twitter, Zalo)                      │  ║
+║  │   ☐ Community engagement (Quora, Reddit)                               │  ║
+║  │                                                                        │  ║
+║  │ Tháng 7:                                                               │  ║
+║  │   ☐ Design & launch zero-party data quiz                               │  ║
+║  │   ☐ CDP selection (Antsomi, Segment, hoặc DIY)                        │  ║
+║  │   ☐ Email/SMS automation setup                                         │  ║
+║  │                                                                        │  ║
+║  │ Deliverable: Distribution Active + Data Collection Running             │  ║
+║  │ Owner: Marketing Manager | Time: 80 hours | Budget: 30-60M VND        │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║                                                                              ║
+║  THÁNG 8-9: CONTENT WAVE 2 (30 PAGES)                                        ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ Tháng 8:                                                               │  ║
+║  │   ☐ Viết 15 pages mới (focus on winning topics)                       │  ║
+║  │   ☐ Schema + internal linking                                          │  ║
+║  │   ☐ Analyze Month 4-7 performance data                                 │  ║
+║  │                                                                        │  ║
+║  │ Tháng 9:                                                               │  ║
+║  │   ☐ Viết 15 pages còn lại                                              │  ║
+║  │   ☐ Full CDP integration                                               │  ║
+║  │   ☐ Mid-project performance review                                     │  ║
+║  │                                                                        │  ║
+║  │ Deliverable: 50 TOTAL pages + CDP Operational                          │  ║
+║  │ Owner: Content Team | Time: 240 hours | Budget: 70-120M VND           │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║                                                                              ║
+║  PHASE 2 TOTALS:                                                             ║
+║  ├─ Duration: 6 tháng                                                        ║
+║  ├─ Team Size: 4-6 người                                                     ║
+║  ├─ Budget: 150-280M VND (~$6,000-12,000)                                    ║
+║  └─ Key Deliverables: 50 AIO pages, CDP Active, Distribution Running        ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
 
-┌──────────────────────────────────────────────────────────┐
-│ WEEK 3-4: STRATEGY & PLANNING (Lập Kế Hoạch Chiến Lược) │
-├──────────────────────────────────────────────────────────┤
-│ Week 3:                                                  │
-│  Mon-Tue: Semantic cluster mapping                      │
-│   ✓ Main topic: "Insurance for young adults"           │
-│   ✓ Subtopics: 10 clusters (Basics, Types, Providers)  │
-│   ✓ Pages per cluster: 50+ total pages planned          │
-│                                                          │
-│  Wed-Thu: AIO content framework design                  │
-│   ✓ Standard page template (Q&A + Schema + Table)       │
-│   ✓ Content guidelines (tone, length, CTAs)            │
-│   ✓ Editor training on AIO format                       │
-│                                                          │
-│  Fri: Prioritization & timeline                         │
-│   ✓ Phase 1 (Month 2): 20 critical pages               │
-│   ✓ Phase 2 (Month 3): 20 supporting pages             │
-│   ✓ Phase 3 (Month 4-6): 10 deep-dive guides          │
-│                                                          │
-│ Week 4:                                                  │
-│  Mon: Content calendar creation                         │
-│   ✓ Writers assigned (internal or freelance)           │
-│   ✓ Review process defined (QA checklist)              │
-│   ✓ Deadline tracking (Asana/Notion)                   │
-│                                                          │
-│  Tue-Wed: Schema implementation plan                    │
-│   ✓ FAQ Schema for Q&A sections                        │
-│   ✓ Product Schema for insurance options               │
-│   ✓ HowTo Schema for decision guides                   │
-│   ✓ Developer task estimation (hours/page)             │
-│                                                          │
-│  Thu: Tool selection & setup                            │
-│   ✓ Analytics: GA4 UTM parameters setup                │
-│   ✓ Tracking: Goodie.ai account (AI mentions)          │
-│   ✓ SEO: Semrush/Ahrefs project setup                  │
-│                                                          │
-│  Fri: Leadership alignment & budget approval            │
-│   ✓ Confirm team, timeline, budget                     │
-│   ✓ Set success metrics and reporting cadence          │
-│                                                          │
-│ Deliverable: AIO Strategy Document (30 pages)           │
-│ Owner: Marketing Director                               │
-│ Time: 40 hours total                                    │
-└──────────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    PHASE 3: OPTIMIZATION (Tháng 10-12)                        ║
+║                    Tối ưu hóa - 3 tháng                                      ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║  THÁNG 10: PERFORMANCE ANALYSIS                                              ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ ☐ Track AI citations (Goodie.ai report)                                │  ║
+║  │ ☐ Analyze which pages/topics get cited most                            │  ║
+║  │ ☐ Branded search lift analysis                                         │  ║
+║  │ ☐ Conversion rate by source                                            │  ║
+║  │ ☐ ROI calculation: Revenue vs. Investment                             │  ║
+║  │                                                                        │  ║
+║  │ Deliverable: Q3 Performance Report                                     │  ║
+║  │ Budget: 15-25M VND                                                     │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║                                                                              ║
+║  THÁNG 11: CONTENT OPTIMIZATION                                              ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ ☐ Update bottom 20% performers với more citations                      │  ║
+║  │ ☐ Expand winning topics (add 10+ supporting pages)                     │  ║
+║  │ ☐ A/B test CTAs và conversion elements                                 │  ║
+║  │ ☐ Schema refinement based on AI feedback                               │  ║
+║  │                                                                        │  ║
+║  │ Deliverable: Optimized Content Library + A/B Results                   │  ║
+║  │ Budget: 20-35M VND                                                     │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║                                                                              ║
+║  THÁNG 12: PERSONALIZATION ROLLOUT                                           ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ ☐ Full CDP rollout across channels                                     │  ║
+║  │ ☐ Email personalization campaigns                                      │  ║
+║  │ ☐ Website dynamic content                                              │  ║
+║  │ ☐ Annual review & Year 2 planning                                      │  ║
+║  │                                                                        │  ║
+║  │ Deliverable: Personalization Active + Year 2 Plan                      │  ║
+║  │ Budget: 20-30M VND                                                     │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║                                                                              ║
+║  PHASE 3 TOTALS:                                                             ║
+║  ├─ Duration: 3 tháng                                                        ║
+║  ├─ Team Size: 3-4 người                                                     ║
+║  ├─ Budget: 55-90M VND (~$2,200-3,600)                                       ║
+║  └─ Key Deliverables: Performance Report, Optimized Content, Personalization║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
 
-MONTH 2: CREATION (Sáng Tạo)
-┌──────────────────────────────────────────────────────────┐
-│ WEEK 5-8: CONTENT CREATION & SCHEMA IMPLEMENTATION       │
-├──────────────────────────────────────────────────────────┤
-│ Week 5: Batch 1 (Pages 1-5)                             │
-│  Mon-Fri:                                                │
-│   Writing: 5 pages in AIO format (Q&A, Table, Schema)  │
-│   Reviews: Editor QA checklist (structure, accuracy)    │
-│   Schema: Add FAQ/Product/HowTo schema to each          │
-│   Testing: Google Structured Data Tester validation     │
-│                                                          │
-│   Timeline: 32 hours writing + 8 hours schema           │
-│   Deliverable: 5 live pages + Schema validation         │
-│                                                          │
-│ Week 6: Batch 2 (Pages 6-10)                            │
-│   Same process as Week 5                                │
-│   Timeline: 40 hours (writers speed up with template)   │
-│                                                          │
-│ Week 7: Batch 3 (Pages 11-15)                           │
-│   Same process                                          │
-│   Plus: Internal linking setup (connect 15 pages)       │
-│   Timeline: 40 hours                                    │
-│                                                          │
-│ Week 8: Batch 4 (Pages 16-20) + Final QA               │
-│   Writing & schema: 40 hours                            │
-│   Final audit: All 20 pages have Schema 100% valid      │
-│   Go live: All 20 pages on production server            │
-│   Timeline: 40 hours                                    │
-│                                                          │
-│ Deliverable: 20 optimized pages with Schema             │
-│ Owner: Content Team (3-4 writers)                       │
-│ Total Time: 160 hours (4 writers × 4 weeks)            │
-│ Cost: $2-4M (if freelance at 50-100k per page)        │
-└──────────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    PHASE 4: SCALE (Tháng 13-18)                               ║
+║                    Mở rộng - 6 tháng                                         ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║  THÁNG 13-14: ADVANCED FEATURES                                              ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ ☐ RAG integration (nếu budget cho phép)                                │  ║
+║  │ ☐ Multi-language expansion (English, regional)                         │  ║
+║  │ ☐ AI chatbot integration                                               │  ║
+║  │ ☐ Advanced analytics & attribution                                     │  ║
+║  │                                                                        │  ║
+║  │ Budget: 40-70M VND                                                     │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║                                                                              ║
+║  THÁNG 15-16: MARKET EXPANSION                                               ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ ☐ New market segments                                                  │  ║
+║  │ ☐ Platform diversification (TikTok, YouTube AI)                        │  ║
+║  │ ☐ Partnership & co-marketing                                           │  ║
+║  │ ☐ International SEA expansion (optional)                               │  ║
+║  │                                                                        │  ║
+║  │ Budget: 40-60M VND                                                     │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║                                                                              ║
+║  THÁNG 17-18: CONTINUOUS IMPROVEMENT                                         ║
+║  ┌────────────────────────────────────────────────────────────────────────┐  ║
+║  │ ☐ AI model updates monitoring                                          │  ║
+║  │ ☐ Competitive intelligence automation                                  │  ║
+║  │ ☐ Process documentation & handover                                     │  ║
+║  │ ☐ Year 3 strategic planning                                            │  ║
+║  │                                                                        │  ║
+║  │ Budget: 20-30M VND                                                     │  ║
+║  └────────────────────────────────────────────────────────────────────────┘  ║
+║                                                                              ║
+║  PHASE 4 TOTALS:                                                             ║
+║  ├─ Duration: 6 tháng                                                        ║
+║  ├─ Team Size: 4-6 người                                                     ║
+║  ├─ Budget: 100-160M VND (~$4,000-6,500)                                     ║
+║  └─ Key Deliverables: Advanced Features, Market Expansion, Sustainable Edge  ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
 
-MONTH 3: DISTRIBUTION & OPTIMIZATION (Phân Phối & Tối Ưu)
-┌──────────────────────────────────────────────────────────┐
-│ WEEK 9-12: DISTRIBUTION, ZERO-PARTY DATA, MEASUREMENT   │
-├──────────────────────────────────────────────────────────┤
-│ Week 9: Distribution & PR                               │
-│  Mon-Tue: Media outreach                               │
-│   ✓ Press release writing                              │
-│   ✓ 10+ media pitches (tech blogs, finance sites)      │
-│   ✓ Journalist relationship activation                 │
-│                                                          │
-│  Wed-Fri: Social distribution                          │
-│   ✓ LinkedIn posts (5 per week)                        │
-│   ✓ Twitter/X threads                                  │
-│   ✓ Communities (Quora, Reddit, Zalo groups)           │
-│                                                          │
-│ Week 10: Zero-Party Data Implementation                 │
-│  Mon-Tue: Quiz design                                  │
-│   ✓ Create 7-question insurance preference quiz        │
-│   ✓ UX design (mobile-optimized)                       │
-│   ✓ Value proposition ("Get 2 free comparisons")       │
-│                                                          │
-│  Wed: Setup analytics tracking                         │
-│   ✓ GA4 event tracking for quiz completion             │
-│   ✓ UTM parameters for quiz traffic sources            │
-│   ✓ Conversion funnel setup                            │
-│                                                          │
-│  Thu-Fri: Quiz launch & testing                        │
-│   ✓ A/B test heading: "Find Your Insurance" vs "Quiz"  │
-│   ✓ Placement testing (homepage hero vs sidebar)       │
-│   ✓ Expected conversion: 5-10% of visitors             │
-│                                                          │
-│ Week 11: Measurement & Early Results                    │
-│  Mon-Fri:                                                │
-│   ✓ Track AI citations (Goodie.ai)                     │
-│   ✓ Monitor branded search lift (GSC)                  │
-│   ✓ Check conversion metrics (GA4)                     │
-│   ✓ Calculate ROI (Revenue / Spend)                    │
-│                                                          │
-│   Expected results (Week 11):                           │
-│   • AI citations: 5-10 (from 0)                        │
-│   • Branded searches: +10-15%                          │
-│   • Traffic: +5-10% (from organic)                     │
-│   • Conversions: +2-3% lift                            │
-│                                                          │
-│ Week 12: Optimization & Reporting                       │
-│  Mon: Data analysis                                     │
-│   ✓ Which 20 pages performed best?                     │
-│   ✓ Which topics got AI citations?                     │
-│   ✓ What drove branded search lift?                    │
-│                                                          │
-│  Tue-Wed: Content optimization                         │
-│   ✓ Improve bottom-20% performers (add more citations) │
-│   ✓ Expand winning topics (add 5 supporting pages)     │
-│                                                          │
-│  Thu: Monthly executive report                         │
-│   ✓ Slides: Current metrics vs. targets                │
-│   ✓ ROI analysis (this month + projection)             │
-│   ✓ Recommendation: Phase 2 (expand to 50 pages)       │
-│                                                          │
-│  Fri: Team retrospective                               │
-│   ✓ What worked? (Q&A format, Schema, PR outreach)     │
-│   ✓ What didn't? (Slow quiz adoption)                  │
-│   ✓ Adjustments for Month 4                            │
-│                                                          │
-│ Deliverable: Monthly Performance Report + Phase 2 Plan  │
-│ Owner: Marketing Manager                                │
-│ Time: 40 hours (measurement + reporting)               │
-└──────────────────────────────────────────────────────────┘
+---
 
-MONTHS 4-6: SCALE & OPTIMIZE (Mở Rộng & Tối Ưu)
-┌──────────────────────────────────────────────────────────┐
-│ MONTH 4: SCALE CONTENT (Mở Rộng Nội Dung)               │
-│  ✓ Write 20 more pages (Pages 21-40)                    │
-│  ✓ Focus on winning topics from Month 3 analysis        │
-│  ✓ Expected: +60% AI citations                          │
-│                                                          │
-│ MONTH 5: PERSONALIZATION (Cá Nhân Hóa)                  │
-│  ✓ CDP integration (connect quiz data → email)          │
-│  ✓ Segment-specific email campaigns                     │
-│  ✓ Website personalization (show relevant products)     │
-│  ✓ Expected: +25% AOV, +15% conversion                 │
-│                                                          │
-│ MONTH 6: ADVANCED OPTIMIZATION (Tối Ưu Nâng Cao)        │
-│  ✓ RAG integration (if budget allows)                   │
-│  ✓ Multi-language expansion (if going regional)         │
-│  ✓ Competitor content intelligence                      │
-│  ✓ Expected: 3-5x ROI on initial investment             │
-└──────────────────────────────────────────────────────────┘
+### 💰 Resource Planning Matrix / Ma Trận Nguồn Lực
 
-EXPECTED RESULTS BY MONTH:
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         RESOURCE PLANNING MATRIX                              ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║  ┌──────────┬──────────┬────────────┬───────────────┬──────────────────────┐ ║
+║  │ Phase    │ Duration │ Team Size  │ Budget (VND)  │ Key Deliverables     │ ║
+║  ├──────────┼──────────┼────────────┼───────────────┼──────────────────────┤ ║
+║  │ Phase 1  │ 3 tháng  │ 2-3 người  │ 35-70M        │ Strategy Document    │ ║
+║  │ Foundation         │            │ ($1.5-3K)     │ Team Ready           │ ║
+║  ├──────────┼──────────┼────────────┼───────────────┼──────────────────────┤ ║
+║  │ Phase 2  │ 6 tháng  │ 4-6 người  │ 150-280M      │ 50 AIO Pages         │ ║
+║  │ Execution          │            │ ($6-12K)      │ CDP Active           │ ║
+║  ├──────────┼──────────┼────────────┼───────────────┼──────────────────────┤ ║
+║  │ Phase 3  │ 3 tháng  │ 3-4 người  │ 55-90M        │ Optimization Done    │ ║
+║  │ Optimization       │            │ ($2.2-3.6K)   │ Personalization      │ ║
+║  ├──────────┼──────────┼────────────┼───────────────┼──────────────────────┤ ║
+║  │ Phase 4  │ 6 tháng  │ 4-6 người  │ 100-160M      │ Advanced Features    │ ║
+║  │ Scale              │            │ ($4-6.5K)     │ Market Expansion     │ ║
+║  ├──────────┼──────────┼────────────┼───────────────┼──────────────────────┤ ║
+║  │ TOTAL    │ 18 tháng │ Variable   │ 340-600M      │ Full AI-Ready        │ ║
+║  │                    │            │ ($14-25K)     │ Marketing System     │ ║
+║  └──────────┴──────────┴────────────┴───────────────┴──────────────────────┘ ║
+║                                                                              ║
+║  💡 Notes:                                                                    ║
+║  • Budget có thể giảm 30-40% nếu team in-house strong                        ║
+║  • Budget tăng 50-100% nếu hire full-service agency                          ║
+║  • SMEs nên bắt đầu Phase 1-2, evaluate ROI trước khi commit Phase 3-4      ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
 
-Month 1: AUDIT
-├─ AI Visibility: 0 → 0 (building foundation)
-├─ Budget: $500-2,000 (tools + research)
-└─ Timeline: On track
+---
 
-Month 2: CREATION
-├─ AI Visibility: 0 → 5-10 citations
-├─ Branded Search: +5-10%
-├─ Content: 20 new pages live
-├─ Budget: $5-10M (content creation)
-└─ ROI: Breakeven to -50% (month 2 is cost-heavy)
+### 📊 Success Metrics Dashboard / Bảng Điều Khiển KPIs
 
-Month 3: MEASUREMENT
-├─ AI Visibility: 5-10 → 20-30 citations
-├─ Branded Search: +10-20%
-├─ Organic Traffic: +10-15%
-├─ Conversion Rate: +2-3%
-├─ Budget: $2-5M (distribution + tools)
-└─ ROI: 1:1 to 2:1 (starting to show returns)
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    AI MARKETING SUCCESS DASHBOARD                             ║
+║                    (Track Monthly / Theo Dõi Hàng Tháng)                      ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║  📊 VISIBILITY METRICS (Chỉ Số Hiển Thị)                                      ║
+║  ┌────────────────────┬────────────┬────────────┬────────────┬─────────────┐ ║
+║  │ Metric             │ Baseline   │ Month 6    │ Month 12   │ Month 18    │ ║
+║  ├────────────────────┼────────────┼────────────┼────────────┼─────────────┤ ║
+║  │ AI Citations/month │ 0          │ 30+        │ 60+        │ 100+        │ ║
+║  │ Branded Search     │ Baseline   │ +20%       │ +40%       │ +60%        │ ║
+║  │ Organic Traffic    │ Baseline   │ +15%       │ +30%       │ +50%        │ ║
+║  │ Share of Voice     │ 0%         │ 15%        │ 25%        │ 35%+        │ ║
+║  └────────────────────┴────────────┴────────────┴────────────┴─────────────┘ ║
+║                                                                              ║
+║  💰 REVENUE METRICS (Chỉ Số Doanh Thu)                                        ║
+║  ┌────────────────────┬────────────┬────────────┬────────────┬─────────────┐ ║
+║  │ Metric             │ Baseline   │ Month 6    │ Month 12   │ Month 18    │ ║
+║  ├────────────────────┼────────────┼────────────┼────────────┼─────────────┤ ║
+║  │ Conversion Rate    │ 2%         │ 3.5%       │ 5%         │ 6%+         │ ║
+║  │ AOV (Avg Order)    │ Baseline   │ +15%       │ +25%       │ +35%        │ ║
+║  │ Customer LTV       │ Baseline   │ +10%       │ +20%       │ +30%        │ ║
+║  │ Marketing ROI      │ 1:1        │ 2:1        │ 4:1        │ 6:1+        │ ║
+║  │ Revenue from AI    │ $0         │ $30k+      │ $100k+     │ $200k+      │ ║
+║  └────────────────────┴────────────┴────────────┴────────────┴─────────────┘ ║
+║                                                                              ║
+║  🎯 ENGAGEMENT METRICS (Chỉ Số Tương Tác)                                     ║
+║  ┌────────────────────┬────────────┬────────────┬────────────┬─────────────┐ ║
+║  │ Metric             │ Baseline   │ Month 6    │ Month 12   │ Month 18    │ ║
+║  ├────────────────────┼────────────┼────────────┼────────────┼─────────────┤ ║
+║  │ Quiz Completion    │ 0%         │ 15%        │ 25%        │ 30%+        │ ║
+║  │ Data Quality       │ N/A        │ 85%        │ 90%        │ 95%+        │ ║
+║  │ Retention Rate     │ Baseline   │ +15%       │ +30%       │ +40%        │ ║
+║  │ NPS Score          │ Baseline   │ +10        │ +20        │ +30         │ ║
+║  │ Email Open Rate    │ 15%        │ 25%        │ 35%        │ 40%+        │ ║
+║  └────────────────────┴────────────┴────────────┴────────────┴─────────────┘ ║
+║                                                                              ║
+║  ⚡ OPERATIONAL METRICS (Chỉ Số Vận Hành)                                     ║
+║  ┌────────────────────┬────────────┬────────────┬────────────┬─────────────┐ ║
+║  │ Metric             │ Baseline   │ Month 6    │ Month 12   │ Month 18    │ ║
+║  ├────────────────────┼────────────┼────────────┼────────────┼─────────────┤ ║
+║  │ Content Pages      │ 0          │ 50         │ 80         │ 100+        │ ║
+║  │ Schema Coverage    │ 0%         │ 100%       │ 100%       │ 100%        │ ║
+║  │ Page Speed Score   │ 50         │ 80+        │ 90+        │ 95+         │ ║
+║  │ Mobile Score       │ 60         │ 85+        │ 95+        │ 98+         │ ║
+║  └────────────────────┴────────────┴────────────┴────────────┴─────────────┘ ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
 
-Month 4-6: SCALE
-├─ AI Visibility: 30 → 60+ citations
-├─ Revenue Growth: +50-100%
-├─ AOV Increase: +15-25%
-├─ Customer Retention: +20-30%
-├─ Budget: $2-5M/month (ongoing)
-└─ ROI: 3-5x (strong returns)
+---
 
-TOTAL 90-DAY INVESTMENT:
-├─ Month 1: $1,000
-├─ Month 2: $7,500
-├─ Month 3: $3,500
-└─ TOTAL: $12,000 (or $2-4M if full service agency)
+### ⚠️ Risk Assessment Matrix / Ma Trận Đánh Giá Rủi Ro
 
-TOTAL 6-MONTH RETURN:
-├─ Additional Revenue: $150k-500k (depends on industry)
-├─ ROI Multiple: 3-5x
-├─ Payback Period: 3-4 months
-└─ Ongoing Monthly Revenue: $25k-50k+
+```mermaid
+quadrantChart
+    title Risk Assessment - AI Marketing Implementation
+    x-axis Low Impact --> High Impact
+    y-axis Low Probability --> High Probability
+    quadrant-1 Monitor Closely
+    quadrant-2 Mitigate Immediately
+    quadrant-3 Accept & Monitor
+    quadrant-4 Plan Mitigation
+    "Zero-Click Loss": [0.75, 0.70]
+    "Budget Constraints": [0.60, 0.55]
+    "Team Skill Gap": [0.45, 0.65]
+    "Language NLP Issues": [0.35, 0.30]
+    "Attribution Difficulty": [0.55, 0.45]
+    "Coverage Gap": [0.65, 0.60]
+    "Competitor Response": [0.50, 0.50]
+```
+
+```
+RISK MITIGATION STRATEGIES:
+
+┌──────────────────────┬─────────────┬──────────────────────────────────────┐
+│ Risk                 │ Severity    │ Mitigation Strategy                  │
+├──────────────────────┼─────────────┼──────────────────────────────────────┤
+│ Zero-Click Traffic   │ HIGH        │ Strong CTAs, deeper content offers,  │
+│ Loss                 │             │ interactive tools (calculators)      │
+├──────────────────────┼─────────────┼──────────────────────────────────────┤
+│ Budget Constraints   │ HIGH        │ 3-tier approach (Minimum/Standard/   │
+│                      │             │ Premium), phased rollout             │
+├──────────────────────┼─────────────┼──────────────────────────────────────┤
+│ Team Skill Gap       │ MEDIUM-HIGH │ Training in Phase 1, external        │
+│                      │             │ consultants for specialties          │
+├──────────────────────┼─────────────┼──────────────────────────────────────┤
+│ Coverage Gap         │ MEDIUM-HIGH │ Semantic cluster mapping, 50+        │
+│                      │             │ query coverage per topic             │
+├──────────────────────┼─────────────┼──────────────────────────────────────┤
+│ Attribution          │ MEDIUM      │ UTM parameters, Goodie.ai tracking,  │
+│ Difficulty           │             │ branded search correlation           │
+├──────────────────────┼─────────────┼──────────────────────────────────────┤
+│ Language NLP Issues  │ LOW-MEDIUM  │ Vietnamese-optimized models,         │
+│                      │             │ native speaker review                │
+├──────────────────────┼─────────────┼──────────────────────────────────────┤
+│ Competitor Response  │ MEDIUM      │ First-mover advantage, continuous    │
+│                      │             │ monitoring & adaptation              │
+└──────────────────────┴─────────────┴──────────────────────────────────────┘
+
+OVERALL RISK ASSESSMENT: MANAGEABLE
+All identified risks have viable mitigation strategies.
+Proceed with confidence, but monitor risks monthly.
 ```
 
 ---
@@ -1794,19 +2560,19 @@ TOTAL 6-MONTH RETURN:
 
 ```
 ╔════════════════════════════════════════════════════════════╗
-║ 90-DAY SUCCESS SCORECARD (Bảng Điểm Thành Công 90 Ngày)    ║
+║ 90-DAY SUCCESS SCORECARD (Bảng Điểm Thành Công 90 Ngày)  ║
 ╠════════════════════════════════════════════════════════════╣
 ║ Metric                    │ Target      │ Actual  │ Status ║
 ╠═══════════════════════════╪═════════════╪═════════╪════════╣
 ║ AI Citations/Month        │ 20+         │ ___     │        ║
-║ Branded Search Lift       │ +20%        │ ___     │        ║
-║ Conversion Rate Lift      │ +3-5%       │ ___     │        ║
-║ Organic Traffic Growth    │ +15%        │ ___     │        ║
+║ Branded Search Lift        │ +20%        │ ___     │        ║
+║ Conversion Rate Lift       │ +3-5%       │ ___     │        ║
+║ Organic Traffic Growth     │ +15%        │ ___     │        ║
 ║ AOV Increase              │ +10%        │ ___     │        ║
-║ Quiz Participation Rate   │ 15%+        │ ___     │        ║
-║ Zero-Party Data Quality   │ 85%+        │ ___     │        ║
-║ Schema Validation         │ 100%        │ ___     │        ║
-║ Revenue from AI Traffic   │ $20k+       │ ___     │        ║
+║ Quiz Participation Rate    │ 15%+        │ ___     │        ║
+║ Zero-Party Data Quality    │ 85%+        │ ___     │        ║
+║ Schema Validation          │ 100%        │ ___     │        ║
+║ Revenue from AI Traffic    │ $20k+       │ ___     │        ║
 ║ Overall ROI               │ 2:1+        │ ___     │        ║
 ╚════════════════════════════════════════════════════════════╝
 
