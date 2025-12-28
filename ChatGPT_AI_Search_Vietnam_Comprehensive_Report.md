@@ -68,48 +68,14 @@ ChatGPT tải xuống #1 toàn cầu (2025) / ChatGPT #1 app download globally (
    - Source: $20B E-Commerce Data Analysis (LinkedIn: Ali Haris)
    - Link: https://www.linkedin.com/pulse/truth-chatgpt-traffic-what-20b-e-commerce-data-reveals-ali-haris-ghkjc/
 
-### Kiến Nghị Cấp Bách / Urgent Recommendations
-
-```
-ACTION TIMELINE (Lộ Trình Hành Động)
-
-┌─────────────┐
-│ TUẦN 1-2    │ Audit AI Visibility (Kiểm tra khả năng hiển thị AI)
-│ (Ngay)      │ ✓ Hỏi ChatGPT 5 câu về ngành
-│             │ ✓ Check website có được cite không?
-│             │ ✓ Report lên sếp: Current vs Target
-└─────────────┘
-       ↓
-┌─────────────┐
-│ THÁNG 1-3   │ Deploy AIO Content (Triển khai nội dung AIO)
-│ (Urgent)    │ ✓ Write/redesign 20 pages (Q&A + Schema)
-│             │ ✓ +40% AI citations expected
-│             │ ✓ +20% branded searches
-└─────────────┘
-       ↓
-┌─────────────┐
-│ THÁNG 4-6   │ Personalization (Cá nhân hóa)
-│ (Critical)  │ ✓ Deploy Zero-Party Data quiz
-│             │ ✓ Integrate CDP (optional but recommended)
-│             │ ✓ +25% AOV lift expected
-└─────────────┘
-       ↓
-┌─────────────┐
-│ THÁNG 7-12  │ Optimize & Scale (Tối ưu hóa & mở rộng)
-│ (Growth)    │ ✓ Measure AI citations regularly
-│             │ ✓ Optimize conversion from AI traffic
-│             │ ✓ 3-5x ROI in 6 months
-└─────────────┘
-```
-
 ### 🆕 CẬP NHẬT THỐNG KÊ 2025 / UPDATED 2025 STATISTICS
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                    VIETNAM AI ECOSYSTEM SNAPSHOT - Q4 2025                    ║
+║                    VIETNAM AI ECOSYSTEM SNAPSHOT - Q4 2025                   ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
-║  📱 AI PLATFORM MARKET SHARE (Vietnam, Nov 2025)                             ║
+║  📱 AI PLATFORM MARKET SHARE (Vietnam, Nov 2025)                            ║
 ║  ┌────────────────────────────────────────────────────────────────────────┐  
 ║  │ ChatGPT        ████████████████████████████████████████  86.74%        │  
 ║  │ Gemini         ████████                                   8.23%        │  
@@ -197,8 +163,8 @@ Sources:
 ```
 PLATFORM ADOPTION IN VIETNAM (Nhận Nuôi Nền Tảng Ở Việt Nam)
 
-┌─────────────────────────────────────────────┐
-│ PLATFORM COMPARISON                          │
+┌────────────────────────────────────────────┐
+│ PLATFORM COMPARISON                        │
 ├────────────┬──────────┬────────────────────┤
 │ Platform   │ % Users  │ Primary Use Case   │
 ├────────────┼──────────┼────────────────────┤
@@ -233,19 +199,19 @@ Key Finding (Phát Hiện Chính):
 BUSINESS AI INTEGRATION IN VIETNAM (Tích Hợp AI Doanh Nghiệp VN)
 
 89% ┌────────────────────────────┐
-    │ AI in Marketing             │ Tích hợp AI vào Marketing
+    │ AI in Marketing            │ Tích hợp AI vào Marketing
     └────────────────────────────┘
 
 73% ┌────────────────────────────┐
-    │ AI in Operations            │ Tích hợp AI vào Vận Hành
+    │ AI in Operations           │ Tích hợp AI vào Vận Hành
     └────────────────────────────┘
 
 55% ┌────────────────────────────┐
-    │ Paid AI Subscriptions       │ Subscription AI Trả Phí
+    │ Paid AI Subscriptions      │ Subscription AI Trả Phí
     └────────────────────────────┘
 
 40% ┌────────────────────────────┐
-    │ AI in Customer Service      │ AI trong Dịch Vụ Khách Hàng
+    │ AI in Customer Service     │ AI trong Dịch Vụ Khách Hàng
     └────────────────────────────┘
 
 
@@ -433,30 +399,30 @@ RESULT COMPARISON (So Sánh Kết Quả):
 COMPARISON TABLE (Bảng So Sánh)
 
 ┌──────────────────┬──────────────────┬─────────────────────┐
-│ Aspect           │ ChatGPT (Standard)│ SearchGPT           │
+│ Aspect           │ ChatGPT(Standard)│ SearchGPT           │
 ├──────────────────┼──────────────────┼─────────────────────┤
-│ Training Data    │ Static            │ Real-time           │
-│ (Dữ liệu)       │ Cut-off: Apr 2024 │ Updated every hour  │
+│ Training Data    │ Static           │ Real-time           │
+│ (Dữ liệu)        │ Cut-off: Apr 2024│ Updated every hour  │
 │                  │                  │                     │
 │ Knowledge Date   │ Cũ 9 tháng       │ Mới nhất (hours)    │
-│ (Ngày cập nhật) │ (outdated)       │ (fresh)             │
+│ (Ngày cập nhật)  │ (outdated)       │ (fresh)             │
 │                  │                  │                     │
-│ Source Citation  │ Không             │ Có link URLs        │
-│ (Trích dẫn)     │ (No sources)     │ (Full URLs)         │
+│ Source Citation  │ Không            │ Có link URLs        │
+│ (Trích dẫn)      │ (No sources)     │ (Full URLs)         │
 │                  │                  │                     │
 │ User Interaction │ Stateless        │ Stateful (memory)   │
-│ (Tương tác)     │ (No memory)      │ (Remembers context) │
+│ (Tương tác)      │ (No memory)      │ (Remembers context) │
 │                  │                  │                     │
-│ Verification     │ Generation-first  │ Retrieve-then-verify│
-│ (Kiểm chứng)    │ (may hallucinate) │ (no hallucination)  │
+│ Verification     │ Generation-first │ Retrieve-then-verify│
+│ (Kiểm chứng)     │ (may hallucinate)│ (no hallucination)  │
 │                  │                  │                     │
 │ Web Crawlers     │ N/A              │ 3 types:            │
-│ (Crawler)       │                  │ - GPTBot            │
+│ (Crawler)        │                  │ - GPTBot            │
 │                  │                  │ - OAI-SearchBot     │
 │                  │                  │ - ChatGPT-User      │
 │                  │                  │                     │
-│ Use Case         │ General, Creative │ Current events,     │
-│ (Ứng dụng)      │ Content          │ Real-time data      │
+│ Use Case         │ General, Creative│ Current events,     │
+│ (Ứng dụng)       │ Content          │ Real-time data      │
 └──────────────────┴──────────────────┴─────────────────────┘
 
 Source: OpenAI SearchGPT Announcement (July 2024)
@@ -597,7 +563,7 @@ USER ASKS (Người dùng hỏi):
     └─────────────────────────────────────┘
     
     ┌─────────────────────────────────────┐
-    │ Cluster 3: Cost & Details (Giá)    │
+    │ Cluster 3: Cost & Details (Giá)     │
     ├─────────────────────────────────────┤
     │ ✓ Phí bảo hiểm bao nhiêu?          │
     │ ✓ Phí bảo hiểm năm 2026?           │
@@ -606,7 +572,7 @@ USER ASKS (Người dùng hỏi):
     └─────────────────────────────────────┘
     
     ┌─────────────────────────────────────┐
-    │ Cluster 4: Decision (Quyết Định)   │
+    │ Cluster 4: Decision (Quyết Định)    │
     ├─────────────────────────────────────┤
     │ ✓ Bảo hiểm trước hay sau 30?        │
     │ ✓ Nên mua bảo hiểm khi nào?        │
@@ -616,7 +582,7 @@ USER ASKS (Người dùng hỏi):
     └─────────────────────────────────────┘
     
     ┌─────────────────────────────────────┐
-    │ Cluster 5: Providers (Công Ty)     │
+    │ Cluster 5: Providers (Công Ty)      │
     ├─────────────────────────────────────┤
     │ ✓ Manulife, Prudential, FWD, ...   │
     │ ✓ Đánh giá từng công ty            │
@@ -1002,58 +968,58 @@ Note: User may NOT click but already has answer
 │ ASPECT              │ TRADITIONAL SEO          │ AI SEARCH (AIO/AEO)        │
 ├─────────────────────┼──────────────────────────┼────────────────────────────┤
 │ Primary Goal        │ Rank top 10 on SERP      │ Appear in AI answers       │
-│ (Mục tiêu chính)    │ (Rank #1-10 trên Google)│ (Được trích dẫn AI)        │
+│ (Mục tiêu chính)    │ (Rank #1-10 trên Google) │ (Được trích dẫn AI)        │
 │                     │                          │                            │
 │ Keyword Focus       │ Short-tail               │ Long-tail + Questions      │
-│ (Từ khóa)          │ "insurance"              │ "Best insurance for 30yo?" │
+│ (Từ khóa)           │ "insurance"              │ "Best insurance for 30yo?" │
 │                     │                          │                            │
 │ Search Volume       │ High                     │ Lower but better intent    │
-│ (Lượng tìm)        │ 100k searches/month      │ 1k searches/month (hot)    │
+│ (Lượng tìm)         │ 100k searches/month      │ 1k searches/month (hot)    │
 │                     │                          │                            │
 │ Content Length      │ 2000+ words (Dense)      │ 500-800 words (Q&A)        │
-│ (Độ dài)           │ Focus on keyword         │ Focus on intent            │
+│ (Độ dài)            │ Focus on keyword         │ Focus on intent            │
 │ density             │                          │                            │
 │                     │                          │                            │
 │ Structure           │ H1, H2, H3 + Paragraphs  │ H2/H3 as questions         │
-│ (Cấu trúc)         │ Traditional blog         │ + Schema markup (Critical!)│
+│ (Cấu trúc)          │ Traditional blog         │ + Schema markup (Critical!)│
 │                     │ format                   │ + Tables, bullets, lists   │
 │                     │                          │                            │
 │ Backlinks           │ Essential (20-50 needed) │ Not required               │
-│ (Liên kết)         │ Cost: $5,000-10,000/mo  │ Cost: 0-2,000/mo (schema)  │
+│ (Liên kết)          │ Cost: $5,000-10,000/mo   │ Cost: 0-2,000/mo (schema)  │
 │                     │                          │                            │
 │ Time to Rank        │ 3-6 months               │ 1-3 months                 │
-│ (Thời gian)        │ Slow                     │ Fast                       │
+│ (Thời gian)         │ Slow                     │ Fast                       │
 │                     │                          │                            │
 │ Traffic Quality     │ Cold traffic (40% intent)│ Hot traffic (87% intent)   │
 │ (Chất lượng traffic)│ May not buy              │ Ready to decide            │
 │                     │                          │                            │
 │ Conversion Rate     │ 2-3%                     │ 4-5%                       │
-│ (Tỷ lệ chuyển)     │ (Calculation: CTR 3-5%  │ (Higher purchasing power)  │
-│                     │  × Landing page 50%)    │                            │
+│ (Tỷ lệ chuyển)      │ (Calculation: CTR 3-5%   │ (Higher purchasing power)  │
+│                     │  × Landing page 50%)     │                            │
 │                     │                          │                            │
 │ Measurement         │ Organic ranking, traffic │ AI citations, Share of     │
-│ (Đo lường)         │ Google Analytics         │ voice, Branded search lift │
-│                     │ Position tracking       │ Goodie.ai, Semrush        │
+│ (Đo lường)          │ Google Analytics         │ voice, Branded search lift │
+│                     │ Position tracking        │ Goodie.ai, Semrush         │
 │                     │                          │                            │
-│ Tool Cost           │ Ahrefs/Semrush: $100/mo │ Google Search Console: Free│
-│ (Chi phí công cụ)  │ Backlink services: $500+│ Goodie.ai: Free-$99/mo     │
+│ Tool Cost           │ Ahrefs/Semrush: $100/mo  │ Google Search Console: Free│
+│ (Chi phí công cụ)   │ Backlink services: $500+ │ Goodie.ai: Free-$99/mo     │
 │                     │                          │                            │
-│ SEO Updates Risk    │ High (Google algorithm) │ Lower (AI values freshness)│
-│ (Rủi ro update)    │ Can lose 50% traffic    │ Content evergreen          │
-│                     │ with 1 update           │                            │
+│ SEO Updates Risk    │ High (Google algorithm)  │ Lower (AI values freshness)│
+│ (Rủi ro update)     │ Can lose 50% traffic     │ Content evergreen          │
+│                     │ with 1 update            │                            │
 │                     │                          │                            │
 │ Mobile-First        │ Critical                 │ Critical + Voice search    │
-│ (Mobile)           │ 60% traffic from mobile  │ 80% traffic from mobile    │
+│ (Mobile)            │ 60% traffic from mobile  │ 80% traffic from mobile    │
 │                     │                          │ + Voice commands growing   │
 │                     │                          │                            │
-│ Zero-Click Impact   │ Loss of 20-40% traffic  │ Expected behavior          │
-│ (Zero-click)       │ (Bad - losing visitors) │ (Good - share of influence)│
+│ Zero-Click Impact   │ Loss of 20-40% traffic   │ Expected behavior          │
+│ (Zero-click)        │ (Bad - losing visitors)  │ (Good - share of influence)│
 │                     │                          │                            │
-│ User Behavior       │ Click SERP → Browse     │ Ask AI → Verify → Buy     │
-│ (Hành vi user)     │ website → Decide        │ (Direct path to decision) │
+│ User Behavior       │ Click SERP → Browse      │ Ask AI → Verify → Buy      │
+│ (Hành vi user)      │ website → Decide         │ (Direct path to decision)  │
 │                     │                          │                            │
-│ Market Share 2026   │ 40% searches            │ 60% searches (predicted)   │
-│ (Thị phần)         │                          │                            │
+│ Market Share 2026   │ 40% searches             │ 60% searches (predicted)   │
+│ (Thị phần)          │                          │                            │
 └─────────────────────┴──────────────────────────┴────────────────────────────┘
 
 Source: SEONGON Research (2025), Google Analytics, Adobe Data Study
@@ -1388,10 +1354,10 @@ flowchart TB
 ║ Aspect             ║ Traditional SEO        ║ AEO                    ║ GEO                    ║
 ╠════════════════════╬════════════════════════╬════════════════════════╬════════════════════════╣
 ║ Goal               ║ Rank on Google SERP    ║ Featured Snippets      ║ AI Citations           ║
-║ (Mục tiêu)         ║ (Xếp hạng SERP)        ║ (Đoạn trích nổi bật)  ║ (Được AI trích dẫn)   ║
+║ (Mục tiêu)         ║ (Xếp hạng SERP)        ║ (Đoạn trích nổi bật)   ║ (Được AI trích dẫn)    ║
 ╠════════════════════╬════════════════════════╬════════════════════════╬════════════════════════╣
 ║ Content Focus      ║ Keyword density        ║ Direct answers         ║ Semantic completeness  ║
-║ (Trọng tâm)        ║ (Mật độ từ khóa)       ║ (Câu trả lời trực tiếp)║ (Đầy đủ ngữ nghĩa)    ║
+║ (Trọng tâm)        ║ (Mật độ từ khóa)       ║ (Câu trả lời trực tiếp)║ (Đầy đủ ngữ nghĩa)     ║
 ╠════════════════════╬════════════════════════╬════════════════════════╬════════════════════════╣
 ║ Structure          ║ H1, H2, paragraphs     ║ Q&A, lists, tables     ║ Schema + Entities +    ║
 ║ (Cấu trúc)         ║                        ║                        ║ Contextual depth       ║
@@ -1569,21 +1535,21 @@ pie showData
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║ COMPANY: Nestlé Vietnam                                                       ║
+║ COMPANY: Nestlé Vietnam                                                      ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║ STRATEGY: Sử dụng Google AI tạo 50,000 personalized Tet greetings            ║
 ║                                                                              ║
-║ IMPLEMENTATION:                                                               ║
+║ IMPLEMENTATION:                                                              ║
 ║ • AI phân tích customer preferences                                          ║
-║ • Tạo thiệp Tết cá nhân hóa theo từng segment                               ║
+║ • Tạo thiệp Tết cá nhân hóa theo từng segment                                ║
 ║ • Dynamic content dựa trên behavioral data                                   ║
 ║                                                                              ║
-║ RESULTS:                                                                      ║
-║ ├─ +23% Brand Favorability                                                    ║
-║ ├─ 50,000 unique personalized messages                                        ║
-║ └─ High engagement during Tet campaign                                        ║
+║ RESULTS:                                                                     ║
+║ ├─ +23% Brand Favorability                                                   ║
+║ ├─ 50,000 unique personalized messages                                       ║
+║ └─ High engagement during Tet campaign                                       ║
 ║                                                                              ║
-║ Source: RMIT Vietnam Marketing Report (2025)                                  ║
+║ Source: RMIT Vietnam Marketing Report (2025)                                 ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -1591,21 +1557,21 @@ pie showData
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║ COMPANY: Shopee Vietnam                                                       ║
+║ COMPANY: Shopee Vietnam                                                      ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║ STRATEGY: AI-powered marketing solution vs traditional campaigns             ║
 ║                                                                              ║
-║ IMPLEMENTATION:                                                               ║
-║ • AI bid optimization                                                         ║
-║ • Dynamic audience targeting                                                  ║
-║ • Automated creative optimization                                             ║
+║ IMPLEMENTATION:                                                              ║
+║ • AI bid optimization                                                        ║
+║ • Dynamic audience targeting                                                 ║
+║ • Automated creative optimization                                            ║
 ║                                                                              ║
-║ RESULTS:                                                                      ║
+║ RESULTS:                                                                     ║
 ║ ├─ -23% Cost-Per-Order (giảm chi phí mỗi đơn hàng)                           ║
 ║ ├─ +49% ROI (tăng lợi nhuận đầu tư)                                          ║
-║ └─ Significant efficiency improvement                                         ║
+║ └─ Significant efficiency improvement                                        ║
 ║                                                                              ║
-║ Source: VietnamNews (2025)                                                    ║
+║ Source: VietnamNews (2025)                                                   ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -1613,17 +1579,17 @@ pie showData
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║ COMPANY: Printerval (Vietnamese E-commerce)                                   ║
+║ COMPANY: Printerval (Vietnamese E-commerce)                                  ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║ STRATEGY: AI-powered campaign với focus on brand awareness                   ║
 ║                                                                              ║
-║ RESULTS:                                                                      ║
+║ RESULTS:                                                                     ║
 ║ ├─ 3x Brand Searches (tăng 3 lần tìm kiếm thương hiệu)                       ║
 ║ ├─ +7% Immediate Sales (tăng doanh số trực tiếp)                             ║
-║ ├─ +23% Brand Awareness spike                                                 ║
-║ └─ Improved customer recognition                                              ║
+║ ├─ +23% Brand Awareness spike                                                ║
+║ └─ Improved customer recognition                                             ║
 ║                                                                              ║
-║ Source: VietnamNews (2025)                                                    ║
+║ Source: VietnamNews (2025)                                                   ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -1631,21 +1597,21 @@ pie showData
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║ COMPANY: Tiki (Vietnamese E-commerce Platform)                                ║
+║ COMPANY: Tiki (Vietnamese E-commerce Platform)                               ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║ STRATEGY: Tích hợp ChatGPT làm virtual shopping assistant                    ║
 ║                                                                              ║
-║ IMPLEMENTATION:                                                               ║
+║ IMPLEMENTATION:                                                              ║
 ║ • Users có thể hỏi bằng ngôn ngữ tự nhiên                                    ║
-║ • AI recommends products based on conversation                                ║
-║ • Natural language product search                                             ║
+║ • AI recommends products based on conversation                               ║
+║ • Natural language product search                                            ║
 ║                                                                              ║
-║ RESULTS:                                                                      ║
-║ ├─ Enhanced User Experience                                                   ║
-║ ├─ Reduced search friction                                                    ║
-║ └─ Increased product discovery                                                ║
+║ RESULTS:                                                                     ║
+║ ├─ Enhanced User Experience                                                  ║
+║ ├─ Reduced search friction                                                   ║
+║ └─ Increased product discovery                                               ║
 ║                                                                              ║
-║ Source: BlueSeed Group (2025)                                                 ║
+║ Source: BlueSeed Group (2025)                                                ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -1653,21 +1619,21 @@ pie showData
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║ COMPANY: Samdy.vn (Independent Developer Project)                             ║
+║ COMPANY: Samdy.vn (Independent Developer Project)                            ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║ STRATEGY: Code-driven SEO, price comparison aggregator                       ║
 ║                                                                              ║
-║ IMPLEMENTATION:                                                               ║
-║ • Aggregated data from Shopee, Tiki, Lazada                                   ║
-║ • Pure technical SEO (no marketing budget)                                    ║
-║ • Schema markup + structured data                                             ║
+║ IMPLEMENTATION:                                                              ║
+║ • Aggregated data from Shopee, Tiki, Lazada                                  ║
+║ • Pure technical SEO (no marketing budget)                                   ║
+║ • Schema markup + structured data                                            ║
 ║                                                                              ║
-║ RESULTS:                                                                      ║
-║ ├─ Top 100 E-commerce Websites Vietnam (trong 6-8 tháng)                      ║
-║ ├─ $0 marketing spend                                                         ║
-║ └─ Organic traffic growth only                                                ║
+║ RESULTS:                                                                     ║
+║ ├─ Top 100 E-commerce Websites Vietnam (trong 6-8 tháng)                     ║
+║ ├─ $0 marketing spend                                                        ║
+║ └─ Organic traffic growth only                                               ║
 ║                                                                              ║
-║ Source: Medium Case Study (2025)                                              ║
+║ Source: Medium Case Study (2025)                                             ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -1675,22 +1641,21 @@ pie showData
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║ SEGMENT: Vietnamese Retail SMEs with AI Personalization                       ║
+║ SEGMENT: Vietnamese Retail SMEs with AI Personalization                      ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
-║ AGGREGATE RESULTS:                                                            ║
-║ ├─ +52% Engagement (tăng tương tác)                                           ║
-║ ├─ +15-25% Revenue Growth (tăng doanh thu)                                    ║
+║ AGGREGATE RESULTS:                                                           ║
+║ ├─ +52% Engagement (tăng tương tác)                                          ║
+║ ├─ +15-25% Revenue Growth (tăng doanh thu)                                   ║
 ║ ├─ 93% doanh nghiệp dùng ít nhất 1 AI tool cho customer communication        ║
-║ └─ High readiness for AI innovation                                           ║
+║ └─ High readiness for AI innovation                                          ║
 ║                                                                              ║
-║ Sources: Kachersoft, HanoiTimes (2025)                                        ║
+║ Sources: Kachersoft, HanoiTimes (2025)                                       ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-## PHẦN IV: CẤU TRÚC NHẬT - ISSUE/HYPOTHESIS/COUNTERPLAN
-## PART IV: JAPANESE MANAGEMENT STRUCTURE - ISSUE/HYPOTHESIS/COUNTERPLAN
+## ISSUE/HYPOTHESIS/COUNTERPLAN
 
 ### Study 1: ChatGPT Adoption Impact on Consumer Behavior
 
@@ -1749,62 +1714,62 @@ Sources:
 - https://www.feedforce.vn/articles/2025-digital-market-report
 ```
 
-#### COUNTERPLAN (Kế Hoạch Phòng Chống) / RISK MITIGATION
+#### COUNTERPLAN (Kế Hoạch) / RISK MITIGATION
 
 ```
 RISK 1: Zero-Click Traffic Loss (Mất traffic zero-click)
 ┌──────────────────────────────────────────────────────┐
-│ Risk: Users get answer from AI → Don't click website  │
+│ Risk: Users get answer from AI → Don't click website │
 │ Impact: -20 to -40% organic traffic short-term       │
 ├──────────────────────────────────────────────────────┤
-│ Mitigation Strategy (Kế Hoạch Phòng Chống):         │
+│ Mitigation Strategy (Kế Hoạch Phòng Chống):          │
 │                                                      │
 │ 1. Inverted Pyramid Structure                        │
-│    └─ Put answer upfront in 1st paragraph           │
-│    └─ Add "Want more details?" links                │
+│    └─ Put answer upfront in 1st paragraph            │
+│    └─ Add "Want more details?" links                 │
 │                                                      │
-│ 2. Clear CTAs (Call-to-Action)                      │
-│    └─ "Free calculator" button                      │
-│    └─ "Compare detailed plans" link                 │
-│    └─ "Schedule consultation" CTA                   │
+│ 2. Clear CTAs (Call-to-Action)                       │
+│    └─ "Free calculator" button                       │
+│    └─ "Compare detailed plans" link                  │
+│    └─ "Schedule consultation" CTA                    │
 │                                                      │
-│ 3. Deeper Dive Opportunities                        │
-│    └─ AI summarizes → User clicks for details      │
-│    └─ "See all insurance options" (full comparison) │
-│    └─ Customer success stories + testimonials       │
+│ 3. Deeper Dive Opportunities                         │
+│    └─ AI summarizes → User clicks for details        │
+│    └─ "See all insurance options" (full comparison)  │
+│    └─ Customer success stories + testimonials        │
 │                                                      │
-│ Expected Outcome (Kết Quả Dự Kiến):                │
-│ Even with 40% zero-click, remaining 60% will have  │
-│ higher intent → 87% conversion vs 40% before        │
-│ Net result: Higher revenue with same traffic        │
+│ Expected Outcome (Kết Quả Dự Kiến):                  │
+│ Even with 40% zero-click, remaining 60% will have    │
+│ higher intent → 87% conversion vs 40% before         │
+│ Net result: Higher revenue with same traffic         │
 └──────────────────────────────────────────────────────┘
 
 RISK 2: Vietnamese Language NLP Issues (Vấn Đề NLP Tiếng Việt)
 ┌──────────────────────────────────────────────────────┐
 │ Risk: AI models don't understand Vietnamese tones    │
-│       (dấu huyền, hỏi, ngã, nặng, sắc)             │
+│       (dấu huyền, hỏi, ngã, nặng, sắc)               │
 │ Impact: Wrong recommendations, lower accuracy        │
 ├──────────────────────────────────────────────────────┤
-│ Mitigation:                                         │
+│ Mitigation:                                          │
 │                                                      │
-│ 1. Use Vietnamese-Optimized Models                  │
-│    ✓ PhoGPT (VinAI)                                │
-│    ✓ VIGPT (VinBigData)                            │
-│    ✓ AI Hay (local Vietnamese)                     │
-│    └─ Better than ChatGPT for Vietnamese context   │
-│                                                      │
+│ 1. Use Vietnamese-Optimized Models                   │
+│    ✓ PhoGPT (VinAI)                                 │
+│    ✓ VIGPT (VinBigData)                             │
+│    ✓ AI Hay (local Vietnamese)                      │
+│    └─ Better than ChatGPT for Vietnamese context    │
+│                                                     │
 │ 2. Technical Implementation                         │
 │    ✓ UTF-8 encoding (support diacritics)           │
 │    ✓ Vietnamese URLs: /bao-hiem-nhan-tho (no code) │
 │    ✓ Schema in Vietnamese (not English)            │
-│                                                      │
+│                                                     │
 │ 3. Content Quality Assurance                        │
 │    ✓ Native speaker review (not auto-translate)    │
 │    ✓ A/B test Vietnamese vs English content        │
-│    ✓ Test with all 5 local AI models              │
-│                                                      │
+│    ✓ Test with all 5 local AI models               │
+│                                                    │
 │ Expected Outcome (Kết Quả):                        │
-│ 95%+ accuracy for Vietnamese queries                │
+│ 95%+ accuracy for Vietnamese queries               │
 │ No misunderstandings from tonal language issues    │
 └──────────────────────────────────────────────────────┘
 
@@ -2002,7 +1967,7 @@ Sources:
 - https://www.decisionlab.co/blog/vietnam-consumer-ai-market-2025
 ```
 
-#### COUNTERPLAN (Kế Hoạch Phòng Chống)
+#### COUNTERPLAN (Kế Hoạch)
 
 ```
 RISK 1: Privacy & Compliance Issues (Vấn Đề Riêng Tư & Tuân Thủ)
