@@ -19,7 +19,7 @@ This is an **automated lead distribution tool** that helps the sales team receiv
 2. **System checks every 1 minute** → Detects new leads automatically
 3. **Creates unique ID** → Each lead gets code like ZL0001, ZL0002...
 4. **Sends email notification** → Sales team receives alert immediately
-5. **Fair distribution** → Leads are assigned equally among team members (round-robin)
+5. **Fair distribution** → Leads are assigned equally among team members (round-robin) (Not now)
 
 ### Business Benefits
 | Benefit | Description |
@@ -997,5 +997,6 @@ validateConfig();
   <sub>© 2025 Hieu Le | ALCV - All rights reserved</sub><br/>
   <sub>Created with ❤️ for the ALCV team</sub>
 </p>
+
 
 
