@@ -138,35 +138,6 @@
 
 ---
 
-## 📥 Installation / Cài đặt
-
-### Prerequisites / Yêu cầu
-
-- Google Account / Tài khoản Google
-- Access to source sheets / Quyền truy cập các sheet nguồn
-- Edit access to destination sheet / Quyền chỉnh sửa sheet đích
-
-### Steps / Các bước
-
-#### 1. Open Apps Script / Mở Apps Script
-```
-Google Sheets → Extensions → Apps Script
-```
-
-#### 2. Copy Code / Sao chép code
-- Delete default code / Xóa code mặc định
-- Paste `master_copy_paste_data.js` / Dán code
-
-#### 3. Save / Lưu
-- Press `Ctrl+S` or click 💾
-
-#### 4. Authorize / Cấp quyền
-- Run `syncAllSources` 
-- Click "Review Permissions"
-- Allow access
-
----
-
 ## ⚙️ Configuration / Cấu hình
 
 ### Sources / Nguồn dữ liệu
@@ -276,6 +247,7 @@ View → Execution log
 
 MIT License - Developed with ❤️ by @cafechungkhoan | Free to use and modify
 MIT License - Phát triển với ❤️ bởi @cafechungkhoan | Tự do sử dụng và chỉnh sửa
+
 
 
 
