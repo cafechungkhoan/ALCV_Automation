@@ -71,10 +71,10 @@
 │   (Multiple Sources)      │     │   (Single Destination)    │
 ├───────────────────────────┤     ├───────────────────────────┤
 │ ┌─────────────────────┐   │     │                           │
-│ │ Source 1: Lead Info │───│─────│──► Phone: 0901234567     │
+│ │ Source 1: Lead Info │───│─────│──► Phone: 0901234567      │
 │ └─────────────────────┘   │     │    Name: Nguyen Van A     │
 │ ┌─────────────────────┐   │     │                           │
-│ │ Source 2: Ứng viên  │───│─────│──► Phone: 0987654321     │
+│ │ Source 2: Ứng viên  │───│─────│──► Phone: 0987654321      │
 │ └─────────────────────┘   │     │    Name: Le Thi B         │
 │ ┌─────────────────────┐   │     │                           │
 │ │ Source N: ...       │───│─────│──► ...                    │
@@ -98,7 +98,7 @@
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
-│                          SYNC WORKFLOW                                │
+│                          SYNC WORKFLOW                               │
 └──────────────────────────────────────────────────────────────────────┘
 
   ┌─────────┐    ┌─────────┐    ┌─────────┐    ┌─────────┐    ┌─────────┐
@@ -276,5 +276,6 @@ View → Execution log
 
 MIT License - Developed with ❤️ by @cafechungkhoan | Free to use and modify
 MIT License - Phát triển với ❤️ bởi @cafechungkhoan | Tự do sử dụng và chỉnh sửa
+
 
 
