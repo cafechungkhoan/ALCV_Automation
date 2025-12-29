@@ -173,7 +173,7 @@ const CONFIG = {
 };
 ```
 
-### Sensitive Data Locations / Vị Trí Dữ Liệu Nhạy Cảm
+### Data Locations / Vị Trí Dữ Liệu
 
 | Data Type | Location | Description |
 |-----------|----------|-------------|
@@ -205,9 +205,9 @@ const CONFIG = {
 
 ---
 
-## 6. API Reference / Tham Khảo API
+## 6. API Reference
 
-### Control Functions / Hàm Điều Khiển
+### Control Functions
 
 | Function | Purpose (EN) | Mục đích (VI) |
 |----------|--------------|---------------|
@@ -216,7 +216,7 @@ const CONFIG = {
 | `emergencyStop()` | Emergency shutdown | Dừng khẩn cấp |
 | `getScriptStatus()` | Get current status | Lấy trạng thái hiện tại |
 
-### Testing Functions / Hàm Test
+### Testing Functions
 
 | Function | Purpose (EN) | Mục đích (VI) |
 |----------|--------------|---------------|
@@ -225,7 +225,7 @@ const CONFIG = {
 | `testAddMultipleLeads(n)` | Add n sample leads | Thêm n leads mẫu |
 | `clearTestLeads()` | Remove test leads | Xóa leads test |
 
-### Utility Functions / Hàm Tiện Ích
+### Utility Functions
 
 | Function | Purpose (EN) | Mục đích (VI) |
 |----------|--------------|---------------|
@@ -238,7 +238,7 @@ const CONFIG = {
 
 ---
 
-## 7. Workflow Diagrams / Sơ Đồ Luồng
+## 7. Workflow Diagrams
 
 ### Main Webhook Flow / Luồng Webhook Chính
 
@@ -458,4 +458,5 @@ For issues or questions / Nếu có vấn đề hoặc câu hỏi:
 ---
 
 *Document generated on 2025-12-29 | Sensitive data masked for security*
+
 
