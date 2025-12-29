@@ -1,5 +1,6 @@
 # 📋 Master Copy Paste Data
 # Multi-Source Google Sheets Sync Tool
+# 👨‍💻 Created & Developed by @cafechungkhoan
 
 > **EN:** Sync data from multiple Google Sheets sources to a single destination sheet  
 > **VI:** Đồng bộ dữ liệu từ nhiều Google Sheet nguồn về một Sheet đích
@@ -273,6 +274,7 @@ View → Execution log
 
 ## 📄 License
 
-MIT License - Free to use and modify  
-MIT License - Tự do sử dụng và chỉnh sửa
+MIT License - Developed with ❤️ by @cafechungkhoan | Free to use and modify
+MIT License - Phát triển với ❤️ bởi @cafechungkhoan | Tự do sử dụng và chỉnh sửa
+
 
