@@ -1,5 +1,4 @@
-# CV Notify Recruit - Deployment Guide
-
+# Recruit Notify 
 > **Purpose**: Automatically send email notifications to the recruitment team when new CV/resume submissions arrive. This script bridges the gap between your recruitment landing page and email inbox, ensuring no candidate is missed.
 
 ## 📌 Process Flow
@@ -224,3 +223,4 @@ MIT License - Feel free to use and modify.
 
 > [!TIP]
 > To debug, open **View → Logs** in Apps Script Editor after running a function to see detailed logs.
+
