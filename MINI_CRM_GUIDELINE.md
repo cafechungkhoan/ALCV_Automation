@@ -258,18 +258,18 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[Select Lead<br/>Chọn Lead] --> B[View Lead Details<br/>Xem chi tiết Lead]
-    B --> C[Click "Record Meeting"<br/>Click "Ghi nhận cuộc hẹn"]
-    C --> D[Fill Meeting Form<br/>Điền form cuộc hẹn]
-    D --> E{Customer Attended?<br/>Khách có đến?}
-    E -->|Show| F[Select Meeting Outcome<br/>Chọn kết quả cuộc hẹn]
-    E -->|No-show| G[Mark as No-show<br/>Đánh dấu No-show]
-    F --> H[Evaluate LP Score<br/>Đánh giá LP Score]
+    A["Select Lead<br/>Chọn Lead"] --> B["View Lead Details<br/>Xem chi tiết Lead"]
+    B --> C["Click 'Record Meeting'<br/>Click 'Ghi nhận cuộc hẹn'"]
+    C --> D["Fill Meeting Form<br/>Điền form cuộc hẹn"]
+    D --> E{"Customer Attended?<br/>Khách có đến?"}
+    E -->|"Show"| F["Select Meeting Outcome<br/>Chọn kết quả cuộc hẹn"]
+    E -->|"No-show"| G["Mark as No-show<br/>Đánh dấu No-show"]
+    F --> H["Evaluate LP Score<br/>Đánh giá LP Score"]
     G --> H
-    H --> I[Add Feedback Notes<br/>Thêm ghi chú phản hồi]
-    I --> J[Save Meeting<br/>Lưu cuộc hẹn]
-    J --> K[Update Lead Stats<br/>Cập nhật thống kê Lead]
-    K --> L[Refresh Dashboard<br/>Làm mới Dashboard]
+    H --> I["Add Feedback Notes<br/>Thêm ghi chú phản hồi"]
+    I --> J["Save Meeting<br/>Lưu cuộc hẹn"]
+    J --> K["Update Lead Stats<br/>Cập nhật thống kê Lead"]
+    K --> L["Refresh Dashboard<br/>Làm mới Dashboard"]
 ```
 
 ### 5.3 Lead Lifecycle | Vòng Đời Lead
@@ -480,4 +480,5 @@ Hieu Le ALCV.
 *Pilot Version 2.0.0 | Phiên bản thử nghiệm 2.0.0*
 
 </div>
+
 
