@@ -471,7 +471,7 @@ Mini CRM hiện đang trong **giai đoạn thử nghiệm pilot**. Hệ thống 
 For technical support or feature requests, please contact:  
 Để được hỗ trợ kỹ thuật hoặc yêu cầu tính năng, vui lòng liên hệ:
 
-**Email:** your.email@company.com
+Hieu Le ALCV.
 
 ---
 
@@ -480,3 +480,4 @@ For technical support or feature requests, please contact:
 *Pilot Version 2.0.0 | Phiên bản thử nghiệm 2.0.0*
 
 </div>
+
