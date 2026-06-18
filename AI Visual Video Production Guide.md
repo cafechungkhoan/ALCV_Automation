@@ -1,8 +1,8 @@
-# AI Visual & Video Production — Hướng dẫn ứng dụng thực chiến
-> **Mục tiêu của tài liệu này:** Biến bộ kiến thức AI tạo hình + video thành một quy trình bạn có thể chạy ngay hôm nay — không cần nền tảng kỹ thuật, không cần học thuật, chỉ cần hiểu đủ để ra lệnh đúng và kiểm soát kết quả đầu ra.
+# AI Visual & Video Production - Hướng dẫn ứng dụng thực chiến
+> **Mục tiêu của tài liệu này:** Biến bộ kiến thức AI tạo hình + video thành một quy trình bạn có thể chạy ngay hôm nay - không cần nền tảng kỹ thuật, không cần học thuật, chỉ cần hiểu đủ để ra lệnh đúng và kiểm soát kết quả đầu ra.
 
 ***
-## PHẦN 1 — Tư duy nền tảng
+## PHẦN 1 - Tư duy nền tảng
 ### 1.1 Cơ chế vận hành của AI tạo hình: Diffusion Model
 Để làm việc hiệu quả với AI, bạn không cần hiểu toán học, nhưng cần hiểu *cách AI "nhìn"* để biết tại sao nó ra lỗi và khi nào cần can thiệp.
 
@@ -10,18 +10,18 @@
 
 | Giai đoạn | Tên kỹ thuật | Điều gì xảy ra | Ý nghĩa với người dùng |
 |---|---|---|---|
-| **1. Forward Process** | Noise Addition | AI thêm noise vào ảnh dần đến khi thành "TV static" ngẫu nhiên | Đây là quá trình *học* — AI học cách ảnh bị phá vỡ ra sao |
-| **2. Reverse Process** | Denoising | AI dùng ngẫu nhiên + prompt để *đảo ngược* noise, tái tạo ảnh | Đây là quá trình *sinh* — mỗi lần chạy ra ảnh khác nhau |
+| **1. Forward Process** | Noise Addition | AI thêm noise vào ảnh dần đến khi thành "TV static" ngẫu nhiên | Đây là quá trình *học* - AI học cách ảnh bị phá vỡ ra sao |
+| **2. Reverse Process** | Denoising | AI dùng ngẫu nhiên + prompt để *đảo ngược* noise, tái tạo ảnh | Đây là quá trình *sinh* - mỗi lần chạy ra ảnh khác nhau |
 
 **Điều quan trọng bạn cần ghi nhớ:**[^3]
-- AI bắt đầu từ random noise, nên **mỗi lần generate là một ảnh mới** dù cùng prompt — đây là tính chất stochastic.
+- AI bắt đầu từ random noise, nên **mỗi lần generate là một ảnh mới** dù cùng prompt - đây là tính chất stochastic.
 - Nếu bạn muốn tái tạo lại ảnh y chang, bạn cần lưu **seed** (giá trị ngẫu nhiên ban đầu).
 - Khi bạn thêm reference image, AI dùng nó như "neo" để kéo kết quả gần với style/color/mood bạn muốn.
 - Prompt càng đặt ở đầu → **trọng số càng cao**. Đây là lý do thứ tự từ trong prompt quan trọng.[^4]
 
 **Tại sao AI "hên xui" với chữ, bàn tay, và chi tiết nhỏ?**
 
-Diffusion model học từ tỷ lệ pixel, không học từ "logic vật lý". Chữ số trong training data quá đa dạng về font/size → model học kém nhất quán. Bàn tay có 5 ngón nhưng configuration ngón rất biến thiên → model không "đếm" được. Đây là hạn chế cốt lõi, không phải lỗi ngẫu nhiên — bạn cần **kiểm tra thủ công** 100% output có chứa chữ hoặc bàn người.[^5]
+Diffusion model học từ tỷ lệ pixel, không học từ "logic vật lý". Chữ số trong training data quá đa dạng về font/size → model học kém nhất quán. Bàn tay có 5 ngón nhưng configuration ngón rất biến thiên → model không "đếm" được. Đây là hạn chế cốt lõi, không phải lỗi ngẫu nhiên - bạn cần **kiểm tra thủ công** 100% output có chứa chữ hoặc bàn người.[^5]
 
 ***
 ### 1.2 Dữ liệu công cộng vs. Dữ liệu có kiểm soát
@@ -33,7 +33,7 @@ Chất lượng output của AI phụ thuộc trực tiếp vào chất lượng
 | **Dữ liệu có kiểm soát** | Chất lượng cao, nhất quán, ít bias | Tốn kém, dataset nhỏ hơn, style hẹp hơn | Adobe Firefly (licensed/stock only) |
 
 **Hệ quả thực tế cho marketer:**[^7]
-- Adobe Firefly an toàn về **bản quyền thương mại** — dữ liệu training toàn từ Adobe Stock + public domain.
+- Adobe Firefly an toàn về **bản quyền thương mại** - dữ liệu training toàn từ Adobe Stock + public domain.
 - Midjourney/Stable Diffusion mạnh về phong cách nghệ thuật đa dạng nhưng **cẩn thận khi dùng cho campaign commercial**.
 - Khi dùng AI-generated image cho quảng cáo thương mại, luôn kiểm tra chính sách của platform bạn dùng.
 
@@ -48,9 +48,9 @@ Prompt → Generate (AI) → Review (Human) → Iterate (AI) → Approve (Human)
 ```
 
 **3 checkpoint bắt buộc phải dừng lại để review:**
-1. **Sau lần generate đầu tiên** — kiểm tra brand fit, composition, lỗi AI (ngón tay, chữ).
-2. **Sau khi edit/refine** — kiểm tra tính nhất quán với các asset khác trong bộ.
-3. **Trước khi publish** — kiểm tra bản quyền, thông tin sai lệch, và nếu dùng video AI: disclosure requirements.
+1. **Sau lần generate đầu tiên** - kiểm tra brand fit, composition, lỗi AI (ngón tay, chữ).
+2. **Sau khi edit/refine** - kiểm tra tính nhất quán với các asset khác trong bộ.
+3. **Trước khi publish** - kiểm tra bản quyền, thông tin sai lệch, và nếu dùng video AI: disclosure requirements.
 
 **Quy tắc "Thay đổi một biến":**[^10]
 Khi output chưa đúng, **đừng rewrite toàn bộ prompt**. Thay đổi một yếu tố (lighting → composition → style) và regenerate. Cách này tối ưu hơn và giúp bạn học được AI đang phản ứng với yếu tố nào.
@@ -59,7 +59,7 @@ Khi output chưa đúng, **đừng rewrite toàn bộ prompt**. Thay đổi mộ
 ### 1.4 Ngữ pháp thị giác chuyên nghiệp
 ![](images/image_1.jpg)
 Camera lighting examples
-Đây là "ngôn ngữ" bạn cần biết để ra lệnh cho AI ra ảnh đẹp — không phải lý thuyết mỹ thuật hàn lâm, mà là từ khóa hoạt động thực tế.
+Đây là "ngôn ngữ" bạn cần biết để ra lệnh cho AI ra ảnh đẹp - không phải lý thuyết mỹ thuật hàn lâm, mà là từ khóa hoạt động thực tế.
 
 #### Quy tắc bố cục (Composition)
 
@@ -72,11 +72,11 @@ Camera lighting examples
 | `centered symmetrical composition` | Uy nghiêm, trang trọng (cố ý phá rule) |
 | `foreground framing` | Dùng yếu tố nền trước tạo khung tự nhiên |
 | `leading lines` | Đường dẫn mắt vào điểm focal |
-| `depth of field, bokeh background` | Chủ thể sắc, hậu cảnh mờ — cảm giác chuyên nghiệp |
+| `depth of field, bokeh background` | Chủ thể sắc, hậu cảnh mờ - cảm giác chuyên nghiệp |
 
 #### Ánh sáng chuyên dụng (Lighting)
 
-Ánh sáng là yếu tố thay đổi cảm xúc ảnh mạnh nhất — quan trọng hơn filter.[^13]
+Ánh sáng là yếu tố thay đổi cảm xúc ảnh mạnh nhất - quan trọng hơn filter.[^13]
 ![](images/image_2.png)
 Camera shot types diagram
 | Từ khóa prompt | Cảm xúc tạo ra | Dùng khi nào |
@@ -105,16 +105,16 @@ Góc máy = "tone of voice" của hình ảnh.[^13][^14]
 | **Over the Shoulder** | `over the shoulder shot` | Perspective, conversation |
 
 ***
-## PHẦN 2 — Thiết kế hình ảnh AI chuyên nghiệp
-### 2.1 Công thức SHOTS — Prompt tạo hình chuẩn
+## PHẦN 2 - Thiết kế hình ảnh AI chuyên nghiệp
+### 2.1 Công thức SHOTS - Prompt tạo hình chuẩn
 Đây là công thức cấu trúc prompt hình ảnh được đúc kết từ thực hành chuyên nghiệp:[^15][^16]
 
 ```
-S — Subject     : Chủ thể chính là gì? (người, sản phẩm, cảnh vật)
-H — Headroom    : Framing và không gian (close-up, full body, negative space)
-O — Orientation : Góc máy (low angle, eye level, bird's eye)
-T — Technical   : Kỹ thuật (focal length, depth of field, film grain, 8K)
-S — Style       : Phong cách (photorealistic, editorial, cinematic, illustration)
+S - Subject     : Chủ thể chính là gì? (người, sản phẩm, cảnh vật)
+H - Headroom    : Framing và không gian (close-up, full body, negative space)
+O - Orientation : Góc máy (low angle, eye level, bird's eye)
+T - Technical   : Kỹ thuật (focal length, depth of field, film grain, 8K)
+S - Style       : Phong cách (photorealistic, editorial, cinematic, illustration)
 ```
 
 **Template thực hành:**
@@ -143,19 +143,19 @@ corporate lifestyle editorial style [S]
 ```
 
 **5 nguyên tắc viết prompt hiệu quả:**[^10][^15]
-1. **Giữ prompt trong khoảng 30–60 từ** — quá dài AI bị confused, quá ngắn thiếu guidance.
-2. **Đặt yếu tố quan trọng nhất ở đầu** — trọng số giảm dần về cuối.
+1. **Giữ prompt trong khoảng 30–60 từ** - quá dài AI bị confused, quá ngắn thiếu guidance.
+2. **Đặt yếu tố quan trọng nhất ở đầu** - trọng số giảm dần về cuối.
 3. **Dùng từ mô tả cụ thể thay từ mơ hồ**: `"warm amber tones"` > `"beautiful colors"`.
 4. **Dùng reference image kết hợp text prompt** khi cần style/color palette khó diễn đạt bằng chữ.
-5. **Thay đổi 1 biến, regenerate** — không rewrite toàn bộ khi chưa vừa ý.
+5. **Thay đổi 1 biến, regenerate** - không rewrite toàn bộ khi chưa vừa ý.
 
 ***
-### 2.2 Canva Pro — Bộ công cụ AI thực chiến
+### 2.2 Canva Pro - Bộ công cụ AI thực chiến
 Canva Pro gom toàn bộ AI tools trong **Magic Studio**:[^17][^18]
 
 | Tính năng | Tên trong Canva | Làm được gì |
 |---|---|---|
-| Tạo ảnh từ text | Magic Media (Image) | Generate ảnh từ prompt — dùng SHOTS formula |
+| Tạo ảnh từ text | Magic Media (Image) | Generate ảnh từ prompt - dùng SHOTS formula |
 | Tạo video từ text | Magic Media (Video) | Clip ngắn 4–8 giây từ prompt |
 | Xóa vật thể trong ảnh | Magic Eraser | Xóa người/logo/chi tiết không mong muốn |
 | Chỉnh ảnh bằng ngôn ngữ | Magic Edit | "Thêm cây vào góc trái", "đổi màu áo sang xanh" |
@@ -168,7 +168,7 @@ Canva Pro gom toàn bộ AI tools trong **Magic Studio**:[^17][^18]
 | Brand Kit | Brand Kit | Lưu màu sắc, font, logo → auto apply vào mọi design |
 
 ***
-### 2.3 Case Study thực hành — 7 ứng dụng thực tế
+### 2.3 Case Study thực hành - 7 ứng dụng thực tế
 ![](images/image_3.png)
 Canva Pro Brand Kit
 #### Case 1: Tái sử dụng ảnh có sẵn để đổi bố cục và format
@@ -178,7 +178,7 @@ Canva Pro Brand Kit
 **Quy trình với Canva Pro:**
 1. Upload ảnh gốc → Chọn template Story (9:16).
 2. Dùng **Magic Expand** để AI tự sinh thêm background cho vừa khung 9:16.
-3. Kiểm tra vùng AI expand — thường cần dùng **Magic Edit** để chỉnh chi tiết thừa.
+3. Kiểm tra vùng AI expand - thường cần dùng **Magic Edit** để chỉnh chi tiết thừa.
 4. Dùng **Magic Switch** để convert tự động sang các format khác (1:1, 16:9).
 
 **Tips:** Magic Expand hoạt động tốt nhất khi ảnh gốc có background rõ ràng (bầu trời, tường trơn). Tránh dùng với ảnh crowd phức tạp.
@@ -273,9 +273,9 @@ Trần Thị B, 25/07/2026, STD-15, #7DAACB
    - Ví dụ: `...consistent with [brand name] visual identity, [primary color] color palette, clean minimal lifestyle aesthetic, natural daylight`
 4. **Tạo Content Calendar template** trong Canva Doc để plan content, gắn link design tương ứng.
 ---
-## PHẦN 3 — Tư duy sản xuất video AI
+## PHẦN 3 - Tư duy sản xuất video AI
 ### 3.1 Tư duy Image-to-Video và Consistency
-Video AI hiện tại (2025–2026) hoạt động tốt nhất theo nguyên tắc **"narrative atoms"** — tạo từng clip ngắn 4–6 giây rồi ghép lại, không phải tạo 1 video dài hoàn chỉnh.[^21]
+Video AI hiện tại (2025–2026) hoạt động tốt nhất theo nguyên tắc **"narrative atoms"** - tạo từng clip ngắn 4–6 giây rồi ghép lại, không phải tạo 1 video dài hoàn chỉnh.[^21]
 
 **3 lý do không tạo video dài một phát:**
 - Mô hình diffusion bị "drift" về character/lighting sau 10 giây
@@ -289,13 +289,13 @@ Trước khi generate bất kỳ frame video nào, tạo **1 ảnh tĩnh high-fi
 - Khi 2 cảnh dùng chung MRI → visual consistency tăng đáng kể
 
 ***
-### 3.2 Công thức F.I.L.M.S — Prompt video đơn lẻ
+### 3.2 Công thức F.I.L.M.S - Prompt video đơn lẻ
 ```
-F — Frame     : Shot type (close-up, wide, medium)
-I — Identity  : Subject chính (ai/cái gì, trông như thế nào)
-L — Location  : Môi trường/bối cảnh
-M — Motion    : Chuyển động cụ thể (camera + subject)
-S — Style     : Visual style + mood + lighting
+F - Frame     : Shot type (close-up, wide, medium)
+I - Identity  : Subject chính (ai/cái gì, trông như thế nào)
+L - Location  : Môi trường/bối cảnh
+M - Motion    : Chuyển động cụ thể (camera + subject)
+S - Style     : Visual style + mood + lighting
 ```
 
 **Template:**
@@ -314,39 +314,39 @@ cinematic, warm golden hour light, shallow depth of field, 35mm film grain [S]
 **Công thức bổ sung S.H.O.T.S.A cho chi tiết cao hơn:**[^22]
 
 ```
-S — Subject       : Chủ thể + mô tả
-H — Headroom      : Framing/Shot size  
-O — Orientation   : Góc camera
-T — Technical     : Specs kỹ thuật
-S — Style         : Phong cách nghệ thuật
-A — Action/Motion : Chuyển động cụ thể
+S - Subject       : Chủ thể + mô tả
+H - Headroom      : Framing/Shot size  
+O - Orientation   : Góc camera
+T - Technical     : Specs kỹ thuật
+S - Style         : Phong cách nghệ thuật
+A - Action/Motion : Chuyển động cụ thể
 ```
 
 ***
-### 3.3 Công thức R.E.C.O.R.D — Video phức hợp nhiều cảnh
+### 3.3 Công thức R.E.C.O.R.D - Video phức hợp nhiều cảnh
 Khi tạo video có nhiều scenes (TVC, explainer video, brand film):[^23][^21]
 
 ```
-R — Reference    : Master Reference Image + style guide
-E — Establish    : Shot đầu — thiết lập bối cảnh, nhân vật, không gian
-C — Conflict/CTA : Shot trung tâm — vấn đề, hành động, thông điệp chính
-O — Other shots  : B-roll, cutaway, detail shots bổ trợ narrative
-R — Resolution   : Shot cuối — kết thúc, sản phẩm, logo/CTA
-D — Duration     : Mỗi clip 4–6 giây, target tổng 15–30 giây/segment
+R - Reference    : Master Reference Image + style guide
+E - Establish    : Shot đầu - thiết lập bối cảnh, nhân vật, không gian
+C - Conflict/CTA : Shot trung tâm - vấn đề, hành động, thông điệp chính
+O - Other shots  : B-roll, cutaway, detail shots bổ trợ narrative
+R - Resolution   : Shot cuối - kết thúc, sản phẩm, logo/CTA
+D - Duration     : Mỗi clip 4–6 giây, target tổng 15–30 giây/segment
 ```
 
 **Workflow thực hành:**
 
-1. **Viết script trước** — mỗi beat narrative = 1 clip riêng
+1. **Viết script trước** - mỗi beat narrative = 1 clip riêng
 2. **Generate MRI** (ảnh tĩnh) cho scene chính
-3. **Generate Establish shot** — wide/medium, ít chuyển động
-4. **Generate Action beat** — gần hơn, movement rõ hơn  
-5. **Generate Resolution** — product close-up, logo, CTA
-6. **Assemble trong CapCut/Premiere** — điều chỉnh nhịp, thêm audio
+3. **Generate Establish shot** - wide/medium, ít chuyển động
+4. **Generate Action beat** - gần hơn, movement rõ hơn  
+5. **Generate Resolution** - product close-up, logo, CTA
+6. **Assemble trong CapCut/Premiere** - điều chỉnh nhịp, thêm audio
 
 ***
-### 3.4 Ngôn ngữ Storyboard — Từ vựng cốt lõi
-Storyboard AI không cần vẽ — chỉ cần mô tả đủ 4 yếu tố này cho mỗi frame:[^24][^21]
+### 3.4 Ngôn ngữ Storyboard - Từ vựng cốt lõi
+Storyboard AI không cần vẽ - chỉ cần mô tả đủ 4 yếu tố này cho mỗi frame:[^24][^21]
 
 | Yếu tố | Câu hỏi | Ví dụ mô tả |
 |---|---|---|
@@ -367,7 +367,7 @@ Storyboard AI không cần vẽ — chỉ cần mô tả đủ 4 yếu tố này
 | Handheld | Authentic, energy | `handheld camera, slight natural shake` |
 
 ***
-## PHẦN 3.1 — Công cụ và quy trình tạo video AI
+## PHẦN 3.1 - Công cụ và quy trình tạo video AI
 ### Bảng so sánh công cụ video AI 2025–2026
 | Công cụ | Strengths | Dùng cho | Hạn chế |
 |---|---|---|---|
@@ -389,7 +389,7 @@ Storyboard AI không cần vẽ — chỉ cần mô tả đủ 4 yếu tố này
 **Bước 3: Generate storyboard 3×3**[^23]
 - 9 frames đại diện cho 9 beat chính của video
 - Có thể dùng: Higgsfield Popcorn, Adobe Firefly Boards, LTX Studio
-- Mục tiêu: visual plan — không cần đẹp perfect, cần đủ để confirm direction
+- Mục tiêu: visual plan - không cần đẹp perfect, cần đủ để confirm direction
 
 **Bước 4: Generate từng clip**
 - Dùng F.I.L.M.S formula cho mỗi clip 4–6 giây
@@ -401,9 +401,9 @@ Storyboard AI không cần vẽ — chỉ cần mô tả đủ 4 yếu tố này
 - Thêm voiceover + music (bước tiếp theo)
 
 ***
-## PHẦN 3.2 — Xử lý âm thanh và Lip-sync
+## PHẦN 3.2 - Xử lý âm thanh và Lip-sync
 ### Voiceover với Google AI Studio
-Google AI Studio cung cấp TTS qua Gemini 2.5 với **25+ giọng neural**, hỗ trợ multi-speaker, và điều chỉnh emotion/pace qua ngôn ngữ tự nhiên — miễn phí cho prototyping.[^25][^26]
+Google AI Studio cung cấp TTS qua Gemini 2.5 với **25+ giọng neural**, hỗ trợ multi-speaker, và điều chỉnh emotion/pace qua ngôn ngữ tự nhiên - miễn phí cho prototyping.[^25][^26]
 
 **Setup:**
 1. Truy cập [aistudio.google.com](https://aistudio.google.com)
@@ -429,23 +429,23 @@ Thêm cảm giác tươi vui nhẹ nhàng vào cuối mỗi đoạn.
 
 ***
 ### Lip-sync với HeyGen
-HeyGen là công cụ lip-sync mạnh nhất hiện tại — khớp giọng audio với nhân vật AI/avatar với độ chính xác đến từng phoneme.[^27][^28]
+HeyGen là công cụ lip-sync mạnh nhất hiện tại - khớp giọng audio với nhân vật AI/avatar với độ chính xác đến từng phoneme.[^27][^28]
 
 **4 bước tạo video avatar lip-sync:**[^27]
-1. **Upload media** — ảnh nhân vật (portrait rõ khuôn mặt) hoặc video avatar
-2. **Add audio** — paste script (HeyGen tự generate voice) hoặc upload voiceover từ Google AI Studio
-3. **Generate sync** — AI align từng phoneme với lip movement
-4. **Download/Share** — export MP4, preview trước khi finalise
+1. **Upload media** - ảnh nhân vật (portrait rõ khuôn mặt) hoặc video avatar
+2. **Add audio** - paste script (HeyGen tự generate voice) hoặc upload voiceover từ Google AI Studio
+3. **Generate sync** - AI align từng phoneme với lip movement
+4. **Download/Share** - export MP4, preview trước khi finalise
 
 **Checklist kiểm tra trước khi accept output:**
 - [ ] Khẩu hình khớp với âm thanh (đặc biệt phụ âm B, M, P)
-- [ ] Không có "uncanny valley" — biểu cảm mắt tự nhiên
+- [ ] Không có "uncanny valley" - biểu cảm mắt tự nhiên
 - [ ] Không bị flicker hay artifact tại vùng miệng
-- [ ] Nhịp audio khớp với chuyển động — không trễ/sớm quá 0.1s
+- [ ] Nhịp audio khớp với chuyển động - không trễ/sớm quá 0.1s
 - [ ] Head movement tự nhiên (không cứng đờ)
 
 ***
-## PHẦN 4 — Biên tập và hoàn thiện
+## PHẦN 4 - Biên tập và hoàn thiện
 ### 4.1 Vai trò của hậu kỳ
 Hậu kỳ là giai đoạn biến các "AI assets rời rạc" thành một video có **nhịp**, **thông điệp rõ ràng**, và **CTA hoạt động**. Đây là bước tạo ra sự khác biệt giữa "AI generate content" và "video professional".[^29]
 
@@ -464,13 +464,13 @@ Hậu kỳ là giai đoạn biến các "AI assets rời rạc" thành một vid
 **Rough Cut Workflow:**[^30][^31]
 
 1. **Import** tất cả clips theo thứ tự storyboard
-2. **Rough cut** — sắp xếp clip, cắt đúng beat, loại take không dùng
-3. **Add voiceover** — import audio từ Google AI Studio hoặc record
-4. **Add B-roll** — chèn cutaway shots để breakup talking head
-5. **Auto subtitle** — CapCut AI auto-generate, review + sửa lỗi chính tả
-6. **Add background music** — volume music nên ở 10–20% khi có voiceover
-7. **Add text/CTA** — highlight key messages, thêm CTA card cuối video
-8. **Color grade** nhẹ — đảm bảo clips từ nhiều nguồn AI có cùng tone màu
+2. **Rough cut** - sắp xếp clip, cắt đúng beat, loại take không dùng
+3. **Add voiceover** - import audio từ Google AI Studio hoặc record
+4. **Add B-roll** - chèn cutaway shots để breakup talking head
+5. **Auto subtitle** - CapCut AI auto-generate, review + sửa lỗi chính tả
+6. **Add background music** - volume music nên ở 10–20% khi có voiceover
+7. **Add text/CTA** - highlight key messages, thêm CTA card cuối video
+8. **Color grade** nhẹ - đảm bảo clips từ nhiều nguồn AI có cùng tone màu
 9. **Export** đúng format theo platform
 
 **Cách xử lý màu sắc không đồng đều giữa các AI clips:**
@@ -478,7 +478,7 @@ Hậu kỳ là giai đoạn biến các "AI assets rời rạc" thành một vid
 - Hoặc điều chỉnh Brightness/Contrast/Saturation thủ công để clips nhìn "thuộc về nhau"
 
 ***
-### 4.3 Checklist kiểm duyệt cuối — 5 loại lỗi cần check
+### 4.3 Checklist kiểm duyệt cuối - 5 loại lỗi cần check
 #### 🔴 Lỗi AI hình ảnh (Critical)
 - [ ] Ngón tay/bàn tay bất thường
 - [ ] Chữ trong ảnh/video bị sai, méo, hoặc vô nghĩa
@@ -511,7 +511,7 @@ Hậu kỳ là giai đoạn biến các "AI assets rời rạc" thành một vid
 - [ ] Tone giọng văn nhất quán với brand voice
 
 ***
-### 4.4 Disclosure AI Content — Quy định cần biết
+### 4.4 Disclosure AI Content - Quy định cần biết
 YouTube yêu cầu creator **bắt buộc disclosure** khi content AI:[^33]
 - Làm người thật có vẻ nói/làm điều họ không làm
 - Thay đổi footage của địa điểm/sự kiện có thật
@@ -532,7 +532,7 @@ YouTube yêu cầu creator **bắt buộc disclosure** khi content AI:[^33]
 
 ***
 
-*Tài liệu này được tổng hợp từ thực hành tốt nhất của cộng đồng AI creative production tính đến Q2 2026. Các tính năng AI và quy định platform có thể thay đổi — luôn kiểm tra documentation mới nhất của từng công cụ trước khi apply vào production.*
+*Tài liệu này được tổng hợp từ thực hành tốt nhất của cộng đồng AI creative production tính đến Q2 2026. Các tính năng AI và quy định platform có thể thay đổi - luôn kiểm tra documentation mới nhất của từng công cụ trước khi apply vào production.*
 
 ---
 
@@ -572,7 +572,7 @@ YouTube yêu cầu creator **bắt buộc disclosure** khi content AI:[^33]
 
 17. [How to Use Canva AI: 10 Magic Studio Features (2025)](https://www.shopify.com/blog/how-to-use-canva-ai) - With Canva's AI tools, you can create images and video clips, remove or replace objects in photos, e...
 
-18. [Canva Magic Studio Review - AI design tool](https://sites.google.com/view/aitoolfree/canva-magic-studio-review) - In this 2025 Canva Magic Studio Review, we're diving deep into what makes this tool a game-changer —...
+18. [Canva Magic Studio Review - AI design tool](https://sites.google.com/view/aitoolfree/canva-magic-studio-review) - In this 2025 Canva Magic Studio Review, we're diving deep into what makes this tool a game-changer -...
 
 19. [Brand Kit - Canva Pro](https://www.canva.com/pro/brand-kit/) - Brand Kit helps you establish brand consistency ... Schedule social. Create, plan and schedule socia...
 
