@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Content Creation — Research Report</title>
+<meta name="description" content="Research toàn diện về tư duy, công cụ và quy trình tạo hình ảnh & video AI chuyên nghiệp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ── TOKENS ── */
+:root, [data-theme="light"] {
+  --color-bg: #faf9f6; --color-surface: #ffffff; --color-surface-offset: #f3f1ec; --color-surface-dynamic: #e8e5dc;
+  --color-divider: #e0ded8; --color-border: #d2cfc7;
+  --color-text: #1a1a1a; --color-text-muted: #5e5c58; --color-text-faint: #9c9a94;
+  --color-primary: #0a5c66; --color-primary-hover: #07464e; --color-primary-highlight: #e0f2f4;
+  --color-accent: #d32f2f; --color-accent-light: #fce4e4;
+  --color-gold: #b8860b; --color-gold-light: #fcf4dd;
+  --color-blue: #1976d2; --color-blue-light: #e3f2fd;
+  --color-success: #2e7d32; --color-success-light: #e8f5e9;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.05); --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+  --radius-sm: 6px; --radius-md: 8px; --radius-lg: 12px; --radius-full: 9999px;
+  --font-display: "Lora", serif; --font-body: "Plus Jakarta Sans", sans-serif;
+  --text-xs: clamp(0.75rem, 0.7vw + 0.5rem, 0.875rem);
+  --text-sm: clamp(0.875rem, 0.8vw + 0.5rem, 1rem);
+  --text-base: clamp(1rem, 1vw + 0.5rem, 1.125rem);
+  --text-lg: clamp(1.125rem, 1.2vw + 0.5rem, 1.375rem);
+  --text-xl: clamp(1.5rem, 1.5vw + 1rem, 2rem);
+  --text-2xl: clamp(2rem, 2vw + 1.5rem, 3rem);
+  --content-wide: 1140px; --transition: 150ms ease-out;
+}
+[data-theme="dark"] {
+  --color-bg: #121212; --color-surface: #1e1e1e; --color-surface-offset: #252525; --color-surface-dynamic: #333333;
+  --color-divider: #2d2d2d; --color-border: #404040;
+  --color-text: #e0e0e0; --color-text-muted: #9e9e9e; --color-text-faint: #6e6e6e;
+  --color-primary: #4db6ac; --color-primary-hover: #80cbc4; --color-primary-highlight: #004d40;
+  --color-accent: #ef5350; --color-accent-light: #4a1c1c;
+  --color-gold: #ffca28; --color-gold-light: #4a3c10;
+  --color-blue: #64b5f6; --color-blue-light: #163654;
+  --color-success: #66bb6a; --color-success-light: #1b421e;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.3); --shadow-md: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* ── RESET ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+body { font-family: var(--font-body); font-size: var(--text-base); line-height: 1.6; color: var(--color-text); background: var(--color-bg); }
+a { color: var(--color-primary); text-decoration: none; transition: color var(--transition); }
+a:hover { color: var(--color-primary-hover); }
+ul { list-style: none; }
+img, svg { max-width: 100%; height: auto; display: block; }
+
+/* ── LAYOUT ── */
+.header { position: sticky; top: 0; z-index: 100; background: var(--color-bg); border-bottom: 1px solid var(--color-divider); backdrop-filter: blur(8px); opacity: 0.96; }
+.header-inner { max-width: var(--content-wide); margin: 0 auto; padding: 1rem 1.5rem; display: flex; justify-content: space-between; align-items: center; }
+.logo { font-weight: 700; font-size: var(--text-lg); font-family: var(--font-display); }
+.nav-links { display: flex; gap: 1rem; }
+.nav-link { font-size: var(--text-sm); font-weight: 500; padding: 0.5rem 0.75rem; border-radius: var(--radius-sm); color: var(--color-text-muted); }
+.nav-link:hover, .nav-link.active { color: var(--color-primary); background: var(--color-primary-highlight); }
+.theme-btn { background: none; border: none; cursor: pointer; color: var(--color-text); padding: 0.5rem; }
+
+.hero { padding: 4rem 1.5rem; text-align: center; background: var(--color-surface); border-bottom: 1px solid var(--color-divider); }
+.hero h1 { font-family: var(--font-display); font-size: var(--text-2xl); color: var(--color-primary); margin-bottom: 1rem; }
+.hero p { color: var(--color-text-muted); max-width: 600px; margin: 0 auto; font-size: var(--text-lg); }
+
+.container { max-width: var(--content-wide); margin: 0 auto; padding: 3rem 1.5rem; display: grid; grid-template-columns: 240px 1fr; gap: 3rem; align-items: start; }
+@media(max-width: 900px) { .container { grid-template-columns: 1fr; } .sidebar { display: none; } }
+
+/* ── SIDEBAR ── */
+.sidebar { position: sticky; top: 100px; }
+.sidebar-section { font-weight: 700; font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 1px; color: var(--color-text-faint); margin: 1.5rem 0 0.5rem; }
+.sidebar-link { display: block; font-size: var(--text-sm); color: var(--color-text-muted); padding: 0.4rem 0.5rem; border-radius: var(--radius-sm); }
+.sidebar-link:hover, .sidebar-link.active { background: var(--color-surface-offset); color: var(--color-text); font-weight: 600; }
+
+/* ── CONTENT TYPOGRAPHY ── */
+.part { margin-bottom: 4rem; }
+.part-header { display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 2rem; border-bottom: 2px solid var(--color-divider); padding-bottom: 1rem; }
+.part-number { background: var(--color-primary-highlight); color: var(--color-primary); width: 40px; height: 40px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.25rem; flex-shrink: 0; }
+.part-title h2 { font-family: var(--font-display); font-size: var(--text-xl); }
+.part-title p { font-size: var(--text-sm); color: var(--color-text-muted); margin-top: 0.5rem; }
+
+h3 { font-family: var(--font-display); font-size: var(--text-lg); border-left: 4px solid var(--color-primary); padding-left: 0.75rem; margin: 2rem 0 1rem; color: var(--color-text); }
+h4 { font-size: var(--text-base); font-weight: 700; margin: 1.5rem 0 0.5rem; }
+p { margin-bottom: 1rem; max-width: 80ch; }
+strong { color: var(--color-text); font-weight: 600; }
+
+/* ── TABLES ── */
+.table-wrap { overflow-x: auto; margin: 1.5rem 0; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); }
+table { width: 100%; border-collapse: collapse; text-align: left; }
+th { background: var(--color-surface-offset); padding: 0.75rem 1rem; font-size: var(--text-xs); text-transform: uppercase; font-weight: 700; color: var(--color-text-faint); border-bottom: 1px solid var(--color-border); }
+td { padding: 0.75rem 1rem; font-size: var(--text-sm); border-bottom: 1px solid var(--color-divider); color: var(--color-text-muted); vertical-align: top; }
+td strong { color: var(--color-text); }
+tr:hover td { background: var(--color-surface-offset); }
+tr:last-child td { border-bottom: none; }
+
+/* ── UI ELEMENTS ── */
+.callout { display: flex; gap: 1rem; background: var(--color-surface-offset); border-left: 4px solid var(--color-primary); padding: 1rem 1.5rem; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 1.5rem 0; }
+.callout p { margin: 0; font-size: var(--text-sm); }
+
+.formula { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 1.5rem; box-shadow: var(--shadow-sm); margin: 1.5rem 0; }
+.formula-row { display: flex; gap: 1rem; margin-bottom: 1rem; align-items: flex-start; }
+.formula-letter { background: var(--color-primary-highlight); color: var(--color-primary); width: 36px; height: 36px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.2rem; flex-shrink: 0; font-family: var(--font-display); }
+.formula-desc strong { display: block; font-size: var(--text-sm); color: var(--color-text); }
+.formula-desc span { font-size: var(--text-sm); color: var(--color-text-muted); }
+
+.code-block { background: var(--color-surface-offset); padding: 1rem; border-radius: var(--radius-md); font-family: monospace; font-size: var(--text-sm); color: var(--color-text-muted); margin: 1rem 0; white-space: pre-wrap; border: 1px solid var(--color-border); }
+.code-label { color: var(--color-primary); font-weight: 700; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }
+.card { background: var(--color-surface); padding: 1.5rem; border-radius: var(--radius-lg); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); }
+.card h4 { margin-top: 0; }
+.card p { font-size: var(--text-sm); color: var(--color-text-muted); }
+.step { font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: 0.5rem; display: flex; gap: 0.5rem; }
+.step::before { content: '→'; color: var(--color-primary); font-weight: 700; }
+
+.checklist { margin: 1.5rem 0; display: grid; gap: 0.75rem; }
+.check-item { background: var(--color-surface); padding: 1rem; border-radius: var(--radius-md); border-left: 4px solid var(--color-success); display: flex; gap: 0.75rem; align-items: flex-start; font-size: var(--text-sm); }
+.check-item.warn { border-left-color: var(--color-gold); }
+.check-item.error { border-left-color: var(--color-accent); }
+.check-item strong { display: block; margin-bottom: 0.25rem; }
+
+.svg-diagram { width: 100%; max-width: 700px; margin: 2rem auto; display: block; border-radius: var(--radius-lg); background: var(--color-surface); border: 1px solid var(--color-border); padding: 1.5rem; box-shadow: var(--shadow-sm); }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="logo">AI Vision</div>
+    <nav class="nav-links">
+      <a href="#p1" class="nav-link">Tư duy</a>
+      <a href="#p2" class="nav-link">Hình ảnh</a>
+      <a href="#p3" class="nav-link">Video</a>
+      <a href="#p4" class="nav-link">Hậu kỳ</a>
+    </nav>
+    <button class="theme-btn" id="theme-toggle">🌓</button>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Sản xuất Hình ảnh & Video bằng AI</h1>
+  <p>Tư duy, công thức prompt, công cụ và quy trình hậu kỳ. Viết cho người làm content muốn dùng AI đúng cách.</p>
+</section>
+
+<div class="container">
+  <aside class="sidebar">
+    <div class="sidebar-section">1. Tư duy nền tảng</div>
+    <a href="#diffusion" class="sidebar-link">Cơ chế Diffusion</a>
+    <a href="#data" class="sidebar-link">Dữ liệu & Bản quyền</a>
+    <a href="#hitl" class="sidebar-link">Human-in-the-Loop</a>
+    <a href="#grammar" class="sidebar-link">Ngữ pháp thị giác</a>
+    
+    <div class="sidebar-section">2. Thiết kế Hình ảnh</div>
+    <a href="#shots" class="sidebar-link">Công thức SHOTS</a>
+    <a href="#canva" class="sidebar-link">Canva Pro AI</a>
+    <a href="#image-editing" class="sidebar-link">Chỉnh sửa ảnh có sẵn</a>
+    <a href="#cases" class="sidebar-link">Case Studies</a>
+    
+    <div class="sidebar-section">3. Sản xuất Video</div>
+    <a href="#consistency" class="sidebar-link">Tính nhất quán</a>
+    <a href="#films" class="sidebar-link">Công thức FILMS & RECORD</a>
+    <a href="#tools" class="sidebar-link">Công cụ Video & Audio</a>
+    
+    <div class="sidebar-section">4. Hậu kỳ</div>
+    <a href="#capcut" class="sidebar-link">Quy trình CapCut</a>
+    <a href="#review" class="sidebar-link">Checklist xuất bản</a>
+  </aside>
+
+  <main>
+    <!-- ═══════════ PHẦN 1 ═══════════ -->
+    <div class="part" id="p1">
+      <div class="part-header">
+        <div class="part-number">1</div>
+        <div class="part-title">
+          <h2>Tư duy nền tảng</h2>
+          <p>Hiểu cách AI hoạt động để kiểm soát output, thay vì bấm nút rồi cầu nguyện.</p>
+        </div>
+      </div>
+
+      <h3 id="diffusion">Cơ chế Diffusion Model</h3>
+      <p>Midjourney, DALL-E, Stable Diffusion đều chạy trên cùng một công nghệ lõi: <strong>Diffusion Model</strong>. Nhiều người nghĩ AI lên mạng tìm ảnh rồi ghép lại. Sai. AI vẽ ra ảnh mới từ đầu, từng pixel một, bắt đầu từ một đống nhiễu hạt.</p>
+      <p>Hiểu rõ cách nó vận hành sẽ giúp bạn viết prompt tốt hơn, sửa lỗi nhanh hơn và bỏ hẳn kiểu "bấm thử xem sao".</p>
+
+      <div class="cards" style="grid-template-columns: 1fr; gap: 1rem; margin-bottom: 2rem;">
+        <div class="card" style="background: var(--color-surface-offset);">
+          <h4 style="margin-top: 0; color: var(--color-text-muted);">Bước 1: AI học cách phá ảnh (Forward Diffusion)</h4>
+          <p>Trước khi biết vẽ, AI phải học cách phá. Nhóm nghiên cứu cho nó xem hàng tỷ bức ảnh rõ nét. Với mỗi bức, AI rắc thêm nhiễu hạt (noise) qua từng bước nhỏ. Giống bạn rắc cát lên tranh vậy. Mỗi bước, bức ảnh mờ đi một chút. Đến bước cuối chỉ còn màn hình xám xịt, không ai nhận ra ảnh gốc.</p>
+          <p>Nhưng phần hay nằm ở đây: mỗi bước rắc cát, AI ghi nhớ. Pixel nào ở bước 50 biến thành pixel nào ở bước 51. Nó tích lũy một "bản đồ ngược" cho toàn bộ quá trình phá hủy. Bản đồ này chính là thứ giúp AI vẽ ảnh sau này.</p>
+          <hr style="border:0; border-top:1px dashed var(--color-divider); margin: 1rem 0;">
+          <h4 style="margin-top: 0; color: var(--color-primary);">Bước 2: AI dùng bản đồ ngược để tạo ảnh (Reverse Diffusion)</h4>
+          <p>Bạn mở Midjourney, gõ "Một con mèo đội nón lá trên bãi biển Đà Nẵng". AI bắt đầu từ một khung hình toàn nhiễu hạt, giống tivi mất sóng.</p>
+          <p>Tiếp theo nó lật ngược quá trình: dùng bản đồ đã học để dọn dẹp nhiễu, mỗi bước nhấc đi vài hạt. Nhưng nó không dọn bừa. Câu prompt của bạn đang chỉ đường. Module text encoder (CLIP) đọc hiểu câu prompt rồi điều hướng: pixel nào nên thành "mèo", pixel nào thành "nón lá", pixel nào thành "cát biển".</p>
+          <p>Sau khoảng 20 đến 50 bước, nhiễu hạt biến thành ảnh hoàn chỉnh. Toàn bộ quá trình mất vài giây đến vài phút tùy model và cấu hình máy.</p>
+        </div>
+      </div>
+
+      <div class="callout" style="border-left-color: var(--color-accent); background: var(--color-accent-light);">
+        <div>
+          <strong>Tại sao AI hay vẽ sai bàn tay và chữ viết?</strong><br>
+          AI không biết con người có 5 ngón tay. Nó cũng không biết ngón cái ngắn hơn ngón giữa. Toàn bộ kiến thức của nó là thống kê: "vùng pixel này thường có màu da, xen kẽ vài khoảng tối". Với chi tiết nhỏ, phức tạp như ngón tay hay chữ viết, pixel dễ hội tụ lệch.<br><br>
+          <em>Giải pháp:</em> Đừng generate lại toàn bộ ảnh. Khoanh vùng chỗ bị sai, dùng <strong>Inpainting</strong> để sửa đúng chỗ đó. Nhanh hơn và kết quả tốt hơn nhiều.
+        </div>
+      </div>
+
+      <svg class="svg-diagram" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+        <rect x="20" y="70" width="160" height="60" rx="6" fill="var(--color-bg)" stroke="var(--color-primary)" stroke-width="2"/>
+        <text x="100" y="105" text-anchor="middle" font-family="var(--font-body)" font-weight="600" fill="var(--color-text)">Ảnh gốc / Ý tưởng</text>
+
+        <path d="M 190 100 L 310 100" stroke="var(--color-text-muted)" stroke-width="2" marker-end="url(#arrow)"/>
+        <text x="250" y="85" text-anchor="middle" font-family="var(--font-body)" font-size="12" fill="var(--color-text-muted)">Thêm nhiễu (Forward)</text>
+
+        <rect x="320" y="70" width="160" height="60" rx="6" fill="var(--color-surface-dynamic)" stroke="var(--color-text-faint)" stroke-width="2" stroke-dasharray="4"/>
+        <text x="400" y="105" text-anchor="middle" font-family="var(--font-body)" font-weight="600" fill="var(--color-text-muted)">Nhiễu hạt (Noise)</text>
+
+        <path d="M 490 100 L 610 100" stroke="var(--color-primary)" stroke-width="2" marker-end="url(#arrow-primary)"/>
+        <text x="550" y="85" text-anchor="middle" font-family="var(--font-body)" font-size="12" fill="var(--color-primary)">Khử nhiễu + Text Prompt</text>
+
+        <rect x="620" y="70" width="160" height="60" rx="6" fill="var(--color-primary-highlight)" stroke="var(--color-primary)" stroke-width="2"/>
+        <text x="700" y="105" text-anchor="middle" font-family="var(--font-body)" font-weight="600" fill="var(--color-primary)">Ảnh đầu ra</text>
+        
+        <defs>
+          <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--color-text-muted)" />
+          </marker>
+          <marker id="arrow-primary" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--color-primary)" />
+          </marker>
+        </defs>
+      </svg>
+
+      <h3 id="data">Dữ liệu & Bản quyền</h3>
+      <p>Mỗi model AI được train từ nguồn dữ liệu khác nhau. Nguồn dữ liệu quyết định bạn có quyền dùng ảnh cho mục đích thương mại hay không. Chọn sai nguồn, ảnh đẹp mấy cũng có thể bị gỡ hoặc bị kiện.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Nguồn dữ liệu</th><th>Đặc điểm</th><th>Nên dùng khi</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Public (Midjourney, DALL-E)</strong></td><td>Ảnh đẹp, phong cách đa dạng. Nhưng AI train trên ảnh internet nên rủi ro bản quyền cao.</td><td>Content nội bộ, deck thuyết trình, demo ý tưởng nhanh.</td></tr>
+            <tr><td><strong>Controlled (Adobe Firefly)</strong></td><td>Adobe train AI trên stock đã mua license. An toàn pháp lý.</td><td>Quảng cáo trả tiền, banner thương mại, ấn phẩm phát hành public.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Lưu ý thêm: dù dùng nguồn nào, ảnh AI hiện chưa được cấp bản quyền tác giả tại hầu hết quốc gia. Vì vậy đối thủ có thể copy ảnh của bạn mà không vi phạm luật. Nên bạn luôn cần thêm yếu tố riêng (logo, typography, composition) để tạo sự khác biệt.</p>
+
+      <h3 id="hitl">Human-in-the-Loop</h3>
+      <p>AI tạo ra nguyên liệu, con người quyết định sản phẩm cuối. Đừng bao giờ lấy ảnh hoặc video AI đăng thẳng mà không xem lại. Lỗi bàn tay 6 ngón, chữ viết bị méo, khuôn mặt biến dạng giữa các frame đều là chuyện bình thường.</p>
+      <p>Quy trình đúng có 4 bước: bạn ra <strong>Brief</strong> rõ ràng cho AI, generate nhiều phiên bản rồi <strong>Chọn lọc</strong> cái tốt nhất, <strong>Tinh chỉnh</strong> chi tiết bằng Inpainting hoặc chỉnh sửa thủ công, cuối cùng <strong>Kiểm duyệt (QA)</strong> trước khi xuất bản. Bước nào cũng cần mắt người.</p>
+      <p>Ví dụ thực tế: team marketing chạy campaign Tết, generate 20 ảnh từ Midjourney. Chỉ 5 ảnh đạt chất lượng. Trong 5 ảnh đó, 3 ảnh cần sửa bàn tay bằng Inpainting. 2 ảnh còn lại cần resize cho đa nền tảng. Không có ảnh nào dùng được ngay từ lần generate đầu tiên.</p>
+
+      <h3 id="grammar">Ngữ pháp thị giác</h3>
+      <p>Prompt hay không chỉ nhờ mô tả chi tiết. Bạn cần dùng đúng từ khóa chuyên ngành nhiếp ảnh để AI hiểu chính xác bạn muốn gì. Gõ "ảnh đẹp" thì AI đoán mò, gõ <code>golden hour, close-up portrait</code> thì nó biết phải làm gì.</p>
+      <ul>
+        <li><strong>Bố cục:</strong> <code>rule of thirds</code>, <code>leading lines</code>, <code>centered composition</code>, <code>negative space</code>.</li>
+        <li><strong>Góc máy:</strong> <code>eye level</code>, <code>low angle shot</code>, <code>bird's eye view</code>, <code>close-up portrait</code>.</li>
+        <li><strong>Ánh sáng:</strong> <code>golden hour</code>, <code>studio softbox lighting</code>, <code>cinematic lighting</code>, <code>backlit</code>.</li>
+        <li><strong>Màu sắc & Tone:</strong> <code>warm tones</code>, <code>cool palette</code>, <code>muted colors</code>, <code>high contrast</code>, <code>desaturated</code>.</li>
+      </ul>
+    </div>
+
+    <!-- ═══════════ PHẦN 2 ═══════════ -->
+    <div class="part" id="p2">
+      <div class="part-header">
+        <div class="part-number">2</div>
+        <div class="part-title">
+          <h2>Thiết kế Hình ảnh</h2>
+          <p>Công thức prompt, quy trình chỉnh sửa và workflow từ ảnh AI thô đến sản phẩm hoàn thiện.</p>
+        </div>
+      </div>
+
+      <h3 id="shots">Công thức SHOTS</h3>
+      <p>Prompt viết bừa thì AI trả bừa. SHOTS giúp bạn kiểm soát 5 yếu tố quyết định chất lượng ảnh đầu ra:</p>
+      <div class="formula">
+        <div class="formula-row"><div class="formula-letter">S</div><div class="formula-desc"><strong>Subject (Chủ thể)</strong><span>Ai hoặc cái gì là nhân vật chính? Mô tả tuổi, giới tính, trang phục, hành động. VD: Vietnamese woman, 30s, business suit, smiling.</span></div></div>
+        <div class="formula-row"><div class="formula-letter">H</div><div class="formula-desc"><strong>How (Phong cách)</strong><span>Ảnh trông như thế nào? Photorealistic, 3D render, watercolor, flat illustration hay editorial photography?</span></div></div>
+        <div class="formula-row"><div class="formula-letter">O</div><div class="formula-desc"><strong>Orientation (Bố cục)</strong><span>Góc máy và tỷ lệ khung hình. Close-up hay wide shot? Ngang 16:9 hay dọc 9:16?</span></div></div>
+        <div class="formula-row"><div class="formula-letter">T</div><div class="formula-desc"><strong>Time/Lighting (Ánh sáng)</strong><span>Ánh sáng quyết định cảm xúc bức ảnh. Golden hour cho ấm áp, neon cho sắc lạnh, studio softbox cho chuyên nghiệp.</span></div></div>
+        <div class="formula-row"><div class="formula-letter">S</div><div class="formula-desc"><strong>Setting (Bối cảnh)</strong><span>Nhân vật đứng ở đâu? Modern office, sân vườn nhiệt đới, phòng studio hay blurred background?</span></div></div>
+      </div>
+      <div class="code-block"><span class="code-label">Prompt mẫu:</span> A Vietnamese family of three, smiling, casual clothing <span class="code-label">[S]</span>, editorial photography, photorealistic <span class="code-label">[H]</span>, wide shot, horizontal 16:9 <span class="code-label">[O]</span>, golden hour lighting <span class="code-label">[T]</span>, modern living room background <span class="code-label">[S]</span>.</div>
+
+      <h3 id="canva">Tối ưu Canva Pro</h3>
+      <p>Ảnh AI thô cần qua Canva Magic Studio để thành sản phẩm dùng được. Bốn tính năng bạn sẽ dùng nhiều nhất:</p>
+      <ul>
+        <li><strong>Magic Expand & Resize:</strong> Đổi tỷ lệ khung hình mà chủ thể không bị méo. Một ảnh gốc, resize thành 4-5 kích cỡ cho các nền tảng khác nhau.</li>
+        <li><strong>Magic Eraser & Edit:</strong> Xóa vật thể không muốn, chỉnh màu sắc hoặc chi tiết cục bộ trong vài click.</li>
+        <li><strong>Bulk Create:</strong> Upload file CSV chứa data, Canva tự tạo hàng trăm banner từ một template duy nhất. Team event dùng nhiều.</li>
+        <li><strong>Brand Kit:</strong> Khóa font, bảng màu và logo. Mọi thiết kế trong team đều đồng bộ nhận diện thương hiệu mà không cần nhắc.</li>
+      </ul>
+
+      <h3 id="image-editing">Chỉnh sửa ảnh có sẵn (AI Image Editing)</h3>
+      <p>Tạo ảnh mới từ prompt chỉ là một nửa câu chuyện. Nửa còn lại: dùng AI xử lý ảnh chụp thật hoặc ảnh stock có sẵn. Bốn kỹ thuật dưới đây thay thế hàng giờ thao tác trên Photoshop truyền thống.</p>
+
+      <svg class="svg-diagram" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" style="max-width:800px">
+        <g transform="translate(40, 40)">
+          <rect width="320" height="180" rx="8" fill="var(--color-bg)" stroke="var(--color-border)" stroke-width="2"/>
+          <text x="160" y="35" text-anchor="middle" font-family="var(--font-body)" font-weight="700" fill="var(--color-text)">1. Inpainting (Generative Fill)</text>
+          <rect x="50" y="65" width="80" height="80" rx="4" fill="var(--color-surface-dynamic)"/>
+          <rect x="70" y="85" width="40" height="40" fill="var(--color-accent-light)" stroke="var(--color-accent)" stroke-dasharray="4"/>
+          <path d="M 145 105 L 175 105" stroke="var(--color-text-muted)" stroke-width="2" marker-end="url(#arrow)"/>
+          <rect x="190" y="65" width="80" height="80" rx="4" fill="var(--color-surface-dynamic)"/>
+          <rect x="210" y="85" width="40" height="40" rx="4" fill="var(--color-success)"/>
+          <text x="160" y="165" text-anchor="middle" font-size="13" fill="var(--color-text-muted)">Thêm/xóa chi tiết cục bộ</text>
+        </g>
+        <g transform="translate(440, 40)">
+          <rect width="320" height="180" rx="8" fill="var(--color-bg)" stroke="var(--color-border)" stroke-width="2"/>
+          <text x="160" y="35" text-anchor="middle" font-family="var(--font-body)" font-weight="700" fill="var(--color-text)">2. Outpainting (Uncrop)</text>
+          <rect x="50" y="65" width="60" height="80" rx="4" fill="var(--color-primary-highlight)"/>
+          <path d="M 130 105 L 160 105" stroke="var(--color-text-muted)" stroke-width="2" marker-end="url(#arrow)"/>
+          <rect x="180" y="65" width="100" height="80" rx="4" fill="var(--color-surface-dynamic)" stroke="var(--color-primary)" stroke-dasharray="4"/>
+          <rect x="200" y="65" width="60" height="80" fill="var(--color-primary-highlight)"/>
+          <text x="160" y="165" text-anchor="middle" font-size="13" fill="var(--color-text-muted)">Mở rộng bối cảnh xung quanh</text>
+        </g>
+        <g transform="translate(40, 260)">
+          <rect width="320" height="180" rx="8" fill="var(--color-bg)" stroke="var(--color-border)" stroke-width="2"/>
+          <text x="160" y="35" text-anchor="middle" font-family="var(--font-body)" font-weight="700" fill="var(--color-text)">3. Upscaling &amp; Enhancing</text>
+          <rect x="50" y="65" width="80" height="80" rx="4" fill="#e0e0e0"/>
+          <rect x="65" y="80" width="25" height="25" fill="#bdbdbd"/>
+          <rect x="90" y="105" width="25" height="25" fill="#9e9e9e"/>
+          <path d="M 145 105 L 175 105" stroke="var(--color-text-muted)" stroke-width="2" marker-end="url(#arrow)"/>
+          <rect x="190" y="65" width="80" height="80" rx="4" fill="var(--color-blue-light)"/>
+          <circle cx="230" cy="105" r="25" fill="var(--color-blue)"/>
+          <text x="160" y="165" text-anchor="middle" font-size="13" fill="var(--color-text-muted)">Tăng nét, tái tạo chi tiết</text>
+        </g>
+        <g transform="translate(440, 260)">
+          <rect width="320" height="180" rx="8" fill="var(--color-bg)" stroke="var(--color-border)" stroke-width="2"/>
+          <text x="160" y="35" text-anchor="middle" font-family="var(--font-body)" font-weight="700" fill="var(--color-text)">4. Image-to-Image</text>
+          <rect x="50" y="65" width="80" height="80" rx="4" fill="var(--color-surface)" stroke="var(--color-text-muted)" stroke-width="2"/>
+          <circle cx="90" cy="105" r="20" fill="none" stroke="var(--color-text-muted)" stroke-width="2"/>
+          <path d="M 145 105 L 175 105" stroke="var(--color-text-muted)" stroke-width="2" marker-end="url(#arrow)"/>
+          <rect x="190" y="65" width="80" height="80" rx="4" fill="var(--color-gold-light)"/>
+          <circle cx="230" cy="105" r="20" fill="var(--color-gold)"/>
+          <text x="160" y="165" text-anchor="middle" font-size="13" fill="var(--color-text-muted)">Đổi phong cách, giữ bố cục</text>
+        </g>
+      </svg>
+
+      <div class="cards" style="grid-template-columns: 1fr 1fr; gap: 2rem;">
+        <div class="card">
+          <h4>1. Inpainting (Thêm/Xóa chi tiết)</h4>
+          <p>Bạn khoanh vùng một khu vực trên ảnh. AI phân tích ánh sáng, texture và góc nhìn xung quanh rồi vẽ lại đúng vùng đó. Phần còn lại giữ nguyên.</p>
+          <p>Khác gì Clone Stamp cũ? Clone Stamp copy pixel từ chỗ khác dán vào, dễ lộ vết lặp pattern. Generative Fill tạo pixel mới dựa trên ngữ cảnh nên tự nhiên hơn hẳn.</p>
+          <div class="step"><strong>Công cụ:</strong> Photoshop (Generative Fill), Canva Magic Edit</div>
+          <div class="step"><strong>Ví dụ thực tế:</strong> Ảnh chụp sự kiện có người lạ lọt vào khung hình. Khoanh vùng người đó, AI fill bằng background phía sau. Hoặc khoanh vùng áo người mẫu, gõ "red blazer" để thử phiên bản màu khác.</div>
+        </div>
+
+        <div class="card">
+          <h4>2. Outpainting (Mở rộng khung hình)</h4>
+          <p>Bạn có ảnh tỷ lệ vuông nhưng cần banner ngang 16:9 cho website. Trước đây phải chụp lại hoặc kéo giãn (xấu). Giờ bạn mở rộng canvas, AI phân tích đường chân trời, hướng ánh sáng, color palette rồi "tưởng tượng" thêm bối cảnh hai bên cho hợp lý.</p>
+          <div class="step"><strong>Công cụ:</strong> Canva Magic Expand, Photoshop Generative Expand</div>
+          <div class="step"><strong>Ví dụ thực tế:</strong> Ảnh sản phẩm chụp sát, không đủ chỗ đặt text. Expand canvas sang phải, AI tạo thêm vùng trống tự nhiên để bạn đặt headline và logo lên đó.</div>
+        </div>
+
+        <div class="card">
+          <h4>3. Upscaling & Enhancing (Tăng độ nét)</h4>
+          <p>Phóng to ảnh kiểu cũ chỉ nội suy pixel trung gian, ảnh mờ nhòe. AI Upscaling khác: nó tái tạo chi tiết thật. Vân da, sợi tóc, texture vải đều được vẽ lại dựa trên hàng triệu cặp ảnh thấp-cao phân giải mà model đã học.</p>
+          <div class="step"><strong>Magnific AI:</strong> Tốt nhất cho chi tiết sáng tạo. Có thanh Creativity để điều chỉnh mức AI thêm thắt chi tiết mới.</div>
+          <div class="step"><strong>Topaz Gigapixel AI:</strong> Cài trên máy, xử lý offline. Phù hợp nhất cho ảnh chụp thật (chân dung, phong cảnh).</div>
+          <div class="step"><strong>Upscayl:</strong> Miễn phí, mã nguồn mở, chạy local. Ảnh không bị gửi lên cloud.</div>
+          <div class="step"><strong>Ví dụ thực tế:</strong> Ảnh AI từ Midjourney chỉ 1024×1024 pixel. Upscale 4 lần để đủ chuẩn in backdrop khổ lớn cho sự kiện.</div>
+        </div>
+
+        <div class="card">
+          <h4>4. Image-to-Image (Biến tấu phong cách)</h4>
+          <p>Upload ảnh có sẵn làm "khung sườn". AI giữ nguyên bố cục, hình khối nhưng vẽ lại toàn bộ bề mặt theo phong cách bạn yêu cầu qua prompt.</p>
+          <p>Cách nó hoạt động: AI chuyển ảnh gốc thành bản đồ cấu trúc (edge map hoặc depth map), dùng làm xương sống, rồi sinh ảnh mới bám theo khung đó.</p>
+          <div class="step"><strong>Công cụ:</strong> Midjourney (tham số <code>--iw</code> chỉnh mức bám sát, <code>--sref</code> cho style reference), Stable Diffusion + ControlNet cho kiểm soát chính xác nhất</div>
+          <div class="step"><strong>Ví dụ thực tế:</strong> Phác thảo vẽ tay trên giấy, chụp lại upload, AI biến thành render 3D. Hoặc ảnh phòng khách ban ngày chuyển sang ban đêm, vị trí nội thất giữ nguyên.</div>
+        </div>
+      </div>
+
+      <h3 id="cases">Ứng dụng thực tiễn</h3>
+      <div class="cards">
+        <div class="card">
+          <h4>Social Campaign đa nền tảng</h4>
+          <div class="step">Generate Key Visual bằng Midjourney theo công thức SHOTS.</div>
+          <div class="step">Dùng Canva Magic Resize tạo bộ 1:1 (Instagram), 16:9 (YouTube), 9:16 (TikTok).</div>
+          <div class="step">Áp Brand Kit chèn logo, chỉnh typography chuẩn.</div>
+          <div class="step">Export và schedule đăng bài cho cả tuần.</div>
+        </div>
+        <div class="card">
+          <h4>Carousel LinkedIn/Facebook</h4>
+          <div class="step">Lập outline 5-7 slides, mỗi slide một ý chính.</div>
+          <div class="step">Generate AI icon hoặc illustration cùng phong cách (giữ nguyên chữ H trong SHOTS).</div>
+          <div class="step">Lắp vào template Canva, chỉnh text và CTA cuối slide.</div>
+        </div>
+        <div class="card">
+          <h4>E-commerce Product</h4>
+          <div class="step">Upload ảnh sản phẩm gốc, bật xoá nền tự động.</div>
+          <div class="step">Dùng Magic Edit thêm bóng mờ, đổi màu phụ kiện theo mùa.</div>
+          <div class="step">Dán lên background AI (marble table, clean studio, outdoor garden).</div>
+          <div class="step">Export nhiều tỷ lệ cho Shopee, Lazada và website.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════ PHẦN 3 ═══════════ -->
+    <div class="part" id="p3">
+      <div class="part-header">
+        <div class="part-number">3</div>
+        <div class="part-title">
+          <h2>Sản xuất Video & Audio</h2>
+          <p>Từ kịch bản, AI Voice đến chuyển động mượt. Quy trình cho người không biết quay phim.</p>
+        </div>
+      </div>
+
+      <h3 id="consistency">Tính nhất quán (Consistency)</h3>
+      <p>Vấn đề lớn nhất khi làm video AI: nhân vật thay đổi ngoại hình giữa các cảnh. Cảnh 1 tóc ngắn, cảnh 2 tóc dài, cảnh 3 mặt khác hoàn toàn. Khán giả nhận ra ngay.</p>
+      <p>Giải pháp: tạo một <strong>Master Reference Image (MRI)</strong>. Đây là bức ảnh chuẩn của nhân vật, chụp rõ mặt, trang phục và tỉ lệ cơ thể. Dùng MRI này làm đầu vào cho mọi cảnh quay AI. Kling hỗ trợ Image-to-Video trực tiếp, Midjourney có tham số <code>--cref</code> để khóa nhân vật xuyên suốt.</p>
+      <p>Ví dụ: bạn đang làm video giới thiệu công ty, nhân vật nữ mặc áo dài trắng xuất hiện ở 5 cảnh khác nhau. Nếu generate từng cảnh riêng lẻ, mỗi cảnh sẽ ra một người khác. Nếu dùng MRI làm reference, 5 cảnh sẽ là cùng một người.</p>
+
+      <h3 id="films">Công thức FILMS & RECORD</h3>
+      <p>Hai công thức cấu trúc prompt cho video, tùy mức độ phức tạp:</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Công thức</th><th>Dùng cho</th><th>Cấu trúc</th></tr></thead>
+          <tbody>
+            <tr><td><strong>F.I.L.M.S</strong></td><td>1 shot đơn (5-10 giây)</td><td><strong>F</strong>raming (Khung hình), <strong>I</strong>mage Ref, <strong>L</strong>ighting, <strong>M</strong>otion (Chuyển động), <strong>S</strong>etting (Bối cảnh).</td></tr>
+            <tr><td><strong>R.E.C.O.R.D</strong></td><td>Video nhiều cảnh</td><td><strong>R</strong>eference, <strong>E</strong>motional Arc, <strong>C</strong>ut Plan, <strong>O</strong>utput Spec, <strong>R</strong>hythm, <strong>D</strong>elivery Notes.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>FILMS dùng khi bạn cần đúng 1 clip ngắn cho B-roll hoặc social post. RECORD dùng khi bạn lên storyboard cho cả video dài, cần tính toán nhịp cắt và cảm xúc qua từng cảnh.</p>
+
+      <h3 id="tools">Công cụ Video & Audio cốt lõi</h3>
+      <div class="callout">
+        <p><strong>Workflow tiêu chuẩn:</strong> Lập Storyboard 3x3 → Viết Voiceover bằng Google AI Studio → Generate B-roll bằng Kling hoặc Luma → Tạo nhân vật lip-sync bằng HeyGen → Dựng phim trong CapCut.</p>
+      </div>
+      <ul>
+        <li><strong>HeyGen:</strong> Lựa chọn tốt nhất cho talking-head và lip-sync. Auto dịch ngôn ngữ giữ nguyên giọng gốc. Mẹo cho tiếng Việt: chỉnh timing offset +0.1s đến +0.3s nếu miệng bị lệch âm.</li>
+        <li><strong>Kling AI / Runway:</strong> Tạo B-Roll mượt. Tính năng Start-End Frame của Kling giúp biến đổi trạng thái tự nhiên. VD: nụ hoa thành hoa nở, bình minh chuyển sang hoàng hôn.</li>
+        <li><strong>Google AI Studio (Gemini):</strong> Giọng đọc tiếng Việt tự nhiên nhất hiện tại. Mẹo tránh giọng robot: dùng <code>[pause 0.5s]</code> để tạo ngắt nghỉ, giữ mỗi câu dưới 15 từ.</li>
+        <li><strong>Luma Dream Machine:</strong> Thay thế tốt cho Kling khi cần chuyển động camera phức tạp (orbit, dolly zoom). Hỗ trợ cả text-to-video và image-to-video.</li>
+      </ul>
+    </div>
+
+    <!-- ═══════════ PHẦN 4 ═══════════ -->
+    <div class="part" id="p4">
+      <div class="part-header">
+        <div class="part-number">4</div>
+        <div class="part-title">
+          <h2>Hậu kỳ & Kiểm duyệt</h2>
+          <p>AI tạo nguyên liệu, CapCut hoàn thiện sản phẩm. Đây là bước quyết định chất lượng cuối cùng.</p>
+        </div>
+      </div>
+
+      <h3 id="capcut">Quy trình hậu kỳ CapCut</h3>
+      <div class="cards">
+        <div class="card">
+          <h4>1. Rough Cut</h4>
+          <p>Gắn Voiceover vào timeline trước. Đưa video A-roll (người nói hoặc nhân vật chính) lên. Trải B-roll xen kẽ, khớp với từ khóa trong audio. Bước này chỉ cần đúng trình tự, chưa cần chỉnh đẹp.</p>
+        </div>
+        <div class="card">
+          <h4>2. Subtitle & Text</h4>
+          <p>Bật Auto Captions rồi sửa lỗi chính tả thủ công (AI vẫn sai tiếng Việt khá nhiều). Chọn font rõ ràng, thêm viền outline cho dễ đọc trên mọi nền. Chèn pop-up text cho keyword quan trọng.</p>
+        </div>
+        <div class="card">
+          <h4>3. Đồng bộ màu sắc</h4>
+          <p>Clip AI từ nhiều nguồn khác nhau thường có color profile lệch nhau. Dùng Color Match trong CapCut để đồng bộ tone màu. Bước nhỏ nhưng tạo khác biệt lớn về tính chuyên nghiệp.</p>
+        </div>
+        <div class="card">
+          <h4>4. Âm nhạc & Mix</h4>
+          <p>Thêm nhạc nền free-copyright. Giảm volume nhạc xuống 15-20% khi có lời nói. Kiểm tra không có đoạn im lặng bất thường hoặc tiếng noise xì giữa các câu.</p>
+        </div>
+      </div>
+
+      <h3 id="review">Checklist Kiểm duyệt (QA)</h3>
+      <p>Trước khi bấm xuất bản, chạy qua 4 bước kiểm tra này. Mỗi bước tập trung vào một giác quan để không bỏ sót:</p>
+      <div class="checklist">
+        <div class="check-item error">
+          <strong>Lỗi hình ảnh AI (tắt tiếng, chỉ nhìn)</strong>
+          <span>Ngón tay dị dạng, chữ viết bị méo, khuôn mặt thay đổi giữa frame, màu sắc nhảy chớp nhoáng giữa hai cảnh liên tiếp.</span>
+        </div>
+        <div class="check-item error">
+          <strong>Lỗi lip-sync & văn bản (chỉ nhìn miệng và đọc phụ đề)</strong>
+          <span>Phụ đề sai timing hoặc sai chính tả. Nhân vật nhép miệng lệch tiếng quá 0.5 giây. Mặt đơ cứng không có biểu cảm.</span>
+        </div>
+        <div class="check-item warn">
+          <strong>Lỗi âm thanh (nhắm mắt, chỉ nghe)</strong>
+          <span>Nhạc nền lấn tiếng người nói, volume trồi sụt, tiếng noise xì xì. Nhạc bị đánh bản quyền YouTube Content ID khi upload.</span>
+        </div>
+        <div class="check-item">
+          <strong>Chuẩn bị đăng tải</strong>
+          <span>Format đúng chuẩn nền tảng: 9:16 cho TikTok/Shorts, 16:9 cho YouTube. Nếu dùng AI clone người thật, dán nhãn "AI-generated" để tuân thủ quy định platform.</span>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+  const toggle = document.getElementById('theme-toggle');
+  const html = document.documentElement;
+  toggle.addEventListener('click', () => {
+    const current = html.getAttribute('data-theme');
+    html.setAttribute('data-theme', current === 'light' ? 'dark' : 'light');
+  });
+
+  const sections = document.querySelectorAll('.part');
+  const links = document.querySelectorAll('.sidebar-link');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        links.forEach(l => l.classList.remove('active'));
+        const activeLink = document.querySelector(`.sidebar-link[href="#${entry.target.id}"]`);
+        if (activeLink) activeLink.classList.add('active');
+      }
+    });
+  }, { threshold: 0.2 });
+  
+  sections.forEach(s => observer.observe(s));
+</script>
+</body>
+</html>
